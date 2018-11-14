@@ -1,0 +1,82 @@
+*
+{
+    padding: 0;
+}
+
+body
+{
+		margin: 0px auto;
+        font-family: Arial, Helvetica;
+        font-size: 11px;
+}
+
+h1,h2,h3
+{
+        text-align:center;
+}
+
+table
+{
+    width: 100%;
+    font-family: Arial Narrow, Calibri, Arial, Helvetica;
+	position: relative;
+	z-index: 0;
+	table-layout: fixed;
+}
+
+td, th
+{
+    white-space: nowrap;
+    padding-left: 1ex;
+    padding-right: 1ex;
+	background-color: white;
+	overflow-x: hidden;
+	position: relative;
+	z-index: 1;
+}
+
+th
+{
+        background-color: #C0C0C0;
+}
+
+table:hover tr td
+{
+	background-color: #f0f0f0;
+}
+
+#container
+{
+    margin: 1%;
+}
+
+
+#header
+{
+    background-color: #CCCCCC;
+    border-bottom: 1px solid #000;
+}
+
+.leaf
+{
+    display: none;
+}
+
+span[onclick="toggleFolding(this)"]:hover
+{
+    cursor: pointer;
+}
+
+span[onclick="toggleFolding(this)"]
+{
+    font-family: Courier;
+}
+
+.first-col
+{
+    text-align: left !important;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+}
+

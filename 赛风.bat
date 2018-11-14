@@ -1,0 +1,1 @@
+start %~dp0/psiphon/psiphon3.exe

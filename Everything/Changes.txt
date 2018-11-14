@@ -1,0 +1,157 @@
+Wednesday, 7 June 2017: Version 1.4.1.877
+	added option to index size, dates and attributes
+	added option to enable fast sorting of size, dates, attributes, path and extension
+	added thumbnail view
+	added preview pane
+	added REFS support
+	added advanced searching
+	added multi-file renaming
+	added content searching
+	added search history organizer
+	added show total size in status bar option
+	added single click open option
+	added full row select option
+	added perl compatible regex
+	added new search functions
+	added / search commands
+	added filter functions
+	added new Everything icon
+	improved folder deletion performance
+	improved indexing when using file and folder excludes
+	improved search term highlighting
+	improved database blocking
+	improved indexes updating
+	improved folder index monitoring
+	improved NTFS indexing
+	improved re-indexing performance when the existing indexes are up to date
+	improved IPC
+	fixed an issue causing Everything to hang onto a volume handle when trying to safely remove a device
+	fixed an issue with excludes being ignored when rebuilding the indexes
+	fixed a crash when renaming a folder that had subfolders that should be excluded
+	fixed an issue with sorting by date created ascending and date accessed ascending
+	fixed a crash when accessing file information cache
+	fixed an issue with ETP url links and special characters
+	fixed a focus issue with UAC prompts
+	fixed an issue when opening a file as admin
+	fixed a lock in the Everything service
+	fixed an issue with a race condition and initializing COM
+	fixed a hang when deleting a registry key
+	fixed an issue with very large sorts
+	fixed an issue with !parent:, !child: and !c:\path
+	fixed an issue with filter modifiers
+	fixed an issue with file:!
+	fixed an issue with indexing hidden or system folders/files
+	fixed an issue with previous navigation searches
+	fixed an issue when searching for a \path\
+	fixed a crash when cutting an item multiple times
+
+Wednesday, 6 August 2014: Version 1.3.4.686
+	added MIT license
+	added installer localization
+	added run as admin option
+	added wildcards anywhere option
+	added run date column/sort/search
+	added support for accessible MSAA
+	added etp connection history
+	added recent changes
+	added run history
+	added home page
+	added x64 build
+	added always ontop option
+	added %APPDATA% option
+	added Everything service option
+	added search history option
+	added the option to cancel locked queries after one second
+	added context menu customization
+	added tooltips for hidden items
+	added option to not compress database
+	added custom filters
+	added hotkey option to toggle search window
+	added filelists
+	added folder indexing
+	added optional diacritical mark matching
+	added bookmarks
+	added new search functions and macros
+	improved performance when renaming/deleting folders
+	improved ETP/FTP server
+	improved HTTP server
+	fixed many bugs
+
+Friday, 13 March 2009: Version 1.2.1.371
+	added title customization
+	added NOT operator (!)
+	added special case wildcards
+	added authentication support for QTWeb
+	added the option to exclude hidden and system files
+	added a basic text export option
+	added search only mode for HTTP/FTP servers
+	added shortcut keys for search options
+	added special case wildcards
+	added utf8 support for the FTP server
+	added keyboard shortcut Ctrl + Enter to open path
+	added extension and type columns
+	added support for external file managers via the ini file
+	added exclude paths to etp/ftp/http servers
+	added unicode support
+	added multiple language support
+	added removable NTFS volume support
+	added exclude folder filter
+	added option to check media on removable volumes (floppy drives are disabled by default)
+	added custom icon support
+	added optional http server user name and password
+	added option to use FTP links for ETP connections
+	added option to choose which drives are included in the installer
+	added fullscreen mode (F11)
+	added portability
+	improved rendering performance
+	improved search parsing
+	improved multiple instances option
+	improved command line parsing
+	improved option window navigation with keyboard
+	improved tooltip help for some items
+	improved searching performance with wildcards by upto 5 times
+	improved searching performance by upto 30%
+	improved ETP/FTP/HTTP performance
+	improved text rendering output and performance
+	improved rendering performance when updating the UI due to a large amount of changes to the file system.
+	improved memory usage when database is unload by clearing icon and file info cache
+	improved volume management
+	improved sorting performance
+	improved ftp command LIST
+	fixed an issue with HTTP url parsing
+	fixed default icons for windows 7 beta
+	fixed user handle leak in context menus
+	fixed a problem with cut/copy/paste
+	fixed cut with files and folders in different folders
+	fixed start menus for Vista
+	fixed opening a folder that had the same name as an executable
+	fixed the FTP REST position
+	fixed unicode IPC queries
+	fixed sorting by descending size 
+	fixed characters being displayed incorrectly with the HTTP server 
+	fixed copying files and folders in different folders.
+	fixed drag drop shortcuts
+	fixed an issue when searching for wildcards with match path enabled
+	fixed delete for files and folders in different folders
+	fixed an issue with long file names
+	fixed the folder and file selection after sorting and changing search parameters
+	fixed folder and file renaming using invalid destination
+	fixed mouse wheel scrolling using the wrong number of lines to scroll
+	fixed icons for files with the extension lnk and url
+	fixed show shell context menus toggle in options window
+	fixed a problem with menus blocking after a search was started
+	fixed -filename command line option using the wrong path
+	fixed new windows inheriting old windows settings
+	fixed horizontal scroll bar using wrong width
+	fixed a gdi leak when closing a window
+	fixed the default large icon
+
+Monday, 29 September 2008: Version 1.1.4.301
+	added -search <text> command line option
+	improved status of servers under the tool menu
+	changed configuration file to Everything.ini
+	fixed a bug that prevented hotkeys from being unregistered
+
+Wednesday, 20 February 2008: Version 1.0.0.0
+	First official release
+	new home at http://www.voidtools.com

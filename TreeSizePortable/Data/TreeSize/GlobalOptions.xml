@@ -1,0 +1,3229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalOptions Version="2" AppVersion="6.1" Type="TGlobalOptions">
+	<MainFormWindowPlacement.length>44</MainFormWindowPlacement.length>
+	<MainFormWindowPlacement.flags>2</MainFormWindowPlacement.flags>
+	<MainFormWindowPlacement.showCmd>3</MainFormWindowPlacement.showCmd>
+	<MainFormWindowPlacement.ptMinPosition>
+		<X>-1</X>
+		<Y>-1</Y>
+	</MainFormWindowPlacement.ptMinPosition>
+	<MainFormWindowPlacement.ptMaxPosition>
+		<X>-1</X>
+		<Y>-1</Y>
+	</MainFormWindowPlacement.ptMaxPosition>
+	<MainFormWindowPlacement.rcNormalPosition>
+		<Left>477</Left>
+		<Top>0</Top>
+		<Right>1917</Right>
+		<Bottom>759</Bottom>
+	</MainFormWindowPlacement.rcNormalPosition>
+	<CheckForUpdateOptions Type="TCheckForUpdateOptions">
+		<LatestOnlineVersion>-1</LatestOnlineVersion>
+		<LastAutomaticCheckForUpdate>43418.6426428935</LastAutomaticCheckForUpdate>
+		<CheckForUpdatesAutomatically>True</CheckForUpdatesAutomatically>
+	</CheckForUpdateOptions>
+	<FinalExpandSize>52428800</FinalExpandSize>
+	<DisableRightsElevation>False</DisableRightsElevation>
+	<Media>
+		<Items0 Type="TMediaSettings">
+			<ExportFullBranch>False</ExportFullBranch>
+			<IncludeHeader>True</IncludeHeader>
+			<IncludeUnits>True</IncludeUnits>
+			<UsePlainByteValues>False</UsePlainByteValues>
+			<IncludedObjectTypes>5</IncludedObjectTypes>
+		</Items0>
+		<Items1 Type="TMediaSettings">
+			<ExportFullBranch>False</ExportFullBranch>
+			<IncludeHeader>True</IncludeHeader>
+			<IncludeUnits>True</IncludeUnits>
+			<UsePlainByteValues>False</UsePlainByteValues>
+			<IncludedObjectTypes>5</IncludedObjectTypes>
+		</Items1>
+		<Items2 Type="TMediaSettings">
+			<ExportFullBranch>False</ExportFullBranch>
+			<IncludeHeader>True</IncludeHeader>
+			<IncludeUnits>True</IncludeUnits>
+			<UsePlainByteValues>False</UsePlainByteValues>
+			<IncludedObjectTypes>5</IncludedObjectTypes>
+		</Items2>
+		<Items3 Type="TMediaSettings">
+			<ExportFullBranch>False</ExportFullBranch>
+			<IncludeHeader>True</IncludeHeader>
+			<IncludeUnits>True</IncludeUnits>
+			<UsePlainByteValues>False</UsePlainByteValues>
+			<IncludedObjectTypes>5</IncludedObjectTypes>
+		</Items3>
+		<Items4 Type="TMediaSettings">
+			<ExportFullBranch>True</ExportFullBranch>
+			<IncludeHeader>True</IncludeHeader>
+			<IncludeUnits>True</IncludeUnits>
+			<UsePlainByteValues>False</UsePlainByteValues>
+			<IncludedObjectTypes>5</IncludedObjectTypes>
+		</Items4>
+		<Items5 Type="TMediaSettings">
+			<ExportFullBranch>False</ExportFullBranch>
+			<IncludeHeader>True</IncludeHeader>
+			<IncludeUnits>True</IncludeUnits>
+			<UsePlainByteValues>False</UsePlainByteValues>
+			<IncludedObjectTypes>5</IncludedObjectTypes>
+		</Items5>
+		<Items6 Type="TMediaSettings">
+			<ExportFullBranch>True</ExportFullBranch>
+			<IncludeHeader>True</IncludeHeader>
+			<IncludeUnits>True</IncludeUnits>
+			<UsePlainByteValues>False</UsePlainByteValues>
+			<IncludedObjectTypes>5</IncludedObjectTypes>
+		</Items6>
+	</Media>
+	<ColorForLongPaths>False</ColorForLongPaths>
+	<GroupExtensions>True</GroupExtensions>
+	<GroupUsers>False</GroupUsers>
+	<ExcludeOfflineFiles>False</ExcludeOfflineFiles>
+	<DefaultValueAutomaticUpdates>False</DefaultValueAutomaticUpdates>
+	<AlwaysCreateFilesItem>False</AlwaysCreateFilesItem>
+	<FollowReparsePoints>False</FollowReparsePoints>
+	<DefaultHtmlExportFile></DefaultHtmlExportFile>
+	<DynamicHtmlExport>True</DynamicHtmlExport>
+	<HTMLHyperLinks>2</HTMLHyperLinks>
+	<HTMLCharts>1</HTMLCharts>
+	<EmailCharts>1</EmailCharts>
+	<TrackHardLinksAndADS>False</TrackHardLinksAndADS>
+	<NumberOfTopFiles>100</NumberOfTopFiles>
+	<FileAgeStatistics>True</FileAgeStatistics>
+	<FileAgesDateType>1</FileAgesDateType>
+	<AppendtoFiles>False</AppendtoFiles>
+	<UpdateRightPane>False</UpdateRightPane>
+	<DefaultShowFiles>False</DefaultShowFiles>
+	<ShareHistoryFile>False</ShareHistoryFile>
+	<ShowPointsInLineSeries>False</ShowPointsInLineSeries>
+	<ShowZeroInHistory>False</ShowZeroInHistory>
+	<GroupScans>False</GroupScans>
+	<Chart3D>True</Chart3D>
+	<TreemapPaintAlgorithm>2</TreemapPaintAlgorithm>
+	<OpenSavedFiles>False</OpenSavedFiles>
+	<HistoryShowMarks>False</HistoryShowMarks>
+	<OtherSliceValue>2</OtherSliceValue>
+	<ChartFirstSeriesColor>65280</ChartFirstSeriesColor>
+	<ChartSecondSeriesColor>255</ChartSecondSeriesColor>
+	<TreeMap2DMinimumSize>5</TreeMap2DMinimumSize>
+	<SchedulerLastCommandLine></SchedulerLastCommandLine>
+	<ImportExportSettingsPath></ImportExportSettingsPath>
+	<ShowCheckForUpdate>True</ShowCheckForUpdate>
+	<ExpertMode>False</ExpertMode>
+	<MinimumPathDepth>0</MinimumPathDepth>
+	<ExcelHyperLinks>2</ExcelHyperLinks>
+	<ExcelUseRowGroups>True</ExcelUseRowGroups>
+	<PrintMarginLeft>1000</PrintMarginLeft>
+	<PrintMarginRight>1000</PrintMarginRight>
+	<PrintMarginTop>1000</PrintMarginTop>
+	<PrintMarginBottom>1000</PrintMarginBottom>
+	<UsernameFormat>0</UsernameFormat>
+	<UseRibbonUI>True</UseRibbonUI>
+	<Mail Type="TCdoMessage">
+		<MailFrom>TreeSize@example.com</MailFrom>
+		<MailTo>Someone@example.com</MailTo>
+		<Subject>TreeSize Professional Report</Subject>
+		<Body></Body>
+		<Format>0</Format>
+	</Mail>
+	<EmailTransportType>0</EmailTransportType>
+	<CdoTransportSettings Type="TCdoTransportSettings">
+		<ServerAddress></ServerAddress>
+		<ServerPort>25</ServerPort>
+		<SenderPort>2</SenderPort>
+		<UseSSL>False</UseSSL>
+		<Username></Username>
+		<Password></Password>
+		<ConnectionTimeout>60</ConnectionTimeout>
+		<AuthenticationType>0</AuthenticationType>
+	</CdoTransportSettings>
+	<GroupExtensionsByFileType>True</GroupExtensionsByFileType>
+	<RefreshInterval>10000</RefreshInterval>
+	<FileAges Type="TFileAges">
+		<AsString>1;7;30;182;365;730;2147483647</AsString>
+	</FileAges>
+	<FileTypes Type="TStandardFileTypes&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+		<Group0>
+			<Caption>Audio Files</Caption>
+			<Description>Files containing music, sounds or playlists</Description>
+			<ExtensionForIcon>*.wav</ExtensionForIcon>
+			<Patterns Type="TFileTypeGroup&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+				<String0>*.a52</String0>
+				<String1>*.aac</String1>
+				<String2>*.ac3</String2>
+				<String3>*.aiff</String3>
+				<String4>*.au</String4>
+				<String5>*.aup</String5>
+				<String6>*.dts</String6>
+				<String7>*.flac</String7>
+				<String8>*.itdb</String8>
+				<String9>*.itl</String9>
+				<String10>*.m3u</String10>
+				<String11>*.m4a</String11>
+				<String12>*.m4b</String12>
+				<String13>*.m4r</String13>
+				<String14>*.mka</String14>
+				<String15>*.mp1</String15>
+				<String16>*.mp2</String16>
+				<String17>*.mp3</String17>
+				<String18>*.mpa</String18>
+				<String19>*.nra</String19>
+				<String20>*.ogg</String20>
+				<String21>*.rm</String21>
+				<String22>*.sfap*</String22>
+				<String23>*.spx</String23>
+				<String24>*.wav</String24>
+				<String25>*.wma</String25>
+				<String26>*.wmdb</String26>
+				<String27>*.wpk</String27>
+				<String28>*.wpl</String28>
+			</Patterns>
+		</Group0>
+		<Group1>
+			<Caption>Video Files</Caption>
+			<Description>Files containing videos or animations</Description>
+			<ExtensionForIcon>*.avi</ExtensionForIcon>
+			<Patterns Type="TFileTypeGroup&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+				<String0>*.aif</String0>
+				<String1>*.ape</String1>
+				<String2>*.asf</String2>
+				<String3>*.avi</String3>
+				<String4>*.divx</String4>
+				<String5>*.dv</String5>
+				<String6>*.fla</String6>
+				<String7>*.flv</String7>
+				<String8>*.ifo</String8>
+				<String9>*.m1v</String9>
+				<String10>*.m2v</String10>
+				<String11>*.m4v</String11>
+				<String12>*.mid</String12>
+				<String13>*.midi</String13>
+				<String14>*.mkv</String14>
+				<String15>*.mov</String15>
+				<String16>*.mp4</String16>
+				<String17>*.mpeg</String17>
+				<String18>*.mpeg1</String18>
+				<String19>*.mpeg2</String19>
+				<String20>*.mpeg4</String20>
+				<String21>*.mpg</String21>
+				<String22>*.mpv</String22>
+				<String23>*.mts</String23>
+				<String24>*.ogm</String24>
+				<String25>*.ra</String25>
+				<String26>*.snd</String26>
+				<String27>*.swc</String27>
+				<String28>*.swf</String28>
+				<String29>*.ts</String29>
+				<String30>*.vob</String30>
+				<String31>*.wmv</String31>
+			</Patterns>
+		</Group1>
+		<Group2>
+			<Caption>Graphic Files</Caption>
+			<Description>Files containing pictures, images or mouse cursors</Description>
+			<ExtensionForIcon>*.bmp</ExtensionForIcon>
+			<Patterns Type="TFileTypeGroup&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+				<String0>*.ai</String0>
+				<String1>*.ani</String1>
+				<String2>*.arw</String2>
+				<String3>*.b3d</String3>
+				<String4>*.bmp</String4>
+				<String5>*.cam</String5>
+				<String6>*.cdr</String6>
+				<String7>*.clp</String7>
+				<String8>*.cr2</String8>
+				<String9>*.crw</String9>
+				<String10>*.cur</String10>
+				<String11>*.dcm</String11>
+				<String12>*.dcr</String12>
+				<String13>*.dcx</String13>
+				<String14>*.dds</String14>
+				<String15>*.dib</String15>
+				<String16>*.djvu</String16>
+				<String17>*.dng</String17>
+				<String18>*.dwg</String18>
+				<String19>*.ecw</String19>
+				<String20>*.emd</String20>
+				<String21>*.emf</String21>
+				<String22>*.eps</String22>
+				<String23>*.fh10</String23>
+				<String24>*.fh11</String24>
+				<String25>*.fh6</String25>
+				<String26>*.fh7</String26>
+				<String27>*.fh8</String27>
+				<String28>*.fh9</String28>
+				<String29>*.fpx</String29>
+				<String30>*.fsh</String30>
+				<String31>*.g3</String31>
+				<String32>*.gif</String32>
+				<String33>*.icl</String33>
+				<String34>*.ico</String34>
+				<String35>*.iff</String35>
+				<String36>*.indd</String36>
+				<String37>*.iw44</String37>
+				<String38>*.j2k</String38>
+				<String39>*.jp2</String39>
+				<String40>*.jpc</String40>
+				<String41>*.jpe</String41>
+				<String42>*.jpeg</String42>
+				<String43>*.jpg</String43>
+				<String44>*.jpm</String44>
+				<String45>*.k25</String45>
+				<String46>*.kdc</String46>
+				<String47>*.lwf</String47>
+				<String48>*.mef</String48>
+				<String49>*.mng</String49>
+				<String50>*.mos</String50>
+				<String51>*.mrw</String51>
+				<String52>*.nef</String52>
+				<String53>*.ngg</String53>
+				<String54>*.nlm</String54>
+				<String55>*.nol</String55>
+				<String56>*.orf</String56>
+				<String57>*.pbm</String57>
+				<String58>*.pcd</String58>
+				<String59>*.pcx</String59>
+				<String60>*.pdn</String60>
+				<String61>*.pef</String61>
+				<String62>*.pgm</String62>
+				<String63>*.png</String63>
+				<String64>*.pnx</String64>
+				<String65>*.ppm</String65>
+				<String66>*.ps</String66>
+				<String67>*.psd</String67>
+				<String68>*.psp</String68>
+				<String69>*.qtif</String69>
+				<String70>*.raf</String70>
+				<String71>*.ras</String71>
+				<String72>*.raw</String72>
+				<String73>*.sff</String73>
+				<String74>*.sgi</String74>
+				<String75>*.skm</String75>
+				<String76>*.sr2</String76>
+				<String77>*.srf</String77>
+				<String78>*.svg</String78>
+				<String79>*.tga</String79>
+				<String80>*.tif</String80>
+				<String81>*.tiff</String81>
+				<String82>*.ufo</String82>
+				<String83>*.wbmp</String83>
+				<String84>*.wmf</String84>
+				<String85>*.xbm</String85>
+				<String86>*.xpm</String86>
+			</Patterns>
+		</Group2>
+		<Group3>
+			<Caption>Program Files</Caption>
+			<Description>Program Files, Libraries and other compiled resources</Description>
+			<ExtensionForIcon>*.exe</ExtensionForIcon>
+			<Patterns Type="TFileTypeGroup&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+				<String0>*.8bf</String0>
+				<String1>*.bat</String1>
+				<String2>*.bpl</String2>
+				<String3>*.class</String3>
+				<String4>*.cmd</String4>
+				<String5>*.com</String5>
+				<String6>*.dll*</String6>
+				<String7>*.exe</String7>
+				<String8>*.itxib</String8>
+				<String9>*.jar</String9>
+				<String10>*.lnk</String10>
+				<String11>*.manifest</String11>
+				<String12>*.mo</String12>
+				<String13>*.msc</String13>
+				<String14>*.mui</String14>
+				<String15>*.ocx</String15>
+				<String16>*.rll</String16>
+				<String17>*.scr</String17>
+				<String18>*.so</String18>
+				<String19>*.vbx</String19>
+				<String20>*.xpt</String20>
+			</Patterns>
+		</Group3>
+		<Group4>
+			<Caption>Container Files</Caption>
+			<Description>Compressed Archives and disk images</Description>
+			<ExtensionForIcon>*.zip*</ExtensionForIcon>
+			<Patterns Type="TFileTypeGroup&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+				<String0>*.7z</String0>
+				<String1>*.7zip</String1>
+				<String2>*.ace</String2>
+				<String3>*.arc</String3>
+				<String4>*.arj</String4>
+				<String5>*.b64</String5>
+				<String6>*.bkf</String6>
+				<String7>*.bz2</String7>
+				<String8>*.bza</String8>
+				<String9>*.c2d</String9>
+				<String10>*.cab</String10>
+				<String11>*.cdi</String11>
+				<String12>*.cpio</String12>
+				<String13>*.deb</String13>
+				<String14>*.dmg</String14>
+				<String15>*.enc</String15>
+				<String16>*.gca</String16>
+				<String17>*.gho</String17>
+				<String18>*.gz</String18>
+				<String19>*.gza</String19>
+				<String20>*.ha</String20>
+				<String21>*.img</String21>
+				<String22>*.imz</String22>
+				<String23>*.iso</String23>
+				<String24>*.ize</String24>
+				<String25>*.jar</String25>
+				<String26>*.lha</String26>
+				<String27>*.lzh</String27>
+				<String28>*.nrg</String28>
+				<String29>*.pak</String29>
+				<String30>*.pdi</String30>
+				<String31>*.pk3</String31>
+				<String32>*.rar</String32>
+				<String33>*.rpm</String33>
+				<String34>*.sit</String34>
+				<String35>*.tar</String35>
+				<String36>*.tbz</String36>
+				<String37>*.tgz</String37>
+				<String38>*.tz</String38>
+				<String39>*.uue</String39>
+				<String40>*.v2i</String40>
+				<String41>*.z</String41>
+				<String42>*.zip</String42>
+			</Patterns>
+		</Group4>
+		<Group5>
+			<Caption>Software Development Files</Caption>
+			<Description>Source and project files of software development projects</Description>
+			<ExtensionForIcon>*.c</ExtensionForIcon>
+			<Patterns Type="TFileTypeGroup&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+				<String0>*.*dbg</String0>
+				<String1>*.a</String1>
+				<String2>*.ahk</String2>
+				<String3>*.asm</String3>
+				<String4>*.bdsgroup</String4>
+				<String5>*.bdsproj</String5>
+				<String6>*.bpg</String6>
+				<String7>*.bpi</String7>
+				<String8>*.bpk</String8>
+				<String9>*.bpr</String9>
+				<String10>*.c</String10>
+				<String11>*.cbl</String11>
+				<String12>*.cbproj</String12>
+				<String13>*.cpp</String13>
+				<String14>*.cs</String14>
+				<String15>*.csproj</String15>
+				<String16>*.cvs*</String16>
+				<String17>*.dcp*</String17>
+				<String18>*.dcr</String18>
+				<String19>*.dcu*</String19>
+				<String20>*.def</String20>
+				<String21>*.dess</String21>
+				<String22>*.dfm</String22>
+				<String23>*.dof</String23>
+				<String24>*.dpk</String24>
+				<String25>*.dpr</String25>
+				<String26>*.dproj</String26>
+				<String27>*.drc</String27>
+				<String28>*.dtd</String28>
+				<String29>*.elf</String29>
+				<String30>*.exp</String30>
+				<String31>*.fmx</String31>
+				<String32>*.frm</String32>
+				<String33>*.groupproj</String33>
+				<String34>*.h</String34>
+				<String35>*.hm3</String35>
+				<String36>*.hmx</String36>
+				<String37>*.hpp</String37>
+				<String38>*.idl</String38>
+				<String39>*.inc</String39>
+				<String40>*.inl</String40>
+				<String41>*.ise</String41>
+				<String42>*.ism</String42>
+				<String43>*.iss</String43>
+				<String44>*.java</String44>
+				<String45>*.jsl</String45>
+				<String46>*.json</String46>
+				<String47>*.lib</String47>
+				<String48>*.lic</String48>
+				<String49>*.lpk</String49>
+				<String50>*.mak</String50>
+				<String51>*.map</String51>
+				<String52>*.ncp</String52>
+				<String53>*.nrproj</String53>
+				<String54>*.o</String54>
+				<String55>*.obj</String55>
+				<String56>*.pas</String56>
+				<String57>*.pch</String57>
+				<String58>*.pdb</String58>
+				<String59>*.pfx</String59>
+				<String60>*.pl</String60>
+				<String61>*.ps1*</String61>
+				<String62>*.py</String62>
+				<String63>*.rc</String63>
+				<String64>*.rc2</String64>
+				<String65>*.rdl</String65>
+				<String66>*.res</String66>
+				<String67>*.resources</String67>
+				<String68>*.resx</String68>
+				<String69>*.rgs</String69>
+				<String70>*.shfb</String70>
+				<String71>*.sln</String71>
+				<String72>*.snippet</String72>
+				<String73>*.src</String73>
+				<String74>*.suo</String74>
+				<String75>*.svn*</String75>
+				<String76>*.swd</String76>
+				<String77>*.swt</String77>
+				<String78>*.targets</String78>
+				<String79>*.tlb</String79>
+				<String80>*.trx</String80>
+				<String81>*.tt</String81>
+				<String82>*.vb</String82>
+				<String83>*.vbp</String83>
+				<String84>*.vbproj</String84>
+				<String85>*.vbs</String85>
+				<String86>*.vbw</String86>
+				<String87>*.vcproj</String87>
+				<String88>*.vjsproj</String88>
+				<String89>*.vsp</String89>
+				<String90>*.vsprops</String90>
+				<String91>*.vssettings</String91>
+				<String92>*.vstemplate</String92>
+				<String93>*.wsdl</String93>
+				<String94>*.wxs</String94>
+				<String95>*.xaml</String95>
+				<String96>*.xdr</String96>
+				<String97>*.xfm</String97>
+				<String98>*.xsd</String98>
+				<String99>*.xsl</String99>
+			</Patterns>
+		</Group5>
+		<Group6>
+			<Caption>PC Virtualization Files</Caption>
+			<Description>Files of Virtual PC, VMware, etc.</Description>
+			<ExtensionForIcon>*.vhd</ExtensionForIcon>
+			<Patterns Type="TFileTypeGroup&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+				<String0>*.vfd</String0>
+				<String1>*.vhd</String1>
+				<String2>*.vmdk</String2>
+				<String3>*.vmem</String3>
+				<String4>*.vmsn</String4>
+				<String5>*.vmss</String5>
+				<String6>*.vmx</String6>
+				<String7>*.vsv</String7>
+				<String8>*.vud</String8>
+			</Patterns>
+		</Group6>
+		<Group7>
+			<Caption>Office Files and Documents</Caption>
+			<Description>Documents and files of office programs and PDFs</Description>
+			<ExtensionForIcon>*.doc</ExtensionForIcon>
+			<Patterns Type="TFileTypeGroup&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+				<String0>*.123</String0>
+				<String1>*.book</String1>
+				<String2>*.dic</String2>
+				<String3>*.doc</String3>
+				<String4>*.docx</String4>
+				<String5>*.dot</String5>
+				<String6>*.dot?</String6>
+				<String7>*.fm</String7>
+				<String8>*.frx</String8>
+				<String9>*.lex</String9>
+				<String10>*.lwp</String10>
+				<String11>*.mde</String11>
+				<String12>*.mdt</String12>
+				<String13>*.mpp</String13>
+				<String14>*.mwp</String14>
+				<String15>*.nk2</String15>
+				<String16>*.odm</String16>
+				<String17>*.odp</String17>
+				<String18>*.odt</String18>
+				<String19>*.one*</String19>
+				<String20>*.pdf</String20>
+				<String21>*.pip</String21>
+				<String22>*.pot</String22>
+				<String23>*.potx</String23>
+				<String24>*.pps</String24>
+				<String25>*.ppt</String25>
+				<String26>*.ppt?</String26>
+				<String27>*.pub</String27>
+				<String28>*.pwi</String28>
+				<String29>*.rtf</String29>
+				<String30>*.sam</String30>
+				<String31>*.thmx</String31>
+				<String32>*.vdx</String32>
+				<String33>*.vsd</String33>
+				<String34>*.vss</String34>
+				<String35>*.wk?</String35>
+				<String36>*.xla</String36>
+				<String37>*.xlam</String37>
+				<String38>*.xlk</String38>
+				<String39>*.xls</String39>
+				<String40>*.xls?</String40>
+				<String41>*.xlt</String41>
+				<String42>*.xlt?</String42>
+			</Patterns>
+		</Group7>
+		<Group8>
+			<Caption>System Files</Caption>
+			<Description>System Files</Description>
+			<ExtensionForIcon>*.sys</ExtensionForIcon>
+			<Patterns Type="TFileTypeGroup&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+				<String0>*.adm</String0>
+				<String1>*.admx</String1>
+				<String2>*.afm</String2>
+				<String3>*.ax</String3>
+				<String4>*.cat</String4>
+				<String5>*.cdf-ms</String5>
+				<String6>*.cer</String6>
+				<String7>*.cpl</String7>
+				<String8>*.dmp</String8>
+				<String9>*.drv</String9>
+				<String10>*.ds_store</String10>
+				<String11>*.dxt</String11>
+				<String12>*.evt</String12>
+				<String13>*.evtx</String13>
+				<String14>*.fon</String14>
+				<String15>*.gpd</String15>
+				<String16>*.icm</String16>
+				<String17>*.inf</String17>
+				<String18>*.inf_loc</String18>
+				<String19>*.isp</String19>
+				<String20>*.man</String20>
+				<String21>*.mmm</String21>
+				<String22>*.mof</String22>
+				<String23>*.msi</String23>
+				<String24>*.msm</String24>
+				<String25>*.msp</String25>
+				<String26>*.msu</String26>
+				<String27>*.mum</String27>
+				<String28>*.nlp</String28>
+				<String29>*.nls</String29>
+				<String30>*.otf</String30>
+				<String31>*.pfb</String31>
+				<String32>*.pfm</String32>
+				<String33>*.pnf</String33>
+				<String34>*.ptxml</String34>
+				<String35>*.rbf</String35>
+				<String36>*.rdp</String36>
+				<String37>*.spc</String37>
+				<String38>*.sys</String38>
+				<String39>*.theme</String39>
+				<String40>*.ttc</String40>
+				<String41>*.ttf</String41>
+				<String42>*.vst</String42>
+				<String43>*.vxd</String43>
+			</Patterns>
+		</Group8>
+		<Group9>
+			<Caption>Database Files</Caption>
+			<Description>Files containing the data of client and server databases</Description>
+			<ExtensionForIcon>*.mdb</ExtensionForIcon>
+			<Patterns Type="TFileTypeGroup&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+				<String0>*.acc??</String0>
+				<String1>*.db</String1>
+				<String2>*.dbf</String2>
+				<String3>*.fdb</String3>
+				<String4>*.ib</String4>
+				<String5>*.ldb</String5>
+				<String6>*.ldf</String6>
+				<String7>*.mdb</String7>
+				<String8>*.mdf</String8>
+				<String9>*.pdx</String9>
+				<String10>*.sdf</String10>
+				<String11>*.sql</String11>
+				<String12>*.sqlite</String12>
+			</Patterns>
+		</Group9>
+		<Group10>
+			<Caption>Temporary and Backup Files</Caption>
+			<Description>Temporary files and backup copies containing previous version of current files</Description>
+			<ExtensionForIcon>*.tmp</ExtensionForIcon>
+			<Patterns Type="TFileTypeGroup&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+				<String0>*.---</String0>
+				<String1>*.$$$</String1>
+				<String2>*.??~</String2>
+				<String3>*.~*</String3>
+				<String4>*.bak</String4>
+				<String5>*.cache</String5>
+				<String6>*.chk</String6>
+				<String7>*.dmp</String7>
+				<String8>*.err</String8>
+				<String9>*.old</String9>
+				<String10>*.tmp</String10>
+			</Patterns>
+		</Group10>
+		<Group11>
+			<Caption>Text Files</Caption>
+			<Description>Plain text files, log files</Description>
+			<ExtensionForIcon>*.txt</ExtensionForIcon>
+			<Patterns Type="TFileTypeGroup&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+				<String0>*.1st</String0>
+				<String1>*.asc</String1>
+				<String2>*.latex</String2>
+				<String3>*.log</String3>
+				<String4>*.nfo</String4>
+				<String5>*.tex</String5>
+				<String6>*.txt</String6>
+			</Patterns>
+		</Group11>
+		<Group12>
+			<Caption>Data Files</Caption>
+			<Description>Files containing data of various kinds, not including files of databases</Description>
+			<ExtensionForIcon>*.xml</ExtensionForIcon>
+			<Patterns Type="TFileTypeGroup&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+				<String0>*.bqy</String0>
+				<String1>*.csv</String1>
+				<String2>*.dat</String2>
+				<String3>*.data</String3>
+				<String4>*.wab</String4>
+				<String5>*.xml</String5>
+			</Patterns>
+		</Group12>
+		<Group13>
+			<Caption>Help Files</Caption>
+			<Description>Files of the Windows help system</Description>
+			<ExtensionForIcon>*.chm</ExtensionForIcon>
+			<Patterns Type="TFileTypeGroup&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+				<String0>*.aw</String0>
+				<String1>*.chm</String1>
+				<String2>*.cnt</String2>
+				<String3>*.gid</String3>
+				<String4>*.hlp</String4>
+				<String5>*.hx?</String5>
+				<String6>*.toc</String6>
+			</Patterns>
+		</Group13>
+		<Group14>
+			<Caption>Internet Files</Caption>
+			<Description>Files related to the WWW, like HTML files</Description>
+			<ExtensionForIcon>*.html</ExtensionForIcon>
+			<Patterns Type="TFileTypeGroup&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+				<String0>*.asmx</String0>
+				<String1>*.asp</String1>
+				<String2>*.aspx</String2>
+				<String3>*.cfm</String3>
+				<String4>*.cgi</String4>
+				<String5>*.css</String5>
+				<String6>*.htacces</String6>
+				<String7>*.htm</String7>
+				<String8>*.html</String8>
+				<String9>*.htpassword</String9>
+				<String10>*.htt</String10>
+				<String11>*.js</String11>
+				<String12>*.mht</String12>
+				<String13>*.php</String13>
+				<String14>*.php?</String14>
+				<String15>*.shtml</String15>
+				<String16>*.url</String16>
+				<String17>*ascx</String17>
+			</Patterns>
+		</Group14>
+		<Group15>
+			<Caption>Configuration Files</Caption>
+			<Description>Files containing configuration settings</Description>
+			<ExtensionForIcon>*.cfg</ExtensionForIcon>
+			<Patterns Type="TFileTypeGroup&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+				<String0>*.cf</String0>
+				<String1>*.cfg</String1>
+				<String2>*.conf</String2>
+				<String3>*.config</String3>
+				<String4>*.csf</String4>
+				<String5>*.icc</String5>
+				<String6>*.ini</String6>
+				<String7>*.properties</String7>
+				<String8>*.reg</String8>
+				<String9>*.settings</String9>
+				<String10>*.udl</String10>
+			</Patterns>
+		</Group15>
+		<Group16>
+			<Caption>Mail Files</Caption>
+			<Description>Email messages and files of email clients</Description>
+			<ExtensionForIcon>*.msg</ExtensionForIcon>
+			<Patterns Type="TFileTypeGroup&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+				<String0>*.0tx</String0>
+				<String1>*.edb</String1>
+				<String2>*.eml*</String2>
+				<String3>*.msg</String3>
+				<String4>*.ndk</String4>
+				<String5>*.nsf</String5>
+				<String6>*.ntf</String6>
+				<String7>*.oft</String7>
+				<String8>*.ost</String8>
+				<String9>*.pst</String9>
+				<String10>*.rwz</String10>
+				<String11>*.wab</String11>
+				<String12>*mbox</String12>
+			</Patterns>
+		</Group16>
+		<Group17>
+			<Caption>Miscellaneous Files</Caption>
+			<Description>Unknown file types</Description>
+			<ExtensionForIcon></ExtensionForIcon>
+			<Patterns Type="TFileTypeGroup&lt;JAM.FileTypeGroups.TBasicFileTypeGroupData&gt;">
+				<String0>*</String0>
+			</Patterns>
+		</Group17>
+	</FileTypes>
+	<AdditionalDrivesForDriveList Type="TStringList">
+	</AdditionalDrivesForDriveList>
+	<StartupPaths Type="TJamPathList">
+	</StartupPaths>
+	<DriveListExcludes Type="TJamPathList">
+	</DriveListExcludes>
+	<SchedulerLastTriggerType>0</SchedulerLastTriggerType>
+	<SchedulerLastTime>0.6425153240707</SchedulerLastTime>
+	<SchedulerLastDateDayInterval>43418</SchedulerLastDateDayInterval>
+	<ChartType>0</ChartType>
+	<ChartShowFreeSpace>True</ChartShowFreeSpace>
+	<FreeSpaceColor>12583104</FreeSpaceColor>
+	<ChartShowGradient>True</ChartShowGradient>
+	<HistoryShowTypes>3</HistoryShowTypes>
+	<StartupBehaviour>0</StartupBehaviour>
+	<DefaultExcelExportFileW></DefaultExcelExportFileW>
+	<ChartColor Type="TJamColorList">
+		<Item0>157214</Item0>
+		<Item1>65694</Item1>
+		<Item2>7452880</Item2>
+		<Item3>14274724</Item3>
+		<Item4>32896</Item4>
+		<Item5>6316128</Item5>
+		<Item6>6650581</Item6>
+		<Item7>8421376</Item7>
+		<Item8>13770496</Item8>
+		<Item9>6292579</Item9>
+		<Item10>128</Item10>
+		<Item11>3267989</Item11>
+		<Item12>12632256</Item12>
+		<Item13>7665628</Item13>
+		<Item14>1938679</Item14>
+		<Item15>0</Item15>
+		<Item16>3026644</Item16>
+		<Item17>52377</Item17>
+		<Item18>14537542</Item18>
+		<Item19>16777215</Item19>
+		<Item20>12639424</Item20>
+		<Item21>2490490</Item21>
+		<Item22>15780518</Item22>
+		<Item23>13825788</Item23>
+		<Item24>7117507</Item24>
+		<Item25>10789024</Item25>
+		<Item26>2378869</Item26>
+		<Item27>12688116</Item27>
+		<Item28>10138311</Item28>
+		<Item29>47815</Item29>
+		<Item30>54015</Item30>
+		<Item31>8388736</Item31>
+		<Item32>8421504</Item32>
+	</ChartColor>
+	<ChartOtherSliceColor>12632256</ChartOtherSliceColor>
+	<ShowDetailsColumnsInTree>False</ShowDetailsColumnsInTree>
+	<SortColumnInDetailedView>0</SortColumnInDetailedView>
+	<ViewTypeInDetailedView>3</ViewTypeInDetailedView>
+	<SortDirection>0</SortDirection>
+	<Columns Type="TColumns">
+		<Items11 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>85</Width>
+					<Order>19</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>85</Width>
+					<Order>19</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>85</Width>
+					<Order>19</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>170</Width>
+					<Order>19</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>85</Width>
+					<Order>19</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>85</Width>
+					<Order>19</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>85</Width>
+					<Order>19</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>11</ViewType>
+		</Items11>
+		<Items20 Type="TColumn">
+			<Alignment>1</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>21</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>21</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>21</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>21</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>21</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>21</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>21</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>20</ViewType>
+		</Items20>
+		<Items33 Type="TColumn">
+			<Alignment>1</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>6</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>6</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>6</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>6</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>6</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>6</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>6</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>33</ViewType>
+		</Items33>
+		<Items18 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>500</Width>
+					<Order>22</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>500</Width>
+					<Order>22</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>500</Width>
+					<Order>22</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>1000</Width>
+					<Order>22</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>500</Width>
+					<Order>22</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>500</Width>
+					<Order>22</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>500</Width>
+					<Order>22</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>18</ViewType>
+		</Items18>
+		<Items22 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>29</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>29</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>29</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>320</Width>
+					<Order>29</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>29</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>29</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>160</Width>
+					<Order>29</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>22</ViewType>
+		</Items22>
+		<Items37 Type="TColumn">
+			<Alignment>1</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>100</Width>
+					<Order>35</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>100</Width>
+					<Order>35</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>100</Width>
+					<Order>35</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>200</Width>
+					<Order>35</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>100</Width>
+					<Order>35</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>100</Width>
+					<Order>35</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>100</Width>
+					<Order>35</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>37</ViewType>
+		</Items37>
+		<Items15 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>600</Width>
+					<Order>34</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>600</Width>
+					<Order>34</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>600</Width>
+					<Order>34</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>1200</Width>
+					<Order>34</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>600</Width>
+					<Order>34</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>600</Width>
+					<Order>34</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>600</Width>
+					<Order>34</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>15</ViewType>
+		</Items15>
+		<Items27 Type="TColumn">
+			<Alignment>1</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>80</Width>
+					<Order>36</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>80</Width>
+					<Order>36</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>80</Width>
+					<Order>36</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>36</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>80</Width>
+					<Order>36</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>80</Width>
+					<Order>36</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>80</Width>
+					<Order>36</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>27</ViewType>
+		</Items27>
+		<Items2 Type="TColumn">
+			<Alignment>1</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>90</Width>
+					<Order>2</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>90</Width>
+					<Order>2</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>90</Width>
+					<Order>2</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>180</Width>
+					<Order>2</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>90</Width>
+					<Order>2</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>90</Width>
+					<Order>2</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>90</Width>
+					<Order>2</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>2</ViewType>
+		</Items2>
+		<Items48 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>150</Width>
+					<Order>37</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>150</Width>
+					<Order>37</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>150</Width>
+					<Order>37</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>300</Width>
+					<Order>37</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>150</Width>
+					<Order>37</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>150</Width>
+					<Order>37</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>150</Width>
+					<Order>37</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>48</ViewType>
+		</Items48>
+		<Items8 Type="TColumn">
+			<Alignment>1</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>50</Width>
+					<Order>5</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>50</Width>
+					<Order>5</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>50</Width>
+					<Order>5</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>100</Width>
+					<Order>5</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>50</Width>
+					<Order>5</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>50</Width>
+					<Order>5</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>50</Width>
+					<Order>5</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>8</ViewType>
+		</Items8>
+		<Items9 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>96</Width>
+					<Order>10</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>96</Width>
+					<Order>10</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>96</Width>
+					<Order>10</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>192</Width>
+					<Order>10</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>96</Width>
+					<Order>10</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>96</Width>
+					<Order>10</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>96</Width>
+					<Order>10</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>9</ViewType>
+		</Items9>
+		<Items40 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>300</Width>
+					<Order>24</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>300</Width>
+					<Order>24</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>300</Width>
+					<Order>24</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>600</Width>
+					<Order>24</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>300</Width>
+					<Order>24</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>300</Width>
+					<Order>24</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>300</Width>
+					<Order>24</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>40</ViewType>
+		</Items40>
+		<Items3 Type="TColumn">
+			<Alignment>1</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>90</Width>
+					<Order>3</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>90</Width>
+					<Order>3</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>90</Width>
+					<Order>3</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>180</Width>
+					<Order>3</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>90</Width>
+					<Order>3</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>90</Width>
+					<Order>3</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>90</Width>
+					<Order>3</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>3</ViewType>
+		</Items3>
+		<Items38 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>33</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>33</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>33</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>360</Width>
+					<Order>33</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>33</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>33</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>33</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>38</ViewType>
+		</Items38>
+		<Items29 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>30</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>30</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>30</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>320</Width>
+					<Order>30</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>30</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>30</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>30</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>29</ViewType>
+		</Items29>
+		<Items32 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>96</Width>
+					<Order>27</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>96</Width>
+					<Order>27</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>96</Width>
+					<Order>27</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>192</Width>
+					<Order>27</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>96</Width>
+					<Order>27</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>96</Width>
+					<Order>27</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>96</Width>
+					<Order>27</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>32</ViewType>
+		</Items32>
+		<Items25 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>15</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>15</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>15</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>15</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>15</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>15</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>15</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>25</ViewType>
+		</Items25>
+		<Items7 Type="TColumn">
+			<Alignment>1</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>58</Width>
+					<Order>4</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>58</Width>
+					<Order>4</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>58</Width>
+					<Order>4</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>116</Width>
+					<Order>4</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>58</Width>
+					<Order>4</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>58</Width>
+					<Order>4</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>58</Width>
+					<Order>4</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>7</ViewType>
+		</Items7>
+		<Items1 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>1</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>180</Width>
+					<Order>1</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>180</Width>
+					<Order>1</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>720</Width>
+					<Order>1</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>1</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>180</Width>
+					<Order>1</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>180</Width>
+					<Order>1</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>1</ViewType>
+		</Items1>
+		<Items13 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>70</Width>
+					<Order>16</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>70</Width>
+					<Order>16</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>70</Width>
+					<Order>16</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>140</Width>
+					<Order>16</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>70</Width>
+					<Order>16</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>70</Width>
+					<Order>16</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>70</Width>
+					<Order>16</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>13</ViewType>
+		</Items13>
+		<Items34 Type="TColumn">
+			<Alignment>2</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>80</Width>
+					<Order>7</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>80</Width>
+					<Order>7</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>80</Width>
+					<Order>7</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>7</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>80</Width>
+					<Order>7</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>80</Width>
+					<Order>7</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>80</Width>
+					<Order>7</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>34</ViewType>
+		</Items34>
+		<Items41 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>31</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>31</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>31</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>360</Width>
+					<Order>31</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>31</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>31</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>31</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>41</ViewType>
+		</Items41>
+		<Items16 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>20</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>20</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>20</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>720</Width>
+					<Order>20</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>20</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>20</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>20</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>16</ViewType>
+		</Items16>
+		<Items21 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>115</Width>
+					<Order>25</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>115</Width>
+					<Order>25</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>115</Width>
+					<Order>25</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>230</Width>
+					<Order>25</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>115</Width>
+					<Order>25</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>115</Width>
+					<Order>25</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>115</Width>
+					<Order>25</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>21</ViewType>
+		</Items21>
+		<Items17 Type="TColumn">
+			<Alignment>2</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>45</Width>
+					<Order>12</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>45</Width>
+					<Order>12</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>45</Width>
+					<Order>12</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>12</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>45</Width>
+					<Order>12</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>45</Width>
+					<Order>12</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>45</Width>
+					<Order>12</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>17</ViewType>
+		</Items17>
+		<Items28 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>120</Width>
+					<Order>32</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>120</Width>
+					<Order>32</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>120</Width>
+					<Order>32</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>240</Width>
+					<Order>32</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>120</Width>
+					<Order>32</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>120</Width>
+					<Order>32</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>120</Width>
+					<Order>32</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>28</ViewType>
+		</Items28>
+		<Items39 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>400</Width>
+					<Order>23</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>400</Width>
+					<Order>23</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>400</Width>
+					<Order>23</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>800</Width>
+					<Order>23</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>400</Width>
+					<Order>23</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>400</Width>
+					<Order>23</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>400</Width>
+					<Order>23</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>39</ViewType>
+		</Items39>
+		<Items31 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>26</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>26</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>26</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>320</Width>
+					<Order>26</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>26</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>26</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>26</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>31</ViewType>
+		</Items31>
+		<Items4 Type="TColumn">
+			<Alignment>2</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>80</Width>
+					<Order>9</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>80</Width>
+					<Order>9</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>80</Width>
+					<Order>9</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>160</Width>
+					<Order>9</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>80</Width>
+					<Order>9</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>80</Width>
+					<Order>9</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>80</Width>
+					<Order>9</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>4</ViewType>
+		</Items4>
+		<Items10 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>96</Width>
+					<Order>11</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>96</Width>
+					<Order>11</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>96</Width>
+					<Order>11</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>192</Width>
+					<Order>11</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>96</Width>
+					<Order>11</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>96</Width>
+					<Order>11</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>96</Width>
+					<Order>11</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>10</ViewType>
+		</Items10>
+		<Items5 Type="TColumn">
+			<Alignment>1</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>80</Width>
+					<Order>8</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>80</Width>
+					<Order>8</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>80</Width>
+					<Order>8</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>160</Width>
+					<Order>8</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>80</Width>
+					<Order>8</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>80</Width>
+					<Order>8</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>80</Width>
+					<Order>8</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>5</ViewType>
+		</Items5>
+		<Items19 Type="TColumn">
+			<Alignment>1</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>50</Width>
+					<Order>18</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>50</Width>
+					<Order>18</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>50</Width>
+					<Order>18</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>100</Width>
+					<Order>18</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>50</Width>
+					<Order>18</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>50</Width>
+					<Order>18</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>50</Width>
+					<Order>18</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>19</ViewType>
+		</Items19>
+		<Items0 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>292</Width>
+					<Order>0</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>150</Width>
+					<Order>0</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>150</Width>
+					<Order>0</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>600</Width>
+					<Order>0</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>150</Width>
+					<Order>0</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>150</Width>
+					<Order>0</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>150</Width>
+					<Order>0</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>0</ViewType>
+		</Items0>
+		<Items26 Type="TColumn">
+			<Alignment>1</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>28</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>28</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>28</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>180</Width>
+					<Order>28</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>28</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>28</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>90</Width>
+					<Order>28</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>26</ViewType>
+		</Items26>
+		<Items14 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>140</Width>
+					<Order>17</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>140</Width>
+					<Order>17</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>140</Width>
+					<Order>17</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>280</Width>
+					<Order>17</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>140</Width>
+					<Order>17</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>140</Width>
+					<Order>17</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>140</Width>
+					<Order>17</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>14</ViewType>
+		</Items14>
+		<Items12 Type="TColumn">
+			<Alignment>0</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>125</Width>
+					<Order>13</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>125</Width>
+					<Order>13</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>125</Width>
+					<Order>13</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>250</Width>
+					<Order>13</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>125</Width>
+					<Order>13</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>125</Width>
+					<Order>13</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>125</Width>
+					<Order>13</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>12</ViewType>
+		</Items12>
+		<Items6 Type="TColumn">
+			<Alignment>1</Alignment>
+			<Media Type="TColumnInfoCollection">
+				<CollectionItem0 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>85</Width>
+					<Order>14</Order>
+				</CollectionItem0>
+				<CollectionItem1 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>85</Width>
+					<Order>14</Order>
+				</CollectionItem1>
+				<CollectionItem2 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>85</Width>
+					<Order>14</Order>
+				</CollectionItem2>
+				<CollectionItem3 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>170</Width>
+					<Order>14</Order>
+				</CollectionItem3>
+				<CollectionItem4 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>85</Width>
+					<Order>14</Order>
+				</CollectionItem4>
+				<CollectionItem5 Type="TColumnInfo">
+					<Visible>False</Visible>
+					<Width>85</Width>
+					<Order>14</Order>
+				</CollectionItem5>
+				<CollectionItem6 Type="TColumnInfo">
+					<Visible>True</Visible>
+					<Width>85</Width>
+					<Order>14</Order>
+				</CollectionItem6>
+			</Media>
+			<ViewType>6</ViewType>
+		</Items6>
+	</Columns>
+	<FilesInTree>False</FilesInTree>
+	<ExpandFilesItems>False</ExpandFilesItems>
+	<UsageCount>0</UsageCount>
+	<OptionsDoNotAskAgainSelection>0</OptionsDoNotAskAgainSelection>
+	<BoldForPrinting>True</BoldForPrinting>
+	<BoldFactor>15</BoldFactor>
+	<BoldFactorType>0</BoldFactorType>
+	<DetermineIconsOnFileExt>True</DetermineIconsOnFileExt>
+	<Patterns Type="TPatternList">
+		<EmptyPatternListMatchesAll>True</EmptyPatternListMatchesAll>
+		<Item0 Type="TExactPattern">
+			<Pattern>~snapshot</Pattern>
+			<Active>True</Active>
+			<PatternTarget>4</PatternTarget>
+			<PatternType>1</PatternType>
+		</Item0>
+	</Patterns>
+	<ColorForCompressed>True</ColorForCompressed>
+	<ColorFullCompressed>16719904</ColorFullCompressed>
+	<ColorPartialCompressed>10485760</ColorPartialCompressed>
+	<GroupBackgroundColor>16765136</GroupBackgroundColor>
+	<MaximumThreads>4</MaximumThreads>
+	<UseLegacyEnumerator>False</UseLegacyEnumerator>
+	<ShowLongTooltips>True</ShowLongTooltips>
+	<ShowInidcatorBarsInTree>True</ShowInidcatorBarsInTree>
+	<IndicatorBarColor1>13432063</IndicatorBarColor1>
+	<IndicatorBarColor2>52479</IndicatorBarColor2>
+	<ViewType>3</ViewType>
+	<RecentlyScannedPaths Type="TRecentlyUsedPaths">
+		<Item0>
+			<Path>C:\</Path>
+			<TimeStamp>43418.6425941551</TimeStamp>
+		</Item0>
+		<Item1>
+			<Path>D:\</Path>
+			<TimeStamp>43418.6469517708</TimeStamp>
+		</Item1>
+	</RecentlyScannedPaths>
+	<MRUMaximum>16</MRUMaximum>
+	<SortType>1</SortType>
+	<ShowErrors>False</ShowErrors>
+	<IndentSizeIndicators>True</IndentSizeIndicators>
+	<GridLinesInDirectoryTree>False</GridLinesInDirectoryTree>
+	<CompareAdjustView>3</CompareAdjustView>
+	<ShowLongScanHint>True</ShowLongScanHint>
+	<AlwaysStartAsAdministrator>False</AlwaysStartAsAdministrator>
+	<AskForRestartAsAdministrator>True</AskForRestartAsAdministrator>
+	<RecentlyUsedFilePaths Type="TRecentlyUsedPaths">
+	</RecentlyUsedFilePaths>
+	<LastListExportType>21</LastListExportType>
+	<LastReportType>2</LastReportType>
+	<ShowDrivesPanel>True</ShowDrivesPanel>
+	<DateTimeFormat>0</DateTimeFormat>
+	<SizeUnit>5</SizeUnit>
+	<Decimals>1</Decimals>
+	<IncludeUnit>1</IncludeUnit>
+	<AclStringFormat>0</AclStringFormat>
+	<DoNotAskAgainList Type="TSerializableStringIntDictionary">
+	</DoNotAskAgainList>
+	<MessageLevel>0</MessageLevel>
+	<ThreadPriority>2</ThreadPriority>
+	<PrinterName>FMPrinter</PrinterName>
+	<PrinterOrientation>0</PrinterOrientation>
+	<Tag>0</Tag>
+	<ExtensionsList.Columns>
+		<ExtensionsList.TVTHeaderEx.Columns Type="TVirtualTreeColumnsEx">
+			<CollectionItem0 Type="TVirtualTreeColumn">
+				<Alignment>0</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<DefaultSortDirection>0</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>35071</Options>
+				<Position>0</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>130</Width>
+			</CollectionItem0>
+			<CollectionItem1 Type="TVirtualTreeColumn">
+				<Alignment>1</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<Color>16119285</Color>
+				<DefaultSortDirection>1</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>2287</Options>
+				<Position>1</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>100</Width>
+			</CollectionItem1>
+			<CollectionItem2 Type="TVirtualTreeColumn">
+				<Alignment>1</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<Color>-16777211</Color>
+				<DefaultSortDirection>1</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>2287</Options>
+				<Position>2</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>100</Width>
+			</CollectionItem2>
+			<CollectionItem3 Type="TVirtualTreeColumn">
+				<Alignment>2</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<DefaultSortDirection>1</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>35071</Options>
+				<Position>3</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>80</Width>
+			</CollectionItem3>
+			<CollectionItem4 Type="TVirtualTreeColumn">
+				<Alignment>1</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<DefaultSortDirection>1</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>35071</Options>
+				<Position>4</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>80</Width>
+			</CollectionItem4>
+			<CollectionItem5 Type="TVirtualTreeColumn">
+				<Alignment>1</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<DefaultSortDirection>1</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>2175</Options>
+				<Position>5</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>100</Width>
+			</CollectionItem5>
+			<CollectionItem6 Type="TVirtualTreeColumn">
+				<Alignment>2</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<DefaultSortDirection>1</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>2175</Options>
+				<Position>6</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>80</Width>
+			</CollectionItem6>
+			<CollectionItem7 Type="TVirtualTreeColumn">
+				<Alignment>0</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<DefaultSortDirection>0</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>35071</Options>
+				<Position>7</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>160</Width>
+			</CollectionItem7>
+		</ExtensionsList.TVTHeaderEx.Columns>
+	</ExtensionsList.Columns>
+	<UsersList.Columns>
+		<UsersList.TVTHeaderEx.Columns Type="TVirtualTreeColumnsEx">
+			<CollectionItem0 Type="TVirtualTreeColumn">
+				<Alignment>0</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<DefaultSortDirection>0</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>35071</Options>
+				<Position>0</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>160</Width>
+			</CollectionItem0>
+			<CollectionItem1 Type="TVirtualTreeColumn">
+				<Alignment>1</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<Color>16119285</Color>
+				<DefaultSortDirection>1</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>2287</Options>
+				<Position>1</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>100</Width>
+			</CollectionItem1>
+			<CollectionItem2 Type="TVirtualTreeColumn">
+				<Alignment>1</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<DefaultSortDirection>1</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>35071</Options>
+				<Position>2</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>100</Width>
+			</CollectionItem2>
+			<CollectionItem3 Type="TVirtualTreeColumn">
+				<Alignment>2</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<DefaultSortDirection>1</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>35071</Options>
+				<Position>3</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>80</Width>
+			</CollectionItem3>
+			<CollectionItem4 Type="TVirtualTreeColumn">
+				<Alignment>1</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<DefaultSortDirection>1</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>35071</Options>
+				<Position>4</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>80</Width>
+			</CollectionItem4>
+			<CollectionItem5 Type="TVirtualTreeColumn">
+				<Alignment>1</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<DefaultSortDirection>1</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>2175</Options>
+				<Position>5</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>100</Width>
+			</CollectionItem5>
+			<CollectionItem6 Type="TVirtualTreeColumn">
+				<Alignment>2</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<DefaultSortDirection>1</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>2175</Options>
+				<Position>6</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>80</Width>
+			</CollectionItem6>
+			<CollectionItem7 Type="TVirtualTreeColumn">
+				<Alignment>0</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<DefaultSortDirection>0</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>2175</Options>
+				<Position>7</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>160</Width>
+			</CollectionItem7>
+			<CollectionItem8 Type="TVirtualTreeColumn">
+				<Alignment>0</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<DefaultSortDirection>0</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>2175</Options>
+				<Position>8</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>200</Width>
+			</CollectionItem8>
+			<CollectionItem9 Type="TVirtualTreeColumn">
+				<Alignment>0</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<DefaultSortDirection>0</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>2175</Options>
+				<Position>9</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>80</Width>
+			</CollectionItem9>
+			<CollectionItem10 Type="TVirtualTreeColumn">
+				<Alignment>0</Alignment>
+				<CheckType>2</CheckType>
+				<CheckState>0</CheckState>
+				<CheckBox>False</CheckBox>
+				<DefaultSortDirection>0</DefaultSortDirection>
+				<ImageIndex>-1</ImageIndex>
+				<Layout>0</Layout>
+				<Margin>4</Margin>
+				<MaxWidth>10000</MaxWidth>
+				<MinWidth>10</MinWidth>
+				<Options>2175</Options>
+				<Position>10</Position>
+				<Spacing>3</Spacing>
+				<Style>0</Style>
+				<Tag>0</Tag>
+				<Width>80</Width>
+			</CollectionItem10>
+		</UsersList.TVTHeaderEx.Columns>
+	</UsersList.Columns>
+	<TopFilesList.TVTHeaderEx.Columns Type="TVirtualTreeColumnsEx">
+		<CollectionItem0 Type="TVirtualTreeColumn">
+			<Alignment>0</Alignment>
+			<CheckType>2</CheckType>
+			<CheckState>0</CheckState>
+			<CheckBox>False</CheckBox>
+			<DefaultSortDirection>0</DefaultSortDirection>
+			<ImageIndex>-1</ImageIndex>
+			<Layout>0</Layout>
+			<Margin>4</Margin>
+			<MaxWidth>10000</MaxWidth>
+			<MinWidth>10</MinWidth>
+			<Options>35071</Options>
+			<Position>0</Position>
+			<Spacing>3</Spacing>
+			<Style>0</Style>
+			<Tag>0</Tag>
+			<Width>150</Width>
+		</CollectionItem0>
+		<CollectionItem1 Type="TVirtualTreeColumn">
+			<Alignment>0</Alignment>
+			<CheckType>2</CheckType>
+			<CheckState>0</CheckState>
+			<CheckBox>False</CheckBox>
+			<DefaultSortDirection>0</DefaultSortDirection>
+			<ImageIndex>-1</ImageIndex>
+			<Layout>0</Layout>
+			<Margin>4</Margin>
+			<MaxWidth>10000</MaxWidth>
+			<MinWidth>10</MinWidth>
+			<Options>35071</Options>
+			<Position>1</Position>
+			<Spacing>3</Spacing>
+			<Style>0</Style>
+			<Tag>0</Tag>
+			<Width>200</Width>
+		</CollectionItem1>
+		<CollectionItem2 Type="TVirtualTreeColumn">
+			<Alignment>1</Alignment>
+			<CheckType>2</CheckType>
+			<CheckState>0</CheckState>
+			<CheckBox>False</CheckBox>
+			<Color>16119285</Color>
+			<DefaultSortDirection>1</DefaultSortDirection>
+			<ImageIndex>-1</ImageIndex>
+			<Layout>0</Layout>
+			<Margin>4</Margin>
+			<MaxWidth>10000</MaxWidth>
+			<MinWidth>10</MinWidth>
+			<Options>35055</Options>
+			<Position>2</Position>
+			<Spacing>3</Spacing>
+			<Style>0</Style>
+			<Tag>0</Tag>
+			<Width>80</Width>
+		</CollectionItem2>
+		<CollectionItem3 Type="TVirtualTreeColumn">
+			<Alignment>1</Alignment>
+			<CheckType>2</CheckType>
+			<CheckState>0</CheckState>
+			<CheckBox>False</CheckBox>
+			<DefaultSortDirection>1</DefaultSortDirection>
+			<ImageIndex>-1</ImageIndex>
+			<Layout>0</Layout>
+			<Margin>4</Margin>
+			<MaxWidth>10000</MaxWidth>
+			<MinWidth>10</MinWidth>
+			<Options>127</Options>
+			<Position>3</Position>
+			<Spacing>3</Spacing>
+			<Style>0</Style>
+			<Tag>0</Tag>
+			<Width>80</Width>
+		</CollectionItem3>
+		<CollectionItem4 Type="TVirtualTreeColumn">
+			<Alignment>0</Alignment>
+			<CheckType>2</CheckType>
+			<CheckState>0</CheckState>
+			<CheckBox>False</CheckBox>
+			<DefaultSortDirection>0</DefaultSortDirection>
+			<ImageIndex>-1</ImageIndex>
+			<Layout>0</Layout>
+			<Margin>4</Margin>
+			<MaxWidth>10000</MaxWidth>
+			<MinWidth>10</MinWidth>
+			<Options>35071</Options>
+			<Position>4</Position>
+			<Spacing>3</Spacing>
+			<Style>0</Style>
+			<Tag>0</Tag>
+			<Width>75</Width>
+		</CollectionItem4>
+		<CollectionItem5 Type="TVirtualTreeColumn">
+			<Alignment>0</Alignment>
+			<CheckType>2</CheckType>
+			<CheckState>0</CheckState>
+			<CheckBox>False</CheckBox>
+			<DefaultSortDirection>0</DefaultSortDirection>
+			<ImageIndex>-1</ImageIndex>
+			<Layout>0</Layout>
+			<Margin>4</Margin>
+			<MaxWidth>10000</MaxWidth>
+			<MinWidth>10</MinWidth>
+			<Options>35071</Options>
+			<Position>5</Position>
+			<Spacing>3</Spacing>
+			<Style>0</Style>
+			<Tag>0</Tag>
+			<Width>75</Width>
+		</CollectionItem5>
+		<CollectionItem6 Type="TVirtualTreeColumn">
+			<Alignment>0</Alignment>
+			<CheckType>2</CheckType>
+			<CheckState>0</CheckState>
+			<CheckBox>False</CheckBox>
+			<DefaultSortDirection>0</DefaultSortDirection>
+			<ImageIndex>-1</ImageIndex>
+			<Layout>0</Layout>
+			<Margin>4</Margin>
+			<MaxWidth>10000</MaxWidth>
+			<MinWidth>10</MinWidth>
+			<Options>35071</Options>
+			<Position>6</Position>
+			<Spacing>3</Spacing>
+			<Style>0</Style>
+			<Tag>0</Tag>
+			<Width>100</Width>
+		</CollectionItem6>
+		<CollectionItem7 Type="TVirtualTreeColumn">
+			<Alignment>0</Alignment>
+			<CheckType>2</CheckType>
+			<CheckState>0</CheckState>
+			<CheckBox>False</CheckBox>
+			<DefaultSortDirection>0</DefaultSortDirection>
+			<ImageIndex>-1</ImageIndex>
+			<Layout>0</Layout>
+			<Margin>4</Margin>
+			<MaxWidth>10000</MaxWidth>
+			<MinWidth>10</MinWidth>
+			<Options>35071</Options>
+			<Position>7</Position>
+			<Spacing>3</Spacing>
+			<Style>0</Style>
+			<Tag>0</Tag>
+			<Width>100</Width>
+		</CollectionItem7>
+		<CollectionItem8 Type="TVirtualTreeColumn">
+			<Alignment>0</Alignment>
+			<CheckType>2</CheckType>
+			<CheckState>0</CheckState>
+			<CheckBox>False</CheckBox>
+			<DefaultSortDirection>0</DefaultSortDirection>
+			<ImageIndex>-1</ImageIndex>
+			<Layout>0</Layout>
+			<Margin>4</Margin>
+			<MaxWidth>10000</MaxWidth>
+			<MinWidth>10</MinWidth>
+			<Options>35071</Options>
+			<Position>8</Position>
+			<Spacing>3</Spacing>
+			<Style>0</Style>
+			<Tag>0</Tag>
+			<Width>50</Width>
+		</CollectionItem8>
+		<CollectionItem9 Type="TVirtualTreeColumn">
+			<Alignment>0</Alignment>
+			<CheckType>2</CheckType>
+			<CheckState>0</CheckState>
+			<CheckBox>False</CheckBox>
+			<DefaultSortDirection>0</DefaultSortDirection>
+			<ImageIndex>-1</ImageIndex>
+			<Layout>0</Layout>
+			<Margin>4</Margin>
+			<MaxWidth>10000</MaxWidth>
+			<MinWidth>10</MinWidth>
+			<Options>127</Options>
+			<Position>9</Position>
+			<Spacing>3</Spacing>
+			<Style>0</Style>
+			<Tag>0</Tag>
+			<Width>60</Width>
+		</CollectionItem9>
+		<CollectionItem10 Type="TVirtualTreeColumn">
+			<Alignment>0</Alignment>
+			<CheckType>2</CheckType>
+			<CheckState>0</CheckState>
+			<CheckBox>False</CheckBox>
+			<DefaultSortDirection>0</DefaultSortDirection>
+			<ImageIndex>-1</ImageIndex>
+			<Layout>0</Layout>
+			<Margin>4</Margin>
+			<MaxWidth>10000</MaxWidth>
+			<MinWidth>10</MinWidth>
+			<Options>127</Options>
+			<Position>10</Position>
+			<Spacing>3</Spacing>
+			<Style>0</Style>
+			<Tag>0</Tag>
+			<Width>140</Width>
+		</CollectionItem10>
+		<CollectionItem11 Type="TVirtualTreeColumn">
+			<Alignment>0</Alignment>
+			<CheckType>2</CheckType>
+			<CheckState>0</CheckState>
+			<CheckBox>False</CheckBox>
+			<DefaultSortDirection>0</DefaultSortDirection>
+			<ImageIndex>-1</ImageIndex>
+			<Layout>0</Layout>
+			<Margin>4</Margin>
+			<MaxWidth>10000</MaxWidth>
+			<MinWidth>10</MinWidth>
+			<Options>35071</Options>
+			<Position>11</Position>
+			<Spacing>3</Spacing>
+			<Style>0</Style>
+			<Tag>0</Tag>
+			<Width>75</Width>
+		</CollectionItem11>
+		<CollectionItem12 Type="TVirtualTreeColumn">
+			<Alignment>0</Alignment>
+			<CheckType>2</CheckType>
+			<CheckState>0</CheckState>
+			<CheckBox>False</CheckBox>
+			<DefaultSortDirection>0</DefaultSortDirection>
+			<ImageIndex>-1</ImageIndex>
+			<Layout>0</Layout>
+			<Margin>4</Margin>
+			<MaxWidth>10000</MaxWidth>
+			<MinWidth>10</MinWidth>
+			<Options>127</Options>
+			<Position>12</Position>
+			<Spacing>3</Spacing>
+			<Style>0</Style>
+			<Tag>0</Tag>
+			<Width>50</Width>
+		</CollectionItem12>
+		<CollectionItem13 Type="TVirtualTreeColumn">
+			<Alignment>1</Alignment>
+			<CheckType>2</CheckType>
+			<CheckState>0</CheckState>
+			<CheckBox>False</CheckBox>
+			<DefaultSortDirection>0</DefaultSortDirection>
+			<ImageIndex>-1</ImageIndex>
+			<Layout>0</Layout>
+			<Margin>4</Margin>
+			<MaxWidth>10000</MaxWidth>
+			<MinWidth>10</MinWidth>
+			<Options>127</Options>
+			<Position>13</Position>
+			<Spacing>3</Spacing>
+			<Style>0</Style>
+			<Tag>0</Tag>
+			<Width>70</Width>
+		</CollectionItem13>
+		<CollectionItem14 Type="TVirtualTreeColumn">
+			<Alignment>0</Alignment>
+			<CheckType>2</CheckType>
+			<CheckState>0</CheckState>
+			<CheckBox>False</CheckBox>
+			<DefaultSortDirection>0</DefaultSortDirection>
+			<ImageIndex>-1</ImageIndex>
+			<Layout>0</Layout>
+			<Margin>4</Margin>
+			<MaxWidth>10000</MaxWidth>
+			<MinWidth>10</MinWidth>
+			<Options>127</Options>
+			<Position>14</Position>
+			<Spacing>3</Spacing>
+			<Style>0</Style>
+			<Tag>0</Tag>
+			<Width>70</Width>
+		</CollectionItem14>
+		<CollectionItem15 Type="TVirtualTreeColumn">
+			<Alignment>1</Alignment>
+			<CheckType>2</CheckType>
+			<CheckState>0</CheckState>
+			<CheckBox>False</CheckBox>
+			<DefaultSortDirection>0</DefaultSortDirection>
+			<ImageIndex>-1</ImageIndex>
+			<Layout>0</Layout>
+			<Margin>4</Margin>
+			<MaxWidth>10000</MaxWidth>
+			<MinWidth>10</MinWidth>
+			<Options>127</Options>
+			<Position>15</Position>
+			<Spacing>3</Spacing>
+			<Style>0</Style>
+			<Tag>0</Tag>
+			<Width>80</Width>
+		</CollectionItem15>
+		<CollectionItem16 Type="TVirtualTreeColumn">
+			<Alignment>1</Alignment>
+			<CheckType>2</CheckType>
+			<CheckState>0</CheckState>
+			<CheckBox>False</CheckBox>
+			<DefaultSortDirection>0</DefaultSortDirection>
+			<ImageIndex>-1</ImageIndex>
+			<Layout>0</Layout>
+			<Margin>4</Margin>
+			<MaxWidth>10000</MaxWidth>
+			<MinWidth>10</MinWidth>
+			<Options>127</Options>
+			<Position>16</Position>
+			<Spacing>3</Spacing>
+			<Style>0</Style>
+			<Tag>0</Tag>
+			<Width>70</Width>
+		</CollectionItem16>
+	</TopFilesList.TVTHeaderEx.Columns>
+	<TreeMap.Colors2D>
+		<TJamColorList Type="TJamColorList">
+			<Item0>10955079</Item0>
+			<Item1>16724787</Item1>
+			<Item2>11223058</Item2>
+			<Item3>10773003</Item3>
+			<Item4>10065664</Item4>
+			<Item5>6598400</Item5>
+			<Item6>52224</Item6>
+			<Item7>58215</Item7>
+			<Item8>61087</Item8>
+			<Item9>63180</Item9>
+			<Item10>65275</Item10>
+			<Item11>59647</Item11>
+			<Item12>54271</Item12>
+			<Item13>49151</Item13>
+			<Item14>43775</Item14>
+			<Item15>37119</Item15>
+		</TJamColorList>
+	</TreeMap.Colors2D>
+	<TreeMap.Colors3D>
+		<TJamColorList Type="TJamColorList">
+			<Item0>16721408</Item0>
+			<Item1>16749568</Item1>
+			<Item2>16776960</Item2>
+			<Item3>9502464</Item3>
+			<Item4>2227968</Item4>
+			<Item5>65462</Item5>
+			<Item6>55551</Item6>
+			<Item7>27391</Item7>
+			<Item8>255</Item8>
+			<Item9>7209215</Item9>
+			<Item10>14418175</Item10>
+			<Item11>16711858</Item11>
+			<Item12>16744353</Item12>
+			<Item13>16749183</Item13>
+			<Item14>16711752</Item14>
+			<Item15>16777215</Item15>
+		</TJamColorList>
+	</TreeMap.Colors3D>
+	<DriveList>
+		<TJamShellListColumns Type="TJamShellListColumns">
+			<CollectionItem0 Type="TJamShellListColumn">
+				<ShellIndex>0</ShellIndex>
+				<Visible>True</Visible>
+				<Alignment>0</Alignment>
+				<AutoSize>False</AutoSize>
+				<Caption>名称</Caption>
+				<ImageIndex>-1</ImageIndex>
+				<MaxWidth>0</MaxWidth>
+				<MinWidth>0</MinWidth>
+				<Tag>0</Tag>
+				<Width>150</Width>
+			</CollectionItem0>
+			<CollectionItem1 Type="TJamShellListColumn">
+				<ShellIndex>2</ShellIndex>
+				<Visible>True</Visible>
+				<Alignment>1</Alignment>
+				<AutoSize>False</AutoSize>
+				<Caption>Size</Caption>
+				<ImageIndex>-1</ImageIndex>
+				<MaxWidth>0</MaxWidth>
+				<MinWidth>0</MinWidth>
+				<Tag>2</Tag>
+				<Width>80</Width>
+			</CollectionItem1>
+			<CollectionItem2 Type="TJamShellListColumn">
+				<ShellIndex>3</ShellIndex>
+				<Visible>True</Visible>
+				<Alignment>1</Alignment>
+				<AutoSize>False</AutoSize>
+				<Caption>Free</Caption>
+				<ImageIndex>-1</ImageIndex>
+				<MaxWidth>0</MaxWidth>
+				<MinWidth>0</MinWidth>
+				<Tag>3</Tag>
+				<Width>75</Width>
+			</CollectionItem2>
+			<CollectionItem3 Type="TJamShellListColumn">
+				<ShellIndex>256</ShellIndex>
+				<Visible>True</Visible>
+				<Alignment>2</Alignment>
+				<AutoSize>False</AutoSize>
+				<Caption>% Free</Caption>
+				<ImageIndex>-1</ImageIndex>
+				<MaxWidth>0</MaxWidth>
+				<MinWidth>0</MinWidth>
+				<Tag>256</Tag>
+				<Width>85</Width>
+			</CollectionItem3>
+			<CollectionItem4 Type="TJamShellListColumn">
+				<ShellIndex>-1</ShellIndex>
+				<Visible>True</Visible>
+				<Alignment>0</Alignment>
+				<AutoSize>False</AutoSize>
+				<Caption>S.M.A.R.T.</Caption>
+				<ImageIndex>-1</ImageIndex>
+				<MaxWidth>0</MaxWidth>
+				<MinWidth>0</MinWidth>
+				<Tag>0</Tag>
+				<Width>80</Width>
+			</CollectionItem4>
+		</TJamShellListColumns>
+	</DriveList>
+	<SplitterV4>474</SplitterV4>
+	<DriveList.Height>150</DriveList.Height>
+	<ActivePage>0</ActivePage>
+	<ChartVerticalGrid>True</ChartVerticalGrid>
+	<ChartHorizontalGrid>True</ChartHorizontalGrid>
+	<TreemapLegend>False</TreemapLegend>
+	<ChartPatterns>False</ChartPatterns>
+	<ChartLegend>True</ChartLegend>
+	<ExtensionsChart>True</ExtensionsChart>
+	<UsersChart>True</UsersChart>
+	<StatusBar.Visible>True</StatusBar.Visible>
+	<ScanningToolbarVisible>True</ScanningToolbarVisible>
+	<DataToolbarVisible>True</DataToolbarVisible>
+	<OverviewPanelVisible>True</OverviewPanelVisible>
+	<NavigationPanel.Width>300</NavigationPanel.Width>
+</GlobalOptions>

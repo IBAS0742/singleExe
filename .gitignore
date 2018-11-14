@@ -1,0 +1,10 @@
+/chrome-user-data
+/PanDownload/PanData/log
+/PanDownload/PanData/temp
+/PanDownload/PanData/config.ini
+/PanDownload/PanData/share.db
+/PanDownload/PanData/task.db
+/PanDownload/PanData/user.db
+open-electron-vue-admin-master-sync.bat
+myCommand.bat
+open.cmd
