@@ -1,0 +1,1038 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>PDF to IMAGE Converter</title>
+<style type="text/css">
+<!--
+.normal {font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+}
+.title {font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: #1561A5;
+}
+.style1 {color: #FF0000}
+.list_title { font-family: "Verdana, Arial, Helvetica", Times, serif; font-size: 14px; font-style: normal; font-weight: bold; color: #990000; }
+A.list_title_link { FONT-WEIGHT: bold; COLOR: #003300; FONT-FAMILY: Verdana, Arial, Helvetica; TEXT-DECORATION: none }
+A.list_title_link:visited { FONT-WEIGHT: bold; COLOR: #003300; FONT-FAMILY: Verdana, Arial, Helvetica; TEXT-DECORATION: none }
+A.list_title_link:active { FONT-WEIGHT: bold; COLOR: #003300; FONT-FAMILY: Verdana, Arial, Helvetica; TEXT-DECORATION: none }
+A.list_title_link:hover { FONT-WEIGHT: bold; COLOR: #ff0000; FONT-FAMILY: Verdana, Arial, Helvetica; TEXT-DECORATION: underline }
+
+.inc_title {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #990000;
+}
+.txt_title {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+	color: #000000;
+}
+.txt_title1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: bold;
+	color: #444444;
+}
+.txt_general {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.txt_general_s {
+	font-family: "Verdana, Arial, Helvetica", Times, serif;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: normal;
+	color: #000000;
+}
+.txt_general_link {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: normal;
+	color: #0000FF;
+	text-decoration: underline;
+}
+
+-->
+</style>
+</head>
+<body marginheight="0" marginwidth="0" leftmargin="0" rightmargin="0" topmargin="0" bottommargin="0">
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="border-bottom: #07B687 1px solid;">
+  <tr>
+    <td height="30" bgcolor="#eeeeee" class="txt_title">&nbsp;PDF to IMAGE Converter   </td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="18" class="txt_general">&nbsp;</td>
+    <td class="txt_general">&nbsp;</td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td width="20" height="25" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><font color="#0000FF">&nbsp;1. </font><a href="#section1" class="txt_general_link">Overview</a></td>
+    <td width="10" class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><font color="#0000FF">&nbsp;2. </font><a href="#section2" class="txt_general_link">Functions</a></td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><font color="#0000FF">&nbsp;3. </font><a href="#section3" class="txt_general_link">Installation&amp;Uninstallation</a></td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><font color="#0000FF">&nbsp;4. </font><a href="#section4" class="txt_general_link">System requestment</a></td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><font color="#0000FF">&nbsp;5. </font><a href="#section5" class="txt_general_link">Getting started</a></td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><font color="#0000FF">&nbsp;6. </font><a href="#section6">General Options</a></td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><font color="#0000FF">&nbsp;7. </font><a href="#section7">Page Options</a></td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><font color="#0000FF">&nbsp;8. </font><a href="#section8">Rename  Options</a></td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><font color="#0000FF">&nbsp;9. </font><a href="#section9">Image  Options</a></td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><font color="#0000FF">10. </font><a href="#section10" class="txt_general_link">Pages Range Setting</a></td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><font color="#0000FF">11. </font><a href="#section11" class="txt_general_link">Registration</a></td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="25" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><font color="#0000FF">12. </font><a href="#section12" class="txt_general_link">Copyright&amp;License</a></td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="border-bottom: #07B687 1px solid;">
+  <tr>
+    <td height="30" bgcolor="#eeeeee" class="txt_title">&nbsp;<A name="section1">1. Overview</A></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="10" class="txt_general">&nbsp;</td>
+    <td class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;<span class="title">AP PDF to IMAGE Batch Converter</span> is a useful pdf tool, the converter produces fully functional IMAGE documents with text, pictures, graphics etc, using the original PDF document formatting.It does not need any software support, such as Adobe Acrobat, Acrobat Reader, etc. </td>
+    <td width="10" class="txt_general">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="10" class="txt_general">&nbsp;</td>
+    <td class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;<span class="title">AP PDF to IMAGE Batch Converter</span> supports outputting result pages to be customized.You can select sevral pages document to convert,and even at the discretion of you to convert pages document. Such as &quot;1,2,3&quot;,&quot;2-100&quot; etc,more information,please reference to <a href="#section10">page range setting</a>. It process the documents one after another, to ensure a output directory for each of them and placing all the finished files of the document into its corresponding directory.</td>
+    <td width="10" class="txt_general">&nbsp;</td>
+  </tr>
+</table>
+<br>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="border-bottom: #07B687 1px solid;">
+  <tr>
+    <td height="30" bgcolor="#eeeeee" class="txt_title">&nbsp;<A name="section2">2. Functions</a></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="50" height="22" align="right" class="txt_general">(01)</td>
+    <td class="txt_general">&nbsp;It quickly convert pdf document to image format.</td>
+  </tr>
+  <tr>
+    <td height="22" align="right" class="txt_general">(02)</td>
+    <td class="txt_general">&nbsp;It supports batch pdf to tiff conversion.</td>
+  </tr>
+  <tr>
+    <td height="22" align="right" class="txt_general">(03)</td>
+    <td class="txt_general">&nbsp;It supports encrypted pdf file.</td>
+  </tr>
+  <tr>
+    <td align="right" class="txt_general">(04)</td>
+    <td class="txt_general">&nbsp;It supports outputting result pages to be customized.</td>
+  </tr>
+  <tr>
+    <td height="22" align="right" class="txt_general">(05)</td>
+    <td class="txt_general">&nbsp;It supports conversion of vector graphics into image files.</td>
+  </tr>
+  <tr>
+    <td height="22" align="right" class="txt_general">(06)</td>
+    <td class="txt_general">&nbsp;It supports multifarious image format,such as 'bmp','tiff','jpg','gif','png','pcx' etc. </td>
+  </tr>
+  <tr>
+    <td height="22" align="right" class="txt_general">(07)</td>
+    <td class="txt_general">&nbsp;It supports generate multipage tiff files.</td>
+  </tr>
+  <tr>
+    <td height="22" align="right" class="txt_general">(08)</td>
+    <td class="txt_general">&nbsp;It supports any resolution in the generated Image files. </td>
+  </tr>
+  <tr>
+    <td height="22" align="right" class="txt_general">(09)</td>
+    <td class="txt_general">&nbsp;It supports conversion into 1bit, 4bits, 8bits,4bits grayscale ,8tits grayscale and 24bits format image. </td>
+  </tr>
+  <tr>
+    <td height="22" align="right" class="txt_general">(10)</td>
+    <td class="txt_general">&nbsp;It supports multifarious compression of tiff image,such as LZW, JPEG,PACKBITS, CCITT Group3,CCITT Group4,RLE etc.</td>
+  </tr>
+  <tr>
+    <td height="22" align="right" class="txt_general">(11)</td>
+    <td class="txt_general">&nbsp;It supports  rename a group of image files using the Batch Rename Tool.</td>
+  </tr>
+  <tr>
+    <td height="22" align="right" class="txt_general">(12)</td>
+    <td class="txt_general">&nbsp;It supports custom size of images in pixel. </td>
+  </tr>
+  <tr>
+    <td height="22" align="right" class="txt_general">(13)</td>
+    <td class="txt_general">&nbsp;It supports rotate/flip result images, such as 90,180,270 degree.</td>
+  </tr>
+  <tr>
+    <td height="22" align="right" class="txt_general">(14)</td>
+    <td class="txt_general">&nbsp;It converts drag and drop of files. </td>
+  </tr>
+  <tr>
+    <td height="22" align="right" class="txt_general">(15)</td>
+    <td class="txt_general">&nbsp;It supports Win98/ME/NT/2000/XP/Vista platform.</td>
+  </tr>
+  <tr>
+    <td height="22" align="right" class="txt_general">(15)</td>
+    <td class="txt_general">&nbsp;It can automatic view the image files after converted.</td>
+  </tr>
+  <tr>
+    <td height="22" align="right" class="txt_general">(17)</td>
+    <td class="txt_general">&nbsp;It allows you to preserve original document layout.</td>
+  </tr>
+  <tr>
+    <td height="22" align="right" class="txt_general">(18)</td>
+    <td class="txt_general">&nbsp;It is easy to use stand-alone application.</td>
+  </tr>
+  <tr>
+    <td height="22" align="right" class="txt_general">(19)</td>
+    <td class="txt_general">&nbsp;It does not require Adobe Acrobat or Reader support.</td>
+  </tr>
+  <tr>
+    <td align="right" class="txt_general">(20)</td>
+    <td class="txt_general">&nbsp;Automatic installation and configuration.</td>
+  </tr>
+  <tr>
+    <td align="right" class="txt_general">(21)</td>
+    <td class="txt_general">&nbsp;Adobe Acrobat 3.0, 4.0, 5.0, 6.0 compatibility.</td>
+  </tr>
+</table>
+<br>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="30" height="22" align="right" class="txt_general">&nbsp;</td>
+    <td class="list_title">PDF to IMAGE effect pictures</td>
+  </tr>
+</table>
+<table width="500"  border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="258" align="center"><img src="img/effectpic1.jpg" width="202" height="250"></td>
+    <td width="242" align="center"><img src="img/effectpic2.jpg" width="202" height="250"></td>
+  </tr>
+  <tr>
+    <td align="center"><span class="g_content">(1) Source PDF file</span></td>
+    <td align="center"><span class="g_content">(2) Destination image file</span></td>
+  </tr>
+</table>
+<br>
+<span style="font-family:Helvetica,Arial; font-size:1pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:1pt; color:#010100"><span style="font-family:Helvetica,Arial; font-size:1pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:1pt; color:#010100">
+</span></span></span></span>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="border-bottom: #07B687 1px solid;">
+  <tr>
+    <td height="30" bgcolor="#eeeeee" class="txt_title">&nbsp;<A name="section3">3. Installation&amp;Uninstallation</a></td>
+  </tr>
+</table>
+<br>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="30" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><span class="txt_title">Installation: </span>You can <a href="http://www.adultpdf.com/products/pdftoimage/index.html" target="_blank">download</a> the programe setup file from our site at first,then double click the setup file,it will automaticlly be installed at you computer by default settings.Just press &quot;OK&quot; or &quot;Cancle&quot; etc. The steps reference to following.</td>
+    <td width="10" class="txt_general">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="30" class="txt_general">&nbsp;</td>
+    <td class="txt_general">&nbsp;</td>
+    <td width="10" class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="23" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><span class="txt_title">step 1.</span>   Double click the install file and then the setup 'welcome' window appears.</td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="23" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><span class="txt_title">step 2.</span>   Click &quot;Next&quot; appears the 'Select Destination Location' window,now you can select the programe installation directory or use default settings.</td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="23" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><span class="txt_title">step 3.</span>   Click &quot;Next&quot; appears the 'Select Start Memu Folder' window to let you select start menu folder,default folder is &quot;Ap PDF to IMAGE &quot;.Of course you can input any name of the folder which you like.</td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="23" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><span class="txt_title">step 4.</span>   Click &quot;Next&quot; appears the 'Select Additional Tasks'' window,it allows you to create a desktop icon and a quick launch icon after you check the settings.</td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="23" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><span class="txt_title">step 5.</span>   Click &quot;Next&quot; appears the 'Ready to Install' window,it allows you to start installation program.</td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="23" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><span class="txt_title">step 6.</span>   Click &quot;install&quot; to install the program to you computer,after the programe has been installed,it appears the 'completing' window.Then you click &quot;finish&quot;,the installation is over.</td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+</table>
+<br>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="30" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><span class="txt_title">Uninstallation: </span></td>
+    <td width="10" class="txt_general">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="30" class="txt_general">&nbsp;</td>
+    <td class="txt_general">&nbsp;</td>
+    <td width="10" class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="23" class="txt_general">&nbsp;</td>
+    <td class="txt_general">(1) Open windows system start menu,click &quot;Ap PDF to IMAGE &quot;-&gt;&quot;Uninstall Ap PDF to IMAGE &quot; to remove the program.</td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="23" class="txt_general">&nbsp;</td>
+    <td class="txt_general">(2) Open the Control Panel, double click Add/Remove Programs,and delete &quot;Ap PDF to IMAGE &quot; to remove the program.</td>
+    <td class="txt_general">&nbsp;</td>
+  </tr>
+</table>
+<br>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="border-bottom: #07B687 1px solid;">
+  <tr>
+    <td height="30" bgcolor="#eeeeee" class="txt_title">&nbsp;<A name="section4">4. System requestment</a></td>
+  </tr>
+</table>
+<br>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="10" class="txt_general">&nbsp;</td>
+    <td class="txt_general">&nbsp;&nbsp;&nbsp;<span class="txt_title">Supported Operation Systems</span></td>
+    <td width="10" class="txt_general">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="10" class="txt_general">&nbsp;</td>
+    <td class="txt_general">&nbsp;&nbsp;&nbsp;The following operation systems listed have been tested with<span class="title"> AP PDF to IMAGE Batch Converter</span> and are officially supported.</td>
+    <td width="10" class="txt_general">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="23" class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1) Microsoft Windows 2003 Server 32-bit Web Edition, Standard Edition and Enterprise Edition;</td>
+  </tr>
+  <tr>
+    <td height="23" class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) Microsoft Windows 2003 Server x64 Web Edition, Standard Edition and Enterprise Edition;</td>
+  </tr>
+  <tr>
+    <td height="23" class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3) Microsoft Windows XP Professional and Home Edition;</td>
+  </tr>
+  <tr>
+    <td height="23" class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(4) Microsoft Windows XP x64 Professional;</td>
+  </tr>
+  <tr>
+    <td height="23" class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(5) Microsoft Windows 2000 Server and Advanced Server;</td>
+  </tr>
+  <tr>
+    <td height="23" class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(6) Microsoft Windows 2000 Professional;</td>
+  </tr>
+  <tr>
+    <td height="23" class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(7) Microsoft Windows Vista Ultimage and Home Edition;</td>
+  </tr>
+</table>
+<br>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="10" class="txt_general">&nbsp;</td>
+    <td class="txt_general">&nbsp;&nbsp;&nbsp;<span class="txt_title"><span class="SM_Title">Recommended hardware</span></span></td>
+    <td width="10" class="txt_general">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="23" class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1) <b>CPU: </b>Intel(or Standard PC) 800MHz or faster compatible x86 processor;</td>
+  </tr>
+  <tr>
+    <td height="23" class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) <b>RAM: </b>256MB or more RAM recommended, 128MB minimum;</td>
+  </tr>
+  <tr>
+    <td height="23" class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3) <b>Hard-disk: </b>100MB free space recommended, 50MB free space required;</td>
+  </tr>
+</table>
+<br>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="border-bottom: #07B687 1px solid;">
+  <tr>
+    <td height="30" bgcolor="#eeeeee" class="txt_title">&nbsp;<A name="section5" id="section5">5. Getting Started</a></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20"><table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="30">&nbsp;</td>
+        </tr>
+      </table>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="25" class="g_content">&nbsp;</td>
+          <td class="txt_general"><span class="title">AP PDF to IMAGE Batch Converter</span>            is very easy to use. All you need to do is to choose the pdf documents that you want to convert and modify the settings, after that you just need to click &quot;Convert&quot; button. The
+            
+            
+          main interface looks like below picture. </td>
+        </tr>
+      </table>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0" style="border-bottom: #07B687 1px solid;">
+        <tr>
+          <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/main.jpg" width="442" height="284"></td>
+        </tr>
+      </table>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="20">&nbsp;</td>
+        </tr>
+      </table>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="20" class="SM_Title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="inc_title">Quick to use AP Pdf to IMAGE Batch Converter. </span></td>
+        </tr>
+      </table>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="23" height="20" class="g_content">&nbsp;</td>
+          <td class="txt_general"><span class="b_content">step 1.</span>&nbsp;&nbsp; You just clik the button &quot;Add Files&quot; or &quot;Add Directories&quot; to add pdf files which  will be converted image files into the programe list, or you can move the mouse upon the programe list and right press  mouse, it appears the pop-up menu, you select  buttom &quot;Add files...&quot; or &quot;Add directories...&quot;, which has same function. It looks like the following window. </td>
+        </tr>
+      </table>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/using1_1.jpg" width="441" height="284"></td>
+        </tr>
+      </table>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="23" height="20" class="g_content">&nbsp;</td>
+          <td class="txt_general"><span class="b_content">step 2.</span>&nbsp;&nbsp; After the pdf files have been added into the programe list, you can set attributes of any one pdf file, just you move the mouse upon the pdf file and double click mouse, then it appears the following items edit window, also you can set a group of pdf files you selected. If you accept the default settings, the following all you need to do is to click &quot;Convert&quot;. You can modify  pages range and destination directory in the items window, more about pages range, please click <a href="#section10">here</a>. </td>
+        </tr>
+      </table>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/using2_1.jpg" width="442"></td>
+        </tr>
+      </table>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="23" height="20" class="g_content">&nbsp;</td>
+          <td class="txt_general"><span class="b_content">step 3.</span>&nbsp;&nbsp; When all attributes about the pdf file have been sured, all you need to do is click button &quot;OK&quot; to accept or button &quot;Cancel&quot; to reject.If you click button &quot;OK&quot;, the programe start to work. It looks like the following window. When the program is working, all button are disabled except the button &quot;Stop&quot;.</td>
+        </tr>
+      </table>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/using3_1.jpg" width="442"></td>
+        </tr>
+      </table>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="23" height="20" class="g_content">&nbsp;</td>
+          <td class="txt_general"><span class="b_content">step 4.</span>&nbsp;&nbsp; Usually, the pdf files have been converted, you want to view the outputting result image files. Here you can move the mouse upon the pdf file and right press mouse, it appears pop-up menu, then select button &quot;Browse Image Files&quot; to open result image files automatically.</td>
+        </tr>
+      </table>
+      <table width="100%"  border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td height="20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="img/using4_1.jpg" width="442"></td>
+        </tr>
+      </table></td>
+  </tr>
+</table>
+<br>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="border-bottom: #07B687 1px solid;">
+  <tr>
+    <td height="30" bgcolor="#eeeeee" class="txt_title">&nbsp;<A name="section6" id="section6">6. General Options</a></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="30" class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click the <strong>"Settings" </strong> button, then select the <strong>&quot;General Options &quot;</strong> page.</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="border-bottom: #07B687 1px solid;">
+  <tr>
+    <td>&nbsp;&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20" class="list_title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(1) Save Mode</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="10">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="25">&nbsp;</td>
+    <td class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;The system supports two kinds of save mode. You can save the  result of image  documents to the input directory,also save to the custom directory.If the custom directory is not exist,it will be created.
+      
+      
+      By default, the system places the image documents in the same directory with the PDF document.
+      
+      
+      If you need to save image files to other directories, check the <strong>"Save to following directory " </strong> and click the <strong>"Browse" </strong> button. You may also manually type in the directory name or just copy/paste it.</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="10">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20" class="list_title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(2) PDF Security </td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="10">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="25" height="20">&nbsp;</td>
+    <td class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;Usually,There are some PDF documents which encrypted, they cannot be edited or their contents cannot be copied,you will need a password  to see the contents of the documents. Thus, in order to convert the documents, you will need to provide a password. </td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="10">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20" class="list_title">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(3) Record Log</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="25">&nbsp;</td>
+    <td class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp; You can sure to record log after you check the &quot;Record Log &quot;,and you can place log file at any directory which you like,the log file is default placed at the program directory. The information that program recorded looks like the following. <br>
+        <br>
+  &nbsp;&nbsp;&nbsp;&nbsp; SOURCE_PDF_FILE: [C:\_mypdftest\test_txt_a1.pdf]<br>
+  &nbsp;&nbsp;&nbsp;&nbsp; DESTINATION_DIR: [C:\_mypdftest]<br>
+  &nbsp;&nbsp;&nbsp;&nbsp; STATUS: [success]<br>
+  &nbsp;&nbsp;&nbsp;&nbsp; Message: [Conversion success.]<br>
+  &nbsp;&nbsp;&nbsp;&nbsp; DATE_TIME: [2007-03-16 09:57:04]
+  <p>&nbsp;&nbsp;&nbsp;&nbsp; SOURCE_PDF_FILE: [C:\_mypdftest\test_txt_a2.pdf]<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; DESTINATION_DIR: [C:\_mypdftest]<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; STATUS: [failure]<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; Message: [Damaged or restricted pdf file.]<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; DATE_TIME: [2007-03-16 09:58:35]</p>
+  <p>&nbsp;&nbsp;&nbsp;&nbsp; SOURCE_PDF_FILE: [C:\_mypdftest\test_txt_a3.pdf]<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; DESTINATION_DIR: [C:\_mypdftest]<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; STATUS: [failure]<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; Message: [Conversion be stopped.]<br>
+    &nbsp;&nbsp;&nbsp;&nbsp; DATE_TIME: [2007-03-16 09:59:48]<br>
+    <br>
+  </p>
+  </td></tr>
+</table>
+<br>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="border-bottom: #07B687 1px solid;">
+  <tr>
+    <td height="30" bgcolor="#eeeeee" class="txt_title">&nbsp;<A name="section7" id="section7">7. Page Options</a></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="30" class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click the <strong>"Settings" </strong> button, then select the <strong>&quot;Page Options&quot;</strong> page.</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="border-bottom: #07B687 1px solid;">
+  <tr>
+    <td>&nbsp;&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20" class="list_title"><span class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>(1) Page Range </td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="10">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="25" height="20">&nbsp;</td>
+    <td class="txt_general">The system supports to customize pages. You can select several pages document to convert, and even at the discretion of you to convert pages document. Such as &quot;1,2,3&quot;,&quot;2-100&quot; etc, more information, please reference to <a href="#section10">pages range setting</a>.</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="10">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20" class="list_title"><span class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>(2) Page Zoom </td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="10">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="25" height="20">&nbsp;</td>
+    <td class="txt_general">You can zoom the fonts, images, graphics and the pages to be suitable for reading. The programe supports 50 percent to 200 percent of page size.</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="10">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20" class="list_title"><span class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>(3) Custom Image Size </td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="10">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="25" height="20">&nbsp;</td>
+    <td class="txt_general">By setting the options &quot;width&quot; and &quot;height&quot;, you can customize the width or height of the final result image in pixel.</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="10">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20" class="list_title"><span class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>(4) Custom Image Rotated Angle</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="10">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="25" height="20">&nbsp;</td>
+    <td class="txt_general">You can rotate an image in 90-degree increments, or you can select the amount of rotation in degrees. You can save your options as a preset  for future use. The following is a picture example.</td>
+  </tr>
+</table>
+<table  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="10"><img src="img/spdf.jpg" width="343" height="349"></td>
+    <td><img src="img/nonono.jpg" width="5" height="0"></td>
+    <td valign="bottom"><img src="img/dimg.jpg" height="343"></td>
+  </tr>
+  <tr>
+    <td height="20" align="center" class="g_content">7.1 Source PDF File.</td>
+    <td align="center" class="g_content">&nbsp;</td>
+    <td align="center" class="g_content"> 7.2 After rotated in 90-degree.</td>
+  </tr>
+</table>
+<br>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="border-bottom: #07B687 1px solid;">
+  <tr>
+    <td height="30" bgcolor="#eeeeee" class="txt_title">&nbsp;<A name="section8" id="section8">8. Rename Options</a></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="30" class="txt_general"><span class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>Click the <strong>" <strong>Edit Selected Items...</strong> " </strong> button, then select the <strong>&quot;Rename Options &quot;</strong> page.</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="22" height="20" class="g_content">&nbsp;</td>
+    <td class="g_content">You can use the batch rename tool to rename a group of files. You can specify a template with a numerical or alphabetical sequence, save your template for future use, replace specific characters or phrases, and insert file-specific information into each new file name.</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="border-bottom: #07B687 1px solid;">
+  <tr>
+    <td>&nbsp;&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20" class="b_content"><span class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="list_title">(1) To rename a group of files: </span></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="10">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="25">&nbsp;</td>
+    <td class="txt_general"><li>In the list, Select one or more pdf files, move the mouse upon the selected items and right press mouse, it appears pop-up menu, select the button &quot; <span class="b_content">Edit Selected Items...</span>&quot;, it looks like the following picture: <br>
+            <img src="img/rename.jpg" width="400" height="227"> <br>
+    </li></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td class="txt_general"><li>It appears <span class="b_content">items edition</span> dialog, now you can select the <strong>&quot;<span class="b_content">Rename Options </span>&quot;</strong> page, it looks like the following picture : <br>
+            <img src="img/template.jpg"><br>
+    </li></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td class="txt_general"><li> check the 
+      
+      
+    &quot;<span class="b_content">Use Template to rename files</span>&quot; check box to specify the <a href="#Template">Template options </a>. </li></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td class="txt_general"><li>Review your changes to the file image names in the preview list.</li></td>
+  </tr>
+  <tr>
+    <td>&nbsp;</td>
+    <td class="txt_general"><li> After rename setting completed, click the button &quot;OK&quot; to finish all the options or click other option pages to continue. </li></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="10">&nbsp;</td>
+  </tr>
+</table>
+<br>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" >
+  <tr>
+    <td height="25"><span class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span><span class="list_title">(2) Batch Rename options</span></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="1" cellpadding="0" style="border-top: #07B687 1px solid;">
+  <tr>
+    <td width="22" valign="top"><p class="b_content">&nbsp;</p></td>
+    <td width="140" valign="top" class="txt_general"><span class="b_content"><a name=Template></a>Template options </span></td>
+    <td valign="top" class="txt_general"><p>Select the &quot;<span class="b_content">Use Template to rename files</span>&quot; check box to create a renaming template. You can specify a numerical or alphabetical sequence for the new file names, and use the original file names, new names, or names based on image metadata.</p></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="1" cellpadding="0">
+  <tr>
+    <td width="22" height="10">&nbsp;</td>
+    <td width="140" class="txt_general">&nbsp;</td>
+    <td width="110" height="50" bgcolor="eeeeee" class="txt_general"><span class="b_content">Use numbers to replace #'s</span></td>
+    <td bgcolor="#FFFFcc" class="txt_general"><p class="g_content">Replaces any number signs (#) in the template with sequential numeric characters. </p></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="1" cellpadding="0">
+  <tr>
+    <td width="22" height="10">&nbsp;</td>
+    <td width="140" class="txt_general">&nbsp;</td>
+    <td width="110" height="50" bgcolor="eeeeee" class="txt_general"><span class="b_content">Use letters to replace #'s </span></td>
+    <td bgcolor="#FFFFcc" class="txt_general"><p>Replaces any number signs (#) in the template name with sequential alphabetic characters. </p></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="1" cellpadding="0">
+  <tr>
+    <td width="22" height="10">&nbsp;</td>
+    <td width="140" class="txt_general">&nbsp;</td>
+    <td width="110" height="50" bgcolor="eeeeee" class="txt_general"><span class="b_content">Start at </span></td>
+    <td bgcolor="#FFFFcc" class="txt_general"><p> Specifies the first letter or number of the sequence. </p></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="1" cellpadding="0">
+  <tr>
+    <td width="22" height="10">&nbsp;</td>
+    <td width="140" class="txt_general">&nbsp;</td>
+    <td width="110" height="50" bgcolor="eeeeee" class="txt_general"><span class="b_content">Insert Metadata</span></td>
+    <td bgcolor="#FFFFcc" class="txt_general"><font color="#FF0000">Inserts file-specific information into the file name template.</font><br>
+      Position the cursor in the Template field, and then click &quot;<span class="b_content">Insert...</span>&quot; button  to open the &quot;<span class="b_content">Metadata</span>&quot; dialog. Select the metadata you want to insert and click &quot;<span class="b_content">OK</span>&quot; button.</td>
+  </tr>
+</table>
+<br>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="border-bottom: #07B687 1px solid;">
+  <tr>
+    <td height="30" bgcolor="#eeeeee" class="txt_title">&nbsp;<A name="section9" id="section9">9. Image Options</a></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="30" class="txt_general"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click the <strong>"Settings" </strong> button, then select the <strong>&quot;Image Options &quot;</strong> page.</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="border-bottom: #07B687 1px solid;">
+  <tr>
+    <td>&nbsp;&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="25">&nbsp;</td>
+    <td class="txt_general">Through the tiff option you can set outputting result tiff dpi, 1 or 4 or 8 or 24 color bits of the tiff, colorized or grayscale palette,jpg compression quality, the compression of the tiff and mutiple pages tiff file etc. </td>
+  </tr>
+</table>
+<br>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="border-bottom: #07B687 1px solid;">
+  <tr>
+    <td height="30" bgcolor="#eeeeee" class="txt_title">&nbsp;<A name="section10" id="section10">10. Pages Range Setting</a></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="22" height="30">&nbsp;</td>
+    <td class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;The system supports <span class="g_content"> to customize pages.You can select sevral pages document to convert,and even at the discretion of you to convert pages document. Such as &quot;1,2,3&quot;,&quot;2-100&quot; etc,more information reference to the following. </span></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="22" height="30">&nbsp;</td>
+    <td><table width="700" border="1" cellpadding="0" cellspacing="0" bordercolorlight="#E7E7E7" bordercolordark="#FFFFFF">
+      <tr bgcolor="#B5FFE1" class="b_content">
+        <td width="180" class="txt_title">Page range</td>
+        <td width="520" class="txt_title">Description</td>
+      </tr>
+      <tr>
+        <td height="25" class="txt_general">2</td>
+        <td class="txt_general">Extract page number 2 into pdf document. </td>
+      </tr>
+      <tr>
+        <td height="25" class="txt_general">2,7</td>
+        <td class="txt_general">Extract pages 2 and 7 into pdf document. </td>
+      </tr>
+      <tr>
+        <td height="25" class="txt_general">1-9</td>
+        <td class="txt_general">Extract pages containing pages 1 through 9. </td>
+      </tr>
+      <tr>
+        <td height="25" class="txt_general">-3</td>
+        <td class="txt_general">Extract pages containing pages 1 through 3 . </td>
+      </tr>
+      <tr>
+        <td height="25" class="txt_general">5-</td>
+        <td class="txt_general">Extract pages containing pages 5 through end. </td>
+      </tr>
+      <tr>
+        <td height="25" class="txt_general">1,5-20,25,30-</td>
+        <td class="txt_general">Extract pages containing pages 1,5 through 20, 25 and 30 through end.</td>
+      </tr>
+    </table></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+</table>
+<br>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="border-bottom: #07B687 1px solid;">
+  <tr>
+    <td height="30" bgcolor="#eeeeee" class="txt_title">&nbsp;<A name="section11" id="section11">11. Registration</a></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="list_title"><span class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>(1) Demo version</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="25" height="16">&nbsp;</td>
+    <td class="txt_general">You can free download a demo version at <a href="http://www.adultpdf.com/products/pdftoimage/index.html" target="_blank">http://www.adultpdf.com/products/pdftoimage/index.html</a></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="25" height="19">&nbsp;</td>
+    <td class="txt_general"><span class="SM_Title"><br>
+    </span>Limitations of the demo version: <br>
+    You are allowed to process only up to 10 pages of each pdf files simultaneously.</td>
+  </tr>
+</table>
+<span style="font-family:Helvetica,Arial; font-size:1pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:1pt; color:#010100">
+<hr>
+</span></span>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="list_title"><span class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>(2) Buy now </td>
+  </tr>
+</table>
+<table width="100%" height="32"  border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="25" height="26">&nbsp;</td>
+    <td><span class="txt_general">You can 
+      
+      
+      order AP Pdf to Tiff Batch Converter online.
+      Click <a href="https://www.regnow.com/softsell/nph-softsell.cgi?item=13446-3" target="_blank">here</a> to buy right now.<br>
+    <a href="#section12">Single License</a> - only $39.9,thanks for you support.</span></td>
+  </tr>
+</table>
+<span style="font-family:Helvetica,Arial; font-size:1pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:1pt; color:#010100">
+<hr>
+</span></span>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td class="list_title"><span class="txt_general">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>(3) Technology support </td>
+  </tr>
+</table>
+<table width="100%" height="48"  border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="25" height="26">&nbsp;</td>
+    <td class="g_content"><p class="txt_general"><span class="txt_title">Guarantee: </span>We are committed to providing excellent products and support to our customers. If you are dissatisfied with a adultpdf product after your purchase, we will refund your money.</p>
+        <p><span class="txt_title">Privacy Policy: </span>We will not give, sell or otherwise transfer your personal information to third parties. Unless you ask us not to, we will send occasional email about new products and releases.</p>
+        <p><span class="txt_title">Ongoing Open Dialog:</span> Our customers are our most valuable resource. Please <a href="mailto:sales@adultpdf.com?subject=product%20suggestion">let us know </a> how we can improve our products and we will try our best to implement your suggestions.</p></td>
+  </tr>
+</table>
+<span style="font-family:Helvetica,Arial; font-size:1pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:1pt; color:#010100">
+<hr>
+</span></span>
+<table width="100%" height="32"  border="0" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="25" height="26">&nbsp;</td>
+    <td><span class="txt_general">If you have some questions about 
+      
+      
+      registering our product(s),or programe bugs,or suggestions of our product(s),or suggestions of our site,we will welcome you to contact us.<br>
+      &nbsp;&nbsp;Our sales email: <u><a href="mailto:sales@adultpdf.com">sales@adultpdf.com</a></u><br>
+    &nbsp;&nbsp;Our support email: <u><a href="mailto:support@adultpdf.com">support@adultpdf.com</a></u></span></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20">&nbsp;</td>
+  </tr>
+</table>
+<br>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0" style="border-bottom: #07B687 1px solid;">
+  <tr>
+    <td height="30" bgcolor="#eeeeee" class="txt_title">&nbsp;<A name="section12" id="section12">12. Copyright&amp;License</a></td>
+  </tr>
+</table>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="10" height="35" class="txt_general">&nbsp;</td>
+    <td class="txt_general"><table cellspacing="0" cellpadding="0">
+      <tr>
+        <td></td>
+      </tr>
+    </table>
+      <table cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="10"></td>
+          <td class="txt_title" align="center">"AP  PDF to IMAGE Batch Converter " Software License </td>
+          <td class="txt_general" width="10"></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td class="txt_general"><p>1. License. <br>
+                  <strong>AP  PDF to <span class="txt_title">IMAGE</span> Batch Converter </strong> software ( <strong>"the Software" </strong>), documentation accompanying this License on any media or in any form are licensed, to you by adultpdf.com Inc. adultpdf.com Inc. retains title to the Software. The Software and any copies which this License authorizes you to make are subject to this License. </p>
+              <p>2. Authorized Use and Restrictions. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;This License allows you to install and use the Software on less than or up to the number of computers you have purchased the License for. If you purchased a License for one CPU, you may use the Software on only one machine at a time. A multi-processor computer is considered as one CPU for the purpose of this License. If you purchased the unlimited License, you may use the Software on anyone machine at any time and distribute the product to all your customers. You may not decompile, reverse engineer, disassemble, rent, lease, loan, distribute(not unlimited License), or produce derivative works from the Software. You may transfer your rights under this License provided that you transfer the related documentation, this License and a copy of the Software to a party who agrees to accept the terms of this License and destroy any and all copies of the Software in your possession. This License will terminate automatically without notice from adultpdf.com Inc if you fail to comply with any term(s) of this License. </p>
+              <p>3. Limitation of Liability. <br>
+&nbsp;&nbsp;&nbsp;&nbsp;UNDER NO CIRCUMSTANCES, INCLUDING NEGLIGENCE, SHALL adultpdf.com INC. BE LIABLE FOR ANY INCIDENTAL, SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES ARISING OUT OF OR RELATING TO THIS LICENSE. SOME JURISDICTIONS DO NOT ALLOW THE LIMITATION OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THIS LIMITATION MAY NOT APPLY TO YOU. IN NO EVENT, adultpdf.com Inc.'S TOTAL LIABILITY TO YOU FOR ALL DAMAGES EXCEED THE AMOUNT YOU PAID TO adultpdf.com Inc. OR ITS AUTHORIZED DISTRIBUTOR. </p>
+              <p>4. Complete Agreement <br>
+&nbsp;&nbsp;&nbsp;&nbsp;This License constitutes the entire agreement between the parties with respect to the use of the Software and supercedes all (if any) prior or contemporaneous understandings. No amendment to or modification of this License will be binding unless in writing and signed by an authorized officer of adultpdf.com Inc. </p>
+              <p>--- end --- </p></td>
+        </tr>
+      </table></td>
+    <td width="10" class="txt_general">&nbsp;</td>
+  </tr>
+</table>
+<br>
+<span style="font-family:Helvetica,Arial; font-size:1pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:1pt; color:#010100"><span style="font-family:Helvetica,Arial; font-size:1pt; color:#000000"><span style="font-family:Helvetica,Arial; font-size:1pt; color:#010100">
+<hr>
+</span></span></span></span>
+<table width="100%"  border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td height="20" align="right" class="txt_general"><a href="http://www.adultpdf.com" target="_blank" class="txt_general">http://www.adultpdf.com</a>&nbsp;&nbsp;</td>
+  </tr>
+  <tr>
+    <td height="20" align="right" class="txt_general">Copyright 2000-2008 by AdultPDF Technology, Inc. All rights reserved.</td>
+  </tr>
+</table>
+</body>
+</html>

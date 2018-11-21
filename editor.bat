@@ -1,0 +1,1 @@
+start %~dp0/editor/UltraEdit-21.20.0.1009.exe

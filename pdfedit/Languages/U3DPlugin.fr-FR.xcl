@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Localization>
+	<Version date="20180920235558">2.00.00</Version>
+	<Author>Swirti</Author>
+	<Copyright></Copyright>
+	<Product id="PDFXEditor"/>
+	<Language eName="French (France)" lName="français" code="fr-FR" R2L="false"/>
+	<Module name="U3DPlugin" namespace="u3d" version="1.0.0.1"/>
+	<Strings>
+		<text id="3DRenderingCrashed.str" h="3B1E0F07">Nous sommes désolés que le moteur de rendu 3D se soit planté. Pour réinitialiser le rendu 3D, veuillez ré-ouvrir le document.</text>
+		<text id="3DSceneFailed.str" h="27A53BDF">L'initialisation de la scène 3D a échoué.</text>
+		<text id="appPrefsPage.PickMode.TreeOrder" h="F1D70337">Ordre d'arborescence d'objet</text>
+		<text id="appPrefsPage.PickMode.ZOrder" h="8F0DAF26">Z-Ordre</text>
+		<text id="appPrefsPage.gr.3DToolOptions" h="FA532EE7">Options de l'outil 3D</text>
+		<text id="appPrefsPage.lb.PickMode" h="26EFD83B">Mode de sélection :</text>
+		<text id="appPrefsPage.name" h="86A64F71">Multimédia 3D</text>
+		<text id="appPrefsPage.tip" h="878BC70D">Options multimédia 3D</text>
+		<text id="appPrefsPage.title" h="878BC70D">Options multimédia 3D</text>
+		<text id="btn.default" h="3BF809E4">Faire par défaut</text>
+		<text id="btn.moveDown" h="4CE68730">Descendre</text>
+		<text id="btn.moveUp" h="4454FC42">Monter</text>
+		<text id="ck.bgColor" h="799B39A6">Couleur d'arrière-plan</text>
+		<text id="ck.cameraProps" h="C62520F7">Propriétés de la caméra</text>
+		<text id="ck.crossSection" h="B6196404">Informations sur les coupes transversales</text>
+		<text id="ck.enable3D" h="90C6F9B5">Activer le contenu 3D</text>
+		<text id="ck.lighting" h="3C76D70F">Éclairage</text>
+		<text id="ck.nodesVis" h="39891BF4">Visibilité des nœuds</text>
+		<text id="ck.renderMode" h="CDA80CD8">Mode de rendu</text>
+		<text id="cmd.3dContent.trustAlways" h="C6E70253">Faire toujours confiance à ce document</text>
+		<text id="cmd.3dContent.trustOnce" h="6AE4F0D7">Faire confiance à ce document une seule fois</text>
+		<text id="cmd.3dContentOpts" h="DAD7B4F4">Options</text>
+		<text id="cmd.3dContentOpts.tip" h="46505A9A">Cliquer pour activer les fonctions</text>
+		<text id="cmd.bkColor" h="799B39A6">Couleur d'arrière-plan</text>
+		<text id="cmd.cameraProps" h="C62520F7">Propriétés de la caméra</text>
+		<text id="cmd.defView" h="A1F14B2B">Vue par défaut</text>
+		<text id="cmd.views" h="0F296AD5">Vue :</text>
+		<text id="cmd.lights" h="41B4EB09">Activer l'éclairage supplémentaire</text>
+		<text id="cmd.lights.blue" h="8260E908">Lumières bleues</text>
+		<text id="cmd.lights.bright" h="823BCCBE">Lumières vives</text>
+		<text id="cmd.lights.cad" h="AD651D68">Lumières optimisées CAO</text>
+		<text id="cmd.lights.cube" h="42BF9D65">Lumières cubiques</text>
+		<text id="cmd.lights.day" h="8557E3BE">Lumières du jour</text>
+		<text id="cmd.lights.fromFile" h="99CAE2B8">Lumières à partir d'un fichier</text>
+		<text id="cmd.lights.headlamp" h="B39BFE2E">Lumières des phares</text>
+		<text id="cmd.lights.night" h="691DC354">Lumières de nuit</text>
+		<text id="cmd.lights.none" h="E0CDE3D3">Pas d'éclairage</text>
+		<text id="cmd.lights.primary" h="99F9E5F8">Lumières de couleur primaire</text>
+		<text id="cmd.lights.red" h="05777E8F">Lumières rouges</text>
+		<text id="cmd.lights.white" h="319B404A">Lumières blanches</text>
+		<text id="cmd.orthoPerspProj.ortho" h="15C31A48">Utiliser la projection orthographique</text>
+		<text id="cmd.orthoPerspProj.ortho.tip" h="B336199D">Modèle de rendu en projection orthographique</text>
+		<text id="cmd.orthoPerspProj.persp" h="49402634">Utiliser la projection de perspective</text>
+		<text id="cmd.orthoPerspProj.persp.tip" h="330F26E9">Modèle de rendu en projection en perspective</text>
+		<text id="cmd.renderMode" h="9892CD92">Mode de rendu du modèle</text>
+		<text id="cmd.renderMode.default" h="F24132BD">Par &amp;défaut</text>
+		<text id="cmd.renderMode.shadedVertices" h="40BE83AC">Sommets ombrés</text>
+		<text id="cmd.renderMode.shadedWireframe" h="9AD020E4">Fil de fer ombré</text>
+		<text id="cmd.renderMode.solid" h="9C9EA9A8">Solide</text>
+		<text id="cmd.renderMode.solidWireframe" h="3021EBF2">Fil de fer solide</text>
+		<text id="cmd.renderMode.transp" h="7E3661B2">Transparent</text>
+		<text id="cmd.renderMode.transpWireframe" h="A0633588">Fil de fer transparent</text>
+		<text id="cmd.renderMode.vertices" h="12B46ED2">Sommets</text>
+		<text id="cmd.renderMode.wireframe" h="F5D7B853">Fil de fer</text>
+		<text id="cmd.startPauseAnim.tip" h="3A44AF42">Joue/suspend l'animation du modèle</text>
+		<text id="cmd.startPauseAnim.play" h="C2662211">Jouer l'animation</text>
+		<text id="cmd.startPauseAnim.pause" h="743DFB17">Suspendre l'animation</text>
+		<text id="cmd.tools" h="3D87CAC3">Ou&amp;tils</text>
+		<text id="cmd.rotate" h="2D90BC43">&amp;Rotation</text>
+		<text id="cmd.rotate.tip" h="18368F2D">Rotation</text>
+		<text id="cmd.spin" h="D0678B2C">Pivoter</text>
+		<text id="cmd.spin.tip" h="9224F8BB">Pivoter</text>
+		<text id="cmd.walk" h="D60E509F">Marcher</text>
+		<text id="cmd.walk.tip" h="944D2308">Marche</text>
+		<text id="cmd.zoom" h="33EE2C56">&amp;Zoom</text>
+		<text id="cmd.zoom.tip" h="71AD5FC1">Zoom</text>
+		<text id="cmd.fly" h="96EAF75B">Survoler</text>
+		<text id="cmd.fly.tip" h="A9F39C8A">Survole</text>
+		<text id="cmd.pan" h="B48C4A96">Panoramique</text>
+		<text id="cmd.pan.tip" h="8B952147">Panoramique</text>
+		<text id="cmd.partOptions" h="066AF13F">Options des pièces</text>
+		<text id="cmd.viewingOptions" h="B7019F33">Options d'affichage</text>
+		<text id="cmd.lightSchemes" h="8C1BFE4C">Plan d'éclairage</text>
+		<text id="cmd.3DPrefs" h="BB6488C0">Préférences &amp;3D...</text>
+		<text id="cmd.tree.hide" h="C4F1F414">Masquer</text>
+		<text id="cmd.tree.hide.tip" h="8AA8B90C">Masquer le nœud sélectionné</text>
+		<text id="cmd.tree.show" h="C3CA8E89">Afficher</text>
+		<text id="cmd.tree.show.tip" h="790D864F">Affiche le nœud sélectionné</text>
+		<text id="cmd.tree.isolate" h="9FBD280C">&amp;Isoler</text>
+		<text id="cmd.tree.isolate.tip" h="D5DA7C68">Masquer tous les nœuds du modèle sauf celui sélectionné</text>
+		<text id="cmd.tree.isolatePart" h="7751F8EC">Isoler la partie</text>
+		<text id="cmd.tree.isolatePart.tip" h="A3D5F690">Masquer tous les nœuds du modèle sauf la partie contenant le nœud sélectionné</text>
+		<text id="cmd.tree.zoom2part" h="29498553">Zoom sur la pièce</text>
+		<text id="cmd.tree.zoom2part.tip" h="AF54E436">Zoome la caméra sur le nœud sélectionné</text>
+		<text id="cmd.tree.partRenderMode" h="16069F94">Mode de rendu des éléments</text>
+		<text id="cmd.tree.partRenderMode.tip" h="821E3259">Définit le mode de rendu pour la partie sélectionnée</text>
+		<text id="cmd.tree.modelRenderMode" h="9892CD92">Mode de rendu du modèle</text>
+		<text id="cmd.tree.modelRenderMode.tip" h="9F89C88A">Définit le mode de rendu pour le modèle entier</text>
+		<text id="cmd.tree.showAll" h="24F4F631">Afficher toutes les parties</text>
+		<text id="cmd.tree.showAll.tip" h="144FE078">Affiche toutes les parties cachées</text>
+		<text id="cmd.tree.fitVisible" h="9F4225F9">Ajuster au visible</text>
+		<text id="cmd.tree.fitVisible.tip" h="614956B4">Zoom de la caméra pour s'adapter à toutes les parties visibles</text>
+		<text id="cmd.tree.showBBox" h="8E963AD7">Afficher la boîte de délimitation</text>
+		<text id="cmd.tree.showBBox.tip" h="3B27C053">Affiche la boîte de délimitation autour de la partie sélectionnée</text>
+		<text id="cmd.tree.bboxColor" h="36C9D753">Définir la couleur de la boîte de délimitation...</text>
+		<text id="cmd.tree.bboxColor.tip" h="3C62FC40">Définit la couleur de la boîte de délimitation</text>
+		<text id="cmd.tree.makeTransparent" h="0759BABB">Rendre &amp;transparent</text>
+		<text id="cmd.content.activate" h="49AB8AFC">Activer le contenu</text>
+		<text id="cmd.content.activate.tip" h="2131B8C8">Active le contenu</text>
+		<text id="cmd.content.deactivate" h="B4BBF1FD">Désactiver le contenu</text>
+		<text id="cmd.content.deactivate.tip" h="C7463B10">Désactive le contenu</text>
+		<text id="cmd.toolbar.show" h="D86490DE">Afficher la barre d'ou&amp;tils</text>
+		<text id="cmd.toolbar.show.tip" h="DF2DAC82">Affiche la barre d'outils à côté de la vue 3D</text>
+		<text id="cmd.toolbar.hide" h="FE5E382C">Masquer la barre d'ou&amp;tils</text>
+		<text id="cmd.toolbar.hide.tip" h="7734A008">Masque la barre d'outils 3D</text>
+		<text id="directx9.str" h="4DB13F37">DirectX 9</text>
+		<text id="gr.inheritProps" h="F5C46974">Hériter de la vue courante :</text>
+		<text id="ibar.3dContent" h="4EE9C4B1">Infos sur le contenu 3D</text>
+		<text id="ibar.3dContent.desc" h="B9385C56">Demande l'autorisation d'activer le contenu 3D dans le document</text>
+		<text id="ibar.3dContent.text" h="5E8AC651">Le contenu 3D a été désactivé. Activez cette fonctionnalité si vous faites confiance à ce document.</text>
+		<text id="lbl.HighlightColor" h="5F548840">Couleur surbrillance :</text>
+		<text id="lbl.framerate" h="E28DF43C">Cadence d'images (FPS) :</text>
+		<text id="lbl.renderingEngine" h="0F210502">Moteur de rendu :</text>
+		<text id="lbl.viewName" h="64A879B2">Nom de la vue :</text>
+		<text id="manageViews" h="8D0BFCAB">Gérer les vues</text>
+		<text id="manageViews.List.defaultItem" h="F93BCF4A">Vues 3D</text>
+		<text id="manageViews.newViewName" h="36C63992">Nouvelle vue</text>
+		<text id="opengl.str" h="BBBBF29E">OpenGL</text>
+		<text id="view.custom" h="A918FF38">Personnalisé</text>
+		<text id="view.default" h="B6EF2024">Par défaut</text>
+	</Strings>
+</Localization>
