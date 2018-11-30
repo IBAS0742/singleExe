@@ -1,1 +1,0 @@
-start %~dp0/iso/UltraISO.exe
