@@ -1,1 +1,1 @@
-start chrome.exe --user-data-dir=%~dp0chrome-user-data
+start %~dp0/chrome/Chrome32/chrome.exe --user-data-dir=%~dp0chrome-user-data

@@ -6,6 +6,10 @@
 /PanDownload/PanData/task.db
 /PanDownload/PanData/user.db
 /TreeSizePortable/Data/TreeSizePortable.ini
+chrome/Chrome32/Cache/Default/Cache
+chrome/Chrome32/User Data
+chrome/Chrome64/Cache/Default/Cache
+chrome/Chrome64/User Data
 open-electron-vue-admin-master-sync.bat
 myCommand.bat
 open.cmd
