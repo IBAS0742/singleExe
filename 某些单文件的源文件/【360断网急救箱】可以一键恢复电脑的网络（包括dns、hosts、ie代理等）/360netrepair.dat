@@ -1,0 +1,78 @@
+2018-11-28 23:45:05  [360netdr] TID:12280Start checking ......
+
+2018-11-28 23:45:05  [360netdr] TID:12280Start: check step1.
+
+2018-11-28 23:45:05  [360netdr] TID:12280Find it.
+
+2018-11-28 23:45:05  [360netdr] TID:12280Opening \\.\{DB8CF046-6918-448F-AB71-42948CCCA243}
+
+2018-11-28 23:45:05  [360netdr] TID:12280state: ok
+
+2018-11-28 23:45:05  [360netdr] TID:12280End: check step1.
+
+2018-11-28 23:45:07  [360netdr] TID:12280Start: check step2.
+
+2018-11-28 23:45:07  [360netdr] TID:12280scc ok.
+
+2018-11-28 23:45:09  [360netdr] TID:12280Start: Check step3.
+
+2018-11-28 23:45:09  [360netdr] TID:12280scc ok.
+
+2018-11-28 23:45:11  [360netdr] TID:12280Start: check step4.
+
+2018-11-28 23:45:11  [360netdr] TID:12280Find it.
+
+2018-11-28 23:45:11  [360netdr] TID:12280End: check step4.
+
+2018-11-28 23:45:13  [360netdr] TID:12280Start: check step5.
+
+2018-11-28 23:45:13  [360netdr] TID:12280End: check step5.
+
+2018-11-28 23:45:14  [360netdr] TID:12280Start: check step6.
+
+2018-11-28 23:45:14  [360netdr] TID:12280error.
+
+2018-11-28 23:45:14  [360netdr] TID:12280End: check step6.
+
+2018-11-28 23:45:16  [360netdr] TID:12280Start: check step7.
+
+2018-11-28 23:45:16  [360netdr] TID:12280Connection ok
+
+2018-11-28 23:45:17  [360netdr] TID:12280request failed, ret: -2146697211, err: 0.
+
+2018-11-28 23:45:18  [360netdr] TID:12280End checking ......
+
+2018-11-28 23:45:18  [360netdr] TID:12280CheckThread end...
+
+2018-11-28 23:45:20  [360netdr] TID:13496Start repairing ......
+
+2018-11-28 23:45:20  [360netdr] TID:13496Start: repair step2.
+
+2018-11-28 23:45:20  [360netdr] TID:13496scc ok.
+
+2018-11-28 23:45:20  [360netdr] TID:13496End: repair step2.
+
+2018-11-28 23:45:20  [360netdr] TID:13496Start: repair step3.
+
+2018-11-28 23:45:20  [360netdr] TID:13496End: check step3.
+
+2018-11-28 23:45:20  [360netdr] TID:13496Start: repair step4.
+
+2018-11-28 23:45:20  [360netdr] TID:13496Start: repair step5.
+
+2018-11-28 23:45:20  [360netdr] TID:13496Start: repair step6.
+
+2018-11-28 23:45:20  [360netdr] TID:13496set success.
+
+2018-11-28 23:45:20  [360netdr] TID:13496End: repair step6.
+
+2018-11-28 23:45:21  [360netdr] TID:13496Start: repair step7.
+
+2018-11-28 23:45:21  [360netdr] TID:13496Connection ok
+
+2018-11-28 23:45:22  [360netdr] TID:13496request success.
+
+2018-11-28 23:45:23  [360netdr] TID:13496End repairing ......
+
+2018-11-28 23:45:23  [360netdr] TID:13496RepairThread end...
+

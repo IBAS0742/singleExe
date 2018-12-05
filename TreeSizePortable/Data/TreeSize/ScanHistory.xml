@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<SCANS>
+	<Root path="\\DESKTOP-8IQ7U8N\C$\">
+		<Path>\\DESKTOP-8IQ7U8N\C$\</Path>
+		<Date>43418.643003588</Date>
+		<Version>6.1.0.1020</Version>
+		<SizeData Size="233673814360" Allocated="235920609280" Files="1160122"/>
+		<Freespace>9137696768</Freespace>
+	</Root>
+	<Root path="\\DESKTOP-8IQ7U8N\C$\">
+		<Path>\\DESKTOP-8IQ7U8N\C$\</Path>
+		<Date>43418.7039217477</Date>
+		<Version>6.1.0.1020</Version>
+		<SizeData Size="166303221168" Allocated="168549027840" Files="1159681"/>
+		<Freespace>76540837888</Freespace>
+	</Root>
+	<Root path="\\DESKTOP-8IQ7U8N\D$\">
+		<Path>\\DESKTOP-8IQ7U8N\D$\</Path>
+		<Date>43418.7041831366</Date>
+		<Version>6.1.0.1020</Version>
+		<SizeData Size="199155566767" Allocated="202564061508" Files="1168404"/>
+		<Freespace>11567779840</Freespace>
+	</Root>
+	<Root path="\\DESKTOP-8IQ7U8N\E$\">
+		<Path>\\DESKTOP-8IQ7U8N\E$\</Path>
+		<Date>43418.7049752199</Date>
+		<Version>6.1.0.1020</Version>
+		<SizeData Size="242475408786" Allocated="242579238912" Files="36856"/>
+		<Freespace>42574704640</Freespace>
+	</Root>
+	<Root path="\\DESKTOP-B6DQRKU\D$\">
+		<Path>\\DESKTOP-B6DQRKU\D$\</Path>
+		<Date>43434.4600886806</Date>
+		<Version>6.1.0.1020</Version>
+		<SizeData Size="168758571352" Allocated="172699909489" Files="1354118"/>
+		<Freespace>41446498304</Freespace>
+	</Root>  <Root path="\\DESKTOP-B6DQRKU\E$\">
+    <Path>\\DESKTOP-B6DQRKU\E$\</Path>
+    <Date>43434.4620891088</Date>
+    <Version>6.1.0.1020</Version>
+    <SizeData Size="259634683772" Allocated="259722723328" Files="31609"/>
+    <Freespace>25425940480</Freespace>
+  </Root>
+</SCANS>
