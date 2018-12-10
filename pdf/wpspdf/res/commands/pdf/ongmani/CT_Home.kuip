@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='utf-8'?>
+<shell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" tc="ongmani.ct_home" component="pdf">
+	<commands>
+		<KxLegacyTriggerCommand hotKey="SL" ksoCmd="Select" aid="21" idMso="Select" icon="Select" id="Select" customTip="Select" text="@Select" rbHotKey="SL"/>
+		<KxLegacyTriggerCommand hotKey="c" ksoCmd="Copy" aid="19" idMso="Copy" icon="p-copy-normal" id="Copy" customTip="Copy" text="@Copy" rbHotKey="C"/>
+		<KListCommand id="RB_Select" text="@Editing" rbFileMenuEmbed="1">
+			<command idQ="Select"/>
+		</KListCommand>
+		<KClipboardGroupCommand id="RB_Clipboard"/>
+		<KxClipboardGroupCommandWrapper idMso="ShowClipboard" id="RB_ClipboardWrapper" refcommand="RB_Clipboard" customTip="RB_Clipboard" text="@Clipboard" rbFileMenuEmbed="1" rbHotKey="FO">
+			<command idQ="Copy"/>
+			<command idQ="Select"/>
+		</KxClipboardGroupCommandWrapper>
+		<KxLegacyTriggerCommand hotKey="F" ksoCmd="Find" idMso="FindDialog" icon="Find" controlType="0" shortcutHint="Ctrl+F" id="FindRainbow" text="@Find"/>
+		<KxLegacyTriggerCommand hotKey="R" ksoCmd="Replace" showiconAndText="1" icon="Replace" id="ReplaceRainbow" customTip="Replace" spaceHint="suitable" text="@Replace" rbHotKey="R"/>
+		<KxLegacyTriggerCommand hotKey="g" ksoCmd="GoTo" aid="757" idMso="GoTo" icon="GoTo" controlType="0" id="GoTo" dialogHint="1" text="@Go to" rbHotKey="G"/>
+		<KxListCommand hotKey="FD" ksoCmd="Find" icon="Find" customTip2="Find2" shortcutHint="Ctrl+F" id="sp_Find" dialogHint="1" customTip="Find" spaceHint="autoiconsize" text="@Find" rbHotKey="FD">
+			<command idQ="FindRainbow"/>
+			<command idQ="ReplaceRainbow"/>
+			<command idQ="GoTo"/>
+		</KxListCommand>
+		<KxLegacyTriggerCommand hotKey="o" ksoCmd="SelectObjects" idMso="ObjectsSelect" icon="SelectObjects" controlType="6" id="RbSelectObjects" text="@Select Objects"/>
+		<KxLegacyTriggerCommand hotKey="T" ksoCmd="TableSelection" aid="80026" icon="TableSelection" id="RbTableSelection" text="@Select Table with Dashed Borders"/>
+		<KxObjectSelectCommand hotKey="J" ksoCmd="ObjectSelect" icon="ObjectSelect" id="HomeObjectSelect" customTip="ObjectSelect" text="@Selection Pane" rbHotKey="AB"/>
+		<KListCommand hotKey="SL" idMso="SelectMenu" icon="Select" controlType="15" id="m_Select" customTip="Select" spaceHint="autoiconsize" text="@Select" rbHotKey="SL">
+			<KxLegacyTriggerCommand hotKey="A" ksoCmd="SelectAll" icon="SelectAll" shortcutHint="Ctrl+A" id="SelectAllInHomeTab" text="@Select All" qtspyName="SelectAll"/>
+			<command idQ="RbSelectObjects"/>
+			<command idQ="RbTableSelection"/>
+			<command idQ="HomeObjectSelect"/>
+		</KListCommand>
+		<KxLegacyTriggerCommand hotKey="AT" ksoCmd="Attributes" idMso="Attributes" icon="PageSetup" id="sp_Attributes" customTip="Attributes" spaceHint="autoiconsize" text="@Attributes" rbHotKey="AT"/>
+		<KListCommand id="RB_Editing" text="@Editing" rbFileMenuEmbed="1">
+			<command idQ="sp_Attributes"/>
+			<separator/>
+			<command idQ="sp_Find"/>
+		</KListCommand>
+		<KListCommand ksoCmd="Paragraph" forceVisible="1" filter="lang=zh_CN;support:WordTools=true" id="RB_ParagraphTools" text="@Paragraph Tools" rbFileMenuEmbed="1" rbHotKey="PG">
+			<command idQ="WordTools"/>
+		</KListCommand>
+		<KxLegacyTriggerCommand hotKey="f" ksoCmd="Font" aid="253" idMso="FontDialog" icon="Font" controlType="0" id="Font" dialogHint="1" text="@Font"/>
+		<KxLegacyTriggerCommand hotKey="p" ksoCmd="Paragraph" aid="779" idMso="ParagraphDialog" icon="Paragraph" controlType="0" id="Paragraph" dialogHint="1" text="@Paragraph"/>
+		<KxLegacyTriggerCommand hotKey="s" ksoCmd="StyleFormat" aid="5757" idMso="StylesPane" icon="StyleFormat" controlType="0" id="StyleFormat" dialogHint="1" text="@Styles and Formatting"/>
+		<KListCommand id="DetailedSettings_Home">
+			<KListCommand icon="DetailedSettings" customTip="DetailedSettings_Home" text="@Settings" qtspyName="DetailedSettings">
+				<command idQ="Font"/>
+				<command idQ="Paragraph"/>
+				<command idQ="StyleFormat"/>
+			</KListCommand>
+		</KListCommand>
+		<KListCommand rbGroupContentMargins="10, 2, 10, 1" layout_lineCount="1" horizontalSpacing="9" id="RB_Document" text="@Document" rbFileMenuEmbed="1">
+			<command idQ="Print"/>
+			<command idQ="Home_PDFZZ_PDFToWord" proxyCmdId="ProxyPDF2WordV2"/>
+			<command idQ="PDFCompressH"/>
+		</KListCommand>
+		<KListCommand rbGroupContentMargins="0, 2, 11, 1" layout_lineCount="1" horizontalSpacing="2" id="RB_Pages" text="@Page" rbFileMenuEmbed="1">
+			<command idQ="Previous"/>
+			<command idQ="PageNumber"/>
+			<command idQ="NextPage"/>
+		</KListCommand>
+		<KListCommand rbGroupContentMargins="10, 2, 10, 1" layout_lineCount="1" horizontalSpacing="6" id="RB_ZoomPage" text="@Zoom" rbFileMenuEmbed="1">
+			<command idQ="100%"/>
+			<command idQ="FitWidth"/>
+			<command idQ="FitPageSize"/>
+		</KListCommand>
+		<KListCommand rbGroupContentMargins="0, 2, 10, 1" layout_lineCount="1" horizontalSpacing="4" id="RB_ZoomPage%" text="@Zoom%" rbFileMenuEmbed="1">
+			<command idQ="ZoomIn"/>
+			<command idQ="Zoom%"/>
+			<command idQ="ZoomOut"/>
+		</KListCommand>
+		<KListCommand rbGroupContentMargins="10, 2, 10, 1" layout_lineCount="1" horizontalSpacing="10" id="RB_PDFTest" text="@PDFTest" rbFileMenuEmbed="1">
+			<command idQ="PDFTestNewPage"/>
+			<command idQ="PDFTestDelPage"/>
+			<command idQ="PDFTestNewPageFile"/>
+		</KListCommand>
+		<KProxyCommand targetId="TranslationSelect" hotKey="h" delayloadPath="commands/pdf/ongmani/ProxyCommands.kuip" targetModule="ktranslation" autoLoad="true" controlType="0" id="ProxyTranslationSelect" spaceHint="singleloose" text="@Translate selected" qtspyName="translationselect"/>
+		<KListCommand rbGroupContentMargins="10, 2, 0, 1" layout_lineCount="1" horizontalSpacing="9" id="pdftrans" text="@TextBox" rbFileMenuEmbed="1">
+			<command idQ="TranslationSelect" proxyCmdId="ProxyTranslationSelect"/>
+		</KListCommand>
+		<KListCommand rbGroupContentMargins="10, 2, 10, 1" layout_lineCount="1" horizontalSpacing="6" id="RB_Rotation" text="@Document Views" rbFileMenuEmbed="1">
+			<command idQ="Clockwise"/>
+			<command idQ="Counterclockwise"/>
+		</KListCommand>
+		<KListCommand rbGroupContentMargins="5, 2, 10, 1" layout_lineCount="1" horizontalSpacing="6" id="RB_View" text="@Zoom" rbFileMenuEmbed="1">
+			<command idQ="FullScreen"/>
+			<command idQ="PlaySlide"/>
+		</KListCommand>
+	</commands>
+	<subcommands>
+		<subcommand id="CT_Home">
+			<command idQ="RB_Document"/>
+			<command idQ="Separator"/>
+			<command idQ="RB_Rotation"/>
+			<command idQ="Separator"/>
+			<command idQ="RB_ZoomPage"/>
+			<command idQ="RB_ZoomPage%"/>
+			<command idQ="RB_Pages"/>
+			<command idQ="Separator"/>
+			<command idQ="RB_ViewMode"/>
+			<command idQ="RB_View"/>
+			<command idQ="RB_ChangeBackGround"/>
+			<command idQ="Separator"/>
+			<command idQ="pdftrans"/>
+			<command idQ="Annot_CorrectionFluid"/>
+			<command idQ="RB_ExtPage"/>
+		</subcommand>
+	</subcommands>
+</shell>

@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='utf-8'?>
+<shell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" tc="ongmani.proxycommands" component="pdf">
+	<modules>
+		<module name="wpsspeaker">
+			<KxWpsSpeakListCommand hotKey="t" speakingTip="TextSpeech2" icon="TextSpeech" id="TextToSpeechOption" customTip="TextSpeech" text="@Text Speech" rbHotKey="T">
+				<KxWpsSpeakAllCommand hotKey="a" icon="TextSpeechAll" id="TextToSpeechAll" text="@Full-Text Speech" rbHotKey="A"/>
+				<KxWpsSpeakSelectionCommand hotKey="s" icon="TextSpeechSelect" id="TextToSpeechSelect" text="@Selection Speech" rbHotKey="S"/>
+				<KxWpsSpeakOutputCommand hotKey="o" icon="TextSpeechOutput" id="TextToSpeechOutput" text="@Output Voice" rbHotKey="O"/>
+				<separator/>
+				<KxWpsSpeakToolBarCommand hotKey="d" id="TextToSpeechToolBar" text="@Show Toolbar" rbHotKey="D"/>
+			</KxWpsSpeakListCommand>
+		</module>
+		<module name="kpdf2word">
+			<KPDF2WordCommand hotKey="z" icon="PDFToWord" id="PDF2Word" customTip="PDFToWord" text="@PDF To Word" rbHotKey="Z"/>
+		</module>
+		<module name="kpdf2wordv2">
+			<KPDF2WordV2Command hotKey="z" icon="PDFToWord" id="PDF2WordV2" customTip="PDFToWord" text="@PDF To Word" rbHotKey="Z"/>
+		</module>
+		<module name="photo2pdfentry">
+			<Photo2PdfCommand hotKey="d" icon="photo2pdf" from="PdfReader" id="Photo2Pdf" customTip="Photo2Pdf" text="@Photo2Pdf" qtspyName="Photo2Pdf" rbHotKey="D"/>
+		</module>
+		<module name="ktranslation">
+			<command idQ="Translation"/>
+			<KTranslationListCommand hotKey="PR" icon="translation" id="TranslationMenu" customTip="Translation" text="@Translation" referenceCommand="Translation" rbHotKey="PR">
+				<command idQ="Translation"/>
+				<KTranslationOptionCommand hotKey="d" icon="translationoption" qtspyName="translationoption"/>
+				<KxTranslationSelectCommand place="0" hotKey="h" icon="selection_translate" text="@Translate selected text" qtspyName="translationselect"/>
+			</KTranslationListCommand>
+			<KxTranslationSelectCommand place="1" hotKey="PS" icon="p-translate-normal;p-translate-hover;p-translate-click;p-translate-disable" id="TranslationSelect" customTip="TranslationSelectPdf" spaceHint="singleloose" text="@Translate selected text" qtspyName="translationselect" rbHotKey="PS"/>
+			<KxTranslationInitCommand id="TranslationInit"/>
+			<KTranslationCommand hotKey="t" icon="translation" id="Translation" customTip="Translation" rbHotKey="T"/>
+			<KxTpTranslationCommand defaultVisible="false" alias="TpTranslation" icon="itranslation;itranslation-mos;itranslation-down;itranslation-dis" id="TpTranslation"/>
+		</module>
+		<module name="kocrtool">
+			<KOCRToolCommand icon="PictureToText" id="OCRToolCmd" customTip="PictureToText" text="@Picture to Text"/>
+		</module>
+		<module name="kdocumentfix">
+			<KDocumentFixCommand icon="DocumentFix" id="DocumentFix" customTip="DocumentFix" text="@Document Fix"/>
+		</module>
+		<module name="kweibo">
+			<KxPdf2PhotoCommand text2="@PDF Export as Photo" detail="cloudsvr" hotKey="OD" icon="pdf2photo" id="Pdf2Photo" customTip="Pdf2PhotoCmd" text="@PDF Export as Photo" rbHotKey="OD"/>
+		</module>
+		<module name="officespace">
+			<KPdfHPRoamingFileCommand detail="cloudsvr" id="PdfHPRoamingFileCommand"/>
+		</module>
+		<module name="pdfaddpagenumber">
+			<KxPdfAddPageNumberCommand id="Page_AddPageNumber" customTip="AddPageNumberTips" spaceHint="singleloose" text="@AddPageNumber"/>
+			<KxPdfAddPageNumberCommand id="RightMenu_AddPageNumber" customTip="AddPageNumberTips" spaceHint="singleloose" text="@AddPageNumber"/>
+			<KxPdfAddPageNumberCommand id="Print_AddPageNumber" customTip="AddPageNumberTips" spaceHint="singleloose" text="@AddPageNumber"/>
+		</module>
+	</modules>
+	<proxycommands>
+		<proxycommand targetId="TextToSpeechOption" id="ProxyTextToSpeechOption"/>
+		<proxycommand targetId="PDF2Word" id="ProxyPDF2Word"/>
+		<proxycommand targetId="PDF2WordV2" visible="false" id="ProxyPDF2WordV2"/>
+		<proxycommand targetId="Photo2Pdf" id="ProxyPhoto2Pdf"/>
+		<proxycommand targetId="TranslationMenu" id="ProxyTranslationMenu"/>
+		<proxycommand targetId="TranslationSelect" id="ProxyTranslationSelect"/>
+		<proxycommand targetId="TranslationInit" id="ProxyTranslationInit"/>
+		<proxycommand targetId="OCRToolCmd" id="ProxyOCRToolCmd"/>
+		<proxycommand targetId="DocumentFix" id="ProxyDocumentFix"/>
+		<proxycommand targetId="Pdf2Photo" id="ProxyPdf2Photo"/>
+		<proxycommand targetId="Page_AddPageNumber" id="ProxyPage_AddPageNumber"/>
+		<proxycommand targetId="RightMenu_AddPageNumber" id="ProxyRightMenu_AddPageNumber"/>
+		<proxycommand targetId="Print_AddPageNumber" id="ProxyPrint_AddPageNumber"/>
+		<proxycommand targetId="PdfHPRoamingFileCommand" id="ProxyPdfHPRoamingFileCommand"/>
+	</proxycommands>
+</shell>

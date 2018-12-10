@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<shell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" tc="ongmani.ct_protect" component="pdf">
+	<commands>
+		<KxPdfNewSignatureCommand id="PdfNewSignature" customTip="Highlight" spaceHint="singleloose" text="@NewSignature"/>
+		<KxPdfSignatureCommand ksoCmd="PdfSignature" icon="p_sign_normal;p_sign_hover;p_sign_click;p_sign_disable" id="RB_PdfSignature" customTip="PdfSignature" spaceHint="singleloose" text="@Signature">
+			<command idQ="PdfNewSignature"/>
+		</KxPdfSignatureCommand>
+		<KListCommand rbGroupContentMargins="10, 2, 10, 1" layout_lineCount="1" horizontalSpacing="10" id="RB_Protect" text="@Text Markup" rbFileMenuEmbed="1">
+			<command idQ="RB_PdfSignature"/>
+			<command idQ="VerificationSignature"/>
+			<command idQ="EncryptDoc"/>
+		</KListCommand>
+	</commands>
+	<subcommands>
+		<subcommand id="CT_Protect">
+			<command idQ="RB_Protect"/>
+		</subcommand>
+	</subcommands>
+</shell>

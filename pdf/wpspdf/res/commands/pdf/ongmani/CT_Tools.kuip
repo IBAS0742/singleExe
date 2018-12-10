@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" tc="ongmani.ct_tools" component="pdf">
+	<commands>
+		<KListCommand rbGroupContentMargins="10, 2, 10, 1" layout_lineCount="1" horizontalSpacing="10" id="ScreenShot" text="@Menu Tools" rbFileMenuEmbed="1">
+			<command idQ="Tools_ScreenShot_Area"/>
+		</KListCommand>
+		<KListCommand rbGroupContentMargins="0, 2, 10, 1" layout_lineCount="1" horizontalSpacing="10" id="RB_FileTool" text="@PDFPagesOper" rbFileMenuEmbed="1">
+			<command idQ="PDFCompressT"/>
+			<command idQ="PdfAddImage"/>
+		</KListCommand>
+	</commands>
+	<subcommands>
+		<subcommand id="CT_Tools">
+			<command idQ="ScreenShot"/>
+			<command idQ="RB_FileTool"/>
+		</subcommand>
+	</subcommands>
+</shell>

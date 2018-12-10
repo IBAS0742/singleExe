@@ -1,0 +1,83 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" tc="classics.reviewing" component="wps">
+	<commands>
+		<KxWpsComboBoxCommand ksoCmd="DisplayForReview" aid="6968" fixedWidth="150" items="@Final Show Markup;Final;Original Show Markup;Original" id="DisplayForReview" spaceHint="suitable" text="@Display for Review"/>
+		<KxLegacyTriggerCommand hotKey="n" ksoCmd="ShowOnFinal" aid="6234" id="ShowOnFinal" text="@Final"/>
+		<KxLegacyTriggerCommand hotKey="g" ksoCmd="ShowOnOriginal" aid="6235" id="ShowOnOriginal" text="@Original"/>
+		<KxLegacyTriggerCommand hotKey="a" ksoCmd="Reviewers" aid="6999" id="Reviewers" text="@All Reviewers"/>
+		<KxWpsReviewersAuthorsCommand ksoCmd="Reviewers_Authors" aid="92122" id="Reviewers_Authors"/>
+		<KxLegacyTriggerCommand hotKey="b" ksoCmd="BalloonRevisions" aid="92073" id="BalloonRevisions" text="@Show Revisions in Balloons"/>
+		<KxLegacyTriggerCommand hotKey="i" ksoCmd="InLineRevisions" aid="92074" id="InLineRevisions" text="@Show All Revisions Inline"/>
+		<KxLegacyTriggerCommand hotKey="f" ksoCmd="MixedRevisions" aid="92075" id="MixedRevisions" text="@Show Revisor Information in Balloons"/>
+		<KxLegacyTriggerCommand hotKey="a" ksoCmd="ShowBalloonTitleAuthor" aid="3000037" id="ShowBalloonTitleAuthor" text="@Show Reviewers"/>
+		<KxLegacyTriggerCommand hotKey="d" ksoCmd="ShowBalloonTitleDate" aid="3000038" id="ShowBalloonTitleDate" text="@Show Date"/>
+		<KxLegacyTriggerCommand hotKey="t" ksoCmd="ShowBalloonTitleTime" aid="3000039" id="ShowBalloonTitleTime" text="@Show Time"/>
+		<KxLegacyTriggerCommand hotKey="c" ksoCmd="ShowComments" aid="6231" id="ShowComments" text="@Show Comments" rbHotKey="C"/>
+		<KxLegacyTriggerCommand hotKey="i" ksoCmd="ShowInsAndDel" aid="6232" id="ShowInsAndDel" text="@Show Insertions and Deletions" rbHotKey="I"/>
+		<KxLegacyTriggerCommand hotKey="f" ksoCmd="ShowFormatChange" aid="6233" id="ShowFormatChange" text="@Show Formatting" rbHotKey="F"/>
+		<KListCommand hotKey="b" ksoCmd="UseBalloons" aid="31330" barid="44552" id="UseBalloonsMenu" text="@Use Balloons">
+			<command idQ="BalloonRevisions"/>
+			<command idQ="InLineRevisions"/>
+			<command idQ="MixedRevisions"/>
+			<separator/>
+			<command idQ="ShowBalloonTitleAuthor"/>
+			<command idQ="ShowBalloonTitleDate"/>
+			<command idQ="ShowBalloonTitleTime"/>
+		</KListCommand>
+		<KListCommand aid="31234" barid="44554" id="ShowMarkMenu" text="@Show">
+			<command idQ="ShowOnFinal"/>
+			<command idQ="ShowOnOriginal"/>
+			<separator/>
+			<command idQ="ShowComments"/>
+			<command idQ="ShowInsAndDel"/>
+			<command idQ="ShowFormatChange"/>
+			<KComposeListCommand hotKey="r" aid="31184" barid="44553" text="@Reviewers" qtspyName="ReviewerList">
+				<command idQ="Reviewers"/>
+				<separator/>
+				<compose idQ="Reviewers_Authors"/>
+			</KComposeListCommand>
+			<command idQ="UseBalloonsMenu"/>
+		</KListCommand>
+		<KxLegacyTriggerCommand hotKey="p" ksoCmd="PreviousChangeOrComment" aid="6237" icon="PreviousComment" id="PreviousChangeOrComment" text="@Previous"/>
+		<KxLegacyTriggerCommand hotKey="n" ksoCmd="NextChangeOrComment" aid="6238" icon="NextComment" id="NextChangeOrComment" text="@Next"/>
+		<KxLegacyTriggerCommand hotKey="a" ksoCmd="AcceptChange" aid="6240" icon="AcceptChange" id="AcceptChange" text="@Accept Change"/>
+		<KxLegacyTriggerCommand hotKey="h" ksoCmd="AcceptAllChangesinDoc" aid="6242" id="AcceptAllChangesinDoc" text="@Accept All Changes in Document" rbHotKey="D"/>
+		<KxListCommand hotKey="a" ksoCmd="AcceptChangeOnTB" aid="6240" barid="1559" icon="AcceptChange" id="AcceptChangeOnTB" text="@Accept Selected Change">
+			<command idQ="AcceptChange"/>
+			<command idQ="AcceptAllChangesinDoc"/>
+		</KxListCommand>
+		<KxLegacyTriggerCommand hotKey="r" ksoCmd="RejectChange" aid="6243" icon="RejectChange" id="RejectChange" text="@Reject Change/Delete Comment" rbHotKey="R"/>
+		<KxLegacyTriggerCommand hotKey="h" ksoCmd="RejectAllChangesinDoc" aid="6245" id="RejectAllChangesinDoc" text="@Reject All Changes in Document"/>
+		<KxLegacyTriggerCommand hotKey="m" ksoCmd="DeleteAllCommentsinDoc" aid="6247" id="DeleteAllCommentsinDoc" text="@Delete All Comments in Document" rbHotKey="O"/>
+		<KxListCommand hotKey="r" ksoCmd="RejectChangeOnTB" aid="6243" barid="1560" icon="RejectChange" id="RejectChangeOnTB" text="@Reject Selected Comment">
+			<command idQ="RejectChange"/>
+			<command idQ="RejectAllChangesinDoc"/>
+			<separator/>
+			<command idQ="DeleteAllCommentsinDoc"/>
+		</KxListCommand>
+		<KxLegacyTriggerCommand hotKey="m" ksoCmd="InsertComment" aid="1589" icon="InsertComment" id="InsertCommentInToolBar" customTip="InsertComment" text="@Insert Comment" rbHotKey="C"/>
+		<KxHighlightColorCommand hotKey="h" ksoCmd="HighlightColor" aid="80068" barid="44551" icon="Highlighter" customTip2="HighlightColor2" id="HighlightColor" customTip="HighlightColor" text="@Highlight" ksoTriggerCmd="RecentHighlightColor" rbHotKey="i"/>
+		<KxLegacyTriggerCommand hotKey="t" ksoCmd="TrackChanges" aid="2041" icon="TrackChanges" shortcutHint="Ctrl+Shift+E" id="TrackChangesToolBar" text="@Track Changes"/>
+		<KxListCommand ksoCmd="ReviewPane" aid="6239" icon="ReviewPane" id="ReviewPane" text="@Reviewing Pane">
+			<KxLegacyTriggerCommand hotKey="V" ksoCmd="VertReviewPane" icon="vertReviewPane" id="VerticalReviewPane" text="@Reviewing Pane Vertical"/>
+			<KxLegacyTriggerCommand hotKey="H" ksoCmd="HorzReviewPane" icon="horzReviewPane" id="HorizontalReviewPane" text="@Reviewing Pane Horizontal"/>
+		</KxListCommand>
+	</commands>
+	<subcommands>
+		<subcommand id="Reviewing">
+			<command idQ="DisplayForReview"/>
+			<command idQ="ShowMarkMenu"/>
+			<separator/>
+			<command idQ="PreviousChangeOrComment"/>
+			<command idQ="NextChangeOrComment"/>
+			<command idQ="AcceptChangeOnTB"/>
+			<command idQ="RejectChangeOnTB"/>
+			<command idQ="InsertCommentInToolBar"/>
+			<command idQ="HighlightColor"/>
+			<separator/>
+			<command idQ="TrackChangesToolBar"/>
+			<separator/>
+			<command idQ="ReviewPane"/>
+		</subcommand>
+	</subcommands>
+</shell>

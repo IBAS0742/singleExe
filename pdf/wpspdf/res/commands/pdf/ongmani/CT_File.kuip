@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='utf-8'?>
+<shell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" tc="ongmani.ct_file" component="pdf">
+	<commands>
+		<KxFileMenuLegacyTriggerCommand hotKey="o" ksoCmd="OpenFile" aid="23" infoId="1" idMso="FileOpen" icon="p-menuopen" controlType="0" id="RbFileMenuOpenFileMenu" text="@Open"/>
+		<KxFileMenuLegacyTriggerCommand hotKey="i" ksoCmd="Properties" infoId="h" icon="p-menuproperties" id="RbFileMenuProperties" text="@Properties" qtspyName="Properties"/>
+		<KxFileMenuLegacyTriggerCommand hotKey="p" ksoCmd="Print" infoId="5" icon="p-menuprint" id="RbFileMenuPrintMenu" text="@Print" qtspyName="Print"/>
+		<KxFileMenuLegacyTriggerCommand ksoCmd="PDF2Word" icon="p-pdf2word-normal" id="RbFileMenuP2WMenu" text="@PDFToWord" qtspyName="PDFToWord"/>
+		<KxFileMenuLegacyTriggerCommand ksoCmd="Photo2PDF" icon="p-photo2pdf-normal" id="RbFileMenuPic2PdfMenu" text="@Photo2PDF" qtspyName="Photo2PDF"/>
+		<KxFileMenuLegacyTriggerCommand ksoCmd="PDF2Photo" icon="p-pdf2photo-normal" id="RbFileMenuPdf2PicMenu" text="@PDF2Photo" qtspyName="PDF2Photo"/>
+		<KxFileMenuLegacyTriggerCommand hotKey="s" ksoCmd="SaveFile" infoId="6" icon="p-menu-save" id="RbFileMenuSaveFileMenu" text="@Save" qtspyName="Save"/>
+		<KxRbFileMenuPopupPaneCommand title="@SaveAs" hotKey="e" infoId="7" icon="p-menu-saveas" id="RbFileMenuSaveAsMenu" text="@SaveAs">
+			<KxFileMenuLegacyTriggerCommand ksoCmd="SaveAs" icon="p-menu-saveas" id="RbFileMenuSaveAsFileMenu" text="@SaveAs" qtspyName="SaveAs"/>
+			<KxFileMenuLegacyTriggerCommand ksoCmd="SaveAsPDFCompress" icon="p-compress-normal" id="RbFileMenuSaveAsPdfCompressFileMenu" text="@SaveAsPDFCompress" qtspyName="SaveAsPDFCompress"/>
+		</KxRbFileMenuPopupPaneCommand>
+		<KxFileMenuLegacyTriggerCommand hotKey="O" ksoCmd="AssociatePdf" icon="p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-disable" id="RbFileMenuAssociatePDF" dialogHint="1" text="@Associate PDF"/>
+		<KxRbFileMenuPopupPaneCommand title="@Creat PDF File" icon="p-pdf2txt-newBuild" id="RbFileMenuCreatFileMenu" text="@Creat PDF File">
+			<KxFileMenuLegacyTriggerCommand ksoCmd="Photo2PDF" icon="p-photo2pdf-normal" id="RbFileMenuPic2PdfMenu" text="@Photo2PDF" qtspyName="Photo2PDF"/>
+			<KxFileMenuLegacyTriggerCommand ksoCmd="Scan2PDF" icon="p-scan2pdf" id="RbFileMenuScan2PdfMenu" text="@Scan2PDF" qtspyName="Scan2PDF"/>
+			<KxFileMenuLegacyTriggerCommand ksoCmd="NewBlankPage" icon="p-pdf2txt-newBuild" id="RbFileMenuNewBlankFileMenu" text="@NewBlankFile"/>
+		</KxRbFileMenuPopupPaneCommand>
+		<KxRbFileMenuPopupPaneCommand groupindex="5" title="@Feedback and Product Information" hotKey="h" infoId="a" icon="p-menu-help" shortcutHint="F1" id="RbFileMenuHelpMenu" text="@Help">
+			<KxFileMenuOpenUrlCommand hotKey="m" ksourl="Product:HomePagePDF" icon="p-menu-homepage" controlType="0" id="RbFileMenuKingsoftPDFHomepage" text="@Kingsoft PDF Homepage"/>
+			<KxFileMenuLegacyTriggerCommand hotKey="f" ksoCmd="PdfFeedback" icon="p-menu-community" controlType="0" id="RbFileMenuFeedback" text="@Feedback"/>
+			<KxFileMenuUpdateOnlineCommand hotKey="u" aid="9340" filter="platform=win32;oem_WithUpdate!=0" url="../wtoolex/wpspdfupdate" icon="p-menu-update" id="RbFileMenuUpdateOnline" args="-from=manual" text="@Check for Updates"/>
+			<KxFileMenuLegacyTriggerCommand hotKey="a" ksoCmd="About" aid="927" idMso="About" icon="p-menu-about" controlType="0" id="RbFileMenuAbout" text="@About Kingsoft PDF"/>
+		</KxRbFileMenuPopupPaneCommand>
+		<KxRbFileMenuPopupPaneCommand title="@The export of PDF is" icon="p-menu-export" id="RbFileMenuExportMenu" text="@The export of PDF is">
+			<KxFileMenuLegacyTriggerCommand ksoCmd="PDF2Word" icon="p-pdf2word-normal" id="RbFileMenuP2WMenu" text="@Word" qtspyName="PDFToWord"/>
+			<KxFileMenuLegacyTriggerCommand ksoCmd="PDF2Excel" icon="pdf_et-normal" id="RbFileMenuPdf2Excel" text="@Excel" qtspyName="PDF2Excel"/>
+			<KxFileMenuLegacyTriggerCommand ksoCmd="PDF2PPT" icon="pdf_wpp-normal" id="RbFileMenuPdf2PPT" text="@PPT" qtspyName="PDFToPPT"/>
+			<KxFileMenuLegacyTriggerCommand ksoCmd="PDF2TXT" icon="p-pdfconverttxt-normal" id="RbFileMenuPdf2TxtMenu" text="@TXT" qtspyName="Photo2PDF"/>
+			<KxFileMenuLegacyTriggerCommand ksoCmd="PDF2Photo" icon="p-pdf2photo-normal" id="RbFileMenuPdf2PicMenu" text="@Photo" qtspyName="PDF2Photo"/>
+		</KxRbFileMenuPopupPaneCommand>
+		<KxFileMenuOpenUrlCommand hotKey="h" aid="80037" ksourl="Product:HelpPagePDF" idMso="BlogHomePage" icon="p-menu-help" controlType="0" id="RbFileMenuKingsoftPDFHelp" text="@Kingsoft PDF Help"/>
+		<KxFileMenuOpenUrlCommand hotKey="c" customShortcutEnabled="false" aid="100009" ksourl="Product:PDFStudyOnlinePage" icon="p-menu-community" id="RbFileMenuKingsoftPDFCommunity" text="@Kingsoft PDF Community"/>
+		<KxFileMenuUpdateOnlineCommand hotKey="u" aid="9340" filter="platform=win32;oem_WithUpdate!=0" url="../wtoolex/wpspdfupdate" icon="p-menu-update" id="RbFileMenuUpdateOnline" args="-from=manual" text="@Check for Updates"/>
+		<KxFileMenuLegacyTriggerCommand hotKey="a" ksoCmd="About" aid="927" idMso="About" icon="p-menu-about" controlType="0" id="RbFileMenuAbout" text="@About Kingsoft PDF"/>
+		<KxFileMenuLegacyTriggerCommand hotKey="c" ksoCmd="CustomSetting" idMso="Settings" icon="p-menu-settings" controlType="0" id="RbFileMenuSettings" text="@Custom settings"/>
+		<KxFileMenuLegacyTriggerCommand hotKey="q" ksoCmd="Exit" infoId="n" icon="p-menuexit" id="RbFileMenuExit" text="@Exit" qtspyName="Exit" rbHotKey="Q"/>
+	</commands>
+	<subcommands>
+		<subcommand id="CT_File">
+			<command idQ="RbFileMenuCreatFileMenu"/>
+			<command idQ="RbFileMenuOpenFileMenu"/>
+			<command idQ="RbFileMenuSaveFileMenu"/>
+			<command idQ="RbFileMenuSaveAsMenu"/>
+			<command idQ="RbFileMenuPrintMenu"/>
+			<command idQ="RbFileMenuExportMenu"/>
+			<command idQ="RbFileMenuProperties"/>
+			<command idQ="RbFileMenuSettings"/>
+			<command idQ="RbFileMenuHelpMenu"/>
+			<separator startEndTransparent="1"/>
+			<command idQ="RbFileMenuExit"/>
+		</subcommand>
+	</subcommands>
+</shell>

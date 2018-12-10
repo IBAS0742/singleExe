@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='utf-8'?>
+<shell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" tc="ongmani.ct_shapestyle" component="pdf">
+	<commands>
+		<KListCommand rbGroupContentMargins="10, 2, 10, 1" layout_lineCount="1" horizontalSpacing="10" id="ShapeColor" text="@Tool" rbFileMenuEmbed="1">
+			<command idQ="ShapeFillColorSetting"/>
+			<command idQ="ShapeBorderColorSetting"/>
+		</KListCommand>
+		<KListCommand rbGroupContentMargins="10, 2, 0, 1" layout_lineCount="1" horizontalSpacing="4" id="LineWidth" rbFileMenuEmbed="1">
+			<command idQ="RB_LineWidth"/>
+		</KListCommand>
+		<KListCommand rbGroupContentMargins="10, 2, 0, 1" layout_lineCount="1" horizontalSpacing="4" id="LineStyle" rbFileMenuEmbed="1">
+			<command idQ="RB_LineStyle"/>
+		</KListCommand>
+		<KListCommand rbGroupContentMargins="10, 2, 0, 1" layout_lineCount="1" horizontalSpacing="4" id="LineStart" text="@Zoom%" rbFileMenuEmbed="1">
+			<command idQ="RB_LineStart"/>
+		</KListCommand>
+		<KListCommand rbGroupContentMargins="10, 2, 0, 1" layout_lineCount="1" horizontalSpacing="4" id="LineEnd" rbFileMenuEmbed="1">
+			<command idQ="RB_LineEnd"/>
+		</KListCommand>
+	</commands>
+	<subcommands>
+		<subcommand id="CT_ShapeStyle">
+			<command idQ="ShapeColor"/>
+			<command idQ="Separator"/>
+			<command idQ="LineStyle"/>
+			<command idQ="LineWidth"/>
+			<command idQ="Separator"/>
+			<command idQ="LineStart"/>
+			<command idQ="LineEnd"/>
+		</subcommand>
+	</subcommands>
+</shell>

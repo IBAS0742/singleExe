@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='utf-8'?>
+<shell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" tc="ongmani.ct_view" component="pdf">
+	<commands>
+		<KxLegacyTriggerCommand hotKey="P" ksoCmd="PrintLayoutView" aid="287" idMso="ViewPrintLayoutView" icon="PrintLayout" controlType="6" id="PrintLayoutView" customTip="PrintLayoutView" text="@Print 
+Layout" rbHotKey="P"/>
+		<KxPdfFullScreenCommand hotKey="u" ksoCmd="FullScreenModeOnMenu" aid="178" idMso="ViewFullScreenView" icon="FullScreenMode" controlType="0" id="FullScreenModeOnMenu" customTip="FullScreenMode" text="@Full 
+Screen" rbHotKey="F"/>
+		<KListCommand rbGroupContentMargins="10, 2, 10, 1" layout_lineCount="1" horizontalSpacing="10" id="RB_Rotation" text="@Document Views" rbFileMenuEmbed="1">
+			<command idQ="Clockwise"/>
+			<command idQ="Counterclockwise"/>
+			<command idQ="ClockwiseDoc"/>
+		</KListCommand>
+		<KListCommand id="RB_EyeProtection" rbFileMenuEmbed="1">
+			<KxWpsProtectEyesCommand hotKey="b" icon="ProtectEyes" id="ProtectEyes" customTip="Protect_Eyes" spaceHint="suitable" text="@Eye Protection Mode" rbHotKey="B"/>
+			<KxNightCommand hotKey="G" icon="NightMode" id="NightMode" customTip="Night_Mode" spaceHint="suitable" text="@Night Mode" rbHotKey="G"/>
+		</KListCommand>
+		<KxLegacyTriggerCommand hotKey="e" ksoCmd="NavigatorLeft" id="NavigatorLeft" text="@Place on Left"/>
+		<KxLegacyTriggerCommand hotKey="r" ksoCmd="NavigatorRight" id="NavigatorRight" text="@Place on Right"/>
+		<KxLegacyTriggerCommand hotKey="v" ksoCmd="NavigatorVisible" id="NavigatorVisible" text="@Invisible"/>
+		<KxListCommand detail="@Show Navigator" hotKey="n" ksoCmd="ShowNavigator" icon="DocumentMap" customTip2="ShowNavigator2" id="sp_ShowNavigator" customTip="ShowNavigator" text="@Navigator" rbHotKey="N">
+			<command idQ="NavigatorLeft"/>
+			<command idQ="NavigatorRight"/>
+			<command idQ="NavigatorVisible"/>
+		</KxListCommand>
+		<KListCommand id="RB_Show" text="@Show" rbFileMenuEmbed="1">
+			<command idQ="sp_ShowNavigator"/>
+			<KLayoutWidgetCommand fixedWidth="1"/>
+			<KxCheckBoxCommand hotKey="L" ksoCmd="ViewStatusBar" controlType="1" id="ViewStatusBar" customTip="StatusBar" spaceHint="suitable" text="@StatusBar" qtspyName="StatusBar" rbHotKey="S"/>
+			<KxTaskPaneCheckBoxCommand hotKey="t" ksoCmd="TaskPane" id="TaskPaneInViewTab" customTip="TaskPane" spaceHint="suitable" text="@Task Window" qtspyName="TaskPane" rbHotKey="K"/>
+		</KListCommand>
+		<KxListCommand ksoCmd="PageNavigation" icon="InsertBlankPage" customTip2="Page Navigation2" id="RB_Pages" customTip="Page Navigation" text="@Page
+Navigation" rbHotKey="PN">
+			<command idQ="FirstPage"/>
+			<command idQ="Previous"/>
+			<command idQ="NextPage"/>
+			<command idQ="LastPage"/>
+			<command idQ="GoTo"/>
+		</KxListCommand>
+		<KListCommand rbGroupContentMargins="10, 2, 10, 1" layout_lineCount="1" horizontalSpacing="10" id="RB_ZoomView" text="@Zoom" rbFileMenuEmbed="1">
+			<command idQ="100%"/>
+			<command idQ="FitWidth"/>
+			<command idQ="FitPageSize"/>
+			<command idQ="FullScreen"/>
+			<command idQ="PlaySlide"/>
+		</KListCommand>
+		<KxMultiModeCommand triggerText="@Cancel Splitting" hotKey="S" menuText="@Split Window" ksoCmd="SplitWindow" aid="302" icon="splitwindow" customTip2="SplitWindowMenu" id="Split Window" customTip="SplitWindow" spaceHint="suitable" rbHotKey="S">
+			<KxLegacyTriggerCommand hotKey="H" ksoCmd="HorzSplitWindow" icon="horz_splitwindow" id="HorzSplitWindow" text="@Split Horizontally"/>
+			<KxLegacyTriggerCommand hotKey="V" ksoCmd="VertSplitWindow" icon="vert_splitwindow" id="VertSplitwindow" text="@Split Vertically" qtspyName="VertSplitWindow"/>
+		</KxMultiModeCommand>
+		<KxLegacyTriggerCommand hotKey="n" ksoCmd="NewWindow" aid="303" idMso="WindowNew" icon="NewWindow" controlType="0" id="rNewWindow" spaceHint="suitable" customTip="NewWindow" text="@New
+Window" rbHotKey="N"/>
+		<KxPdfLockSideBySideCommand icon="LockSideBySide" id="LockSideBySide" customTip="LockSideBySide" spaceHint="suitable" text="@Synchronous Scrolling" rbHotKey="VS"/>
+		<KxPdfVerbSideBySideCommand icon="VerbSideBySide" id="VerbSideBySide" customTip="VerbSideBySide" spaceHint="suitable" text="@Reset Window Position" rbHotKey="T"/>
+		<KxCurrentFileMRUCommand aid="92123" autoShortCut="1" id="CurrentFileListInView" text="Current File List"/>
+		<KxLegacyTriggerCommand ksoCmd="CloseWindow" aid="80033" icon="CloseWindow" id="RbCloseWindow" customTip="CloseWindow" spaceHint="suitable" text="@Close Window" rbHotKey="C"/>
+		<KxPdfCmpSideBySideCommand showiconAndText="1" icon="CmpSideBySide" id="CmpSideBySideRibbon" customTip="CmpSideBySide" text="@View
+Side by Side" rbHotKey="B"/>
+		<KListCommand id="RB_NewWindow" text="@Window" rbFileMenuEmbed="1">
+			<KListCommand icon="WindowReset" id="WindowsArrangeAll" customTip="ArrangeAll" text="@Arrange
+All" qtspyName="WindowReset" rbHotKey="A">
+				<KxHorzTileCommand hotKey="O" icon="HorizontalTile" id="HorizontalTileInViewTab" text="@Horizontal" qtspyName="HorizontalTile"/>
+				<KxVertTileCommand hotKey="V" icon="VerticalTile" id="VerticalTileInViewTab" text="@Vertical" qtspyName="VerticalTile"/>
+				<KxCascadeCommand hotKey="C" icon="Cascade" id="CascadeInViewTab" text="@Cascade" qtspyName="Cascade"/>
+			</KListCommand>
+			<command idQ="rNewWindow"/>
+			<command idQ="Split Window"/>
+		</KListCommand>
+		<KListCommand id="RB_View_Compare" text="@Compare" rbFileMenuEmbed="1">
+			<command idQ="CmpSideBySideRibbon" filter="lang!=ja_JP"/>
+			<command idQ="LockSideBySide" filter="lang!=ja_JP"/>
+			<command idQ="VerbSideBySide" filter="lang!=ja_JP"/>
+			<KQuickMenuCommand showiconAndText="1" filter="lang=ja_JP" icon="CmpSideBySide" customTip="CmpSideBySide" text="@View
+Side by Side" referenceCommand="CmpSideBySideRibbon" qtspyName="CmpSideBySide" rbHotKey="B">
+				<command idQ="LockSideBySide"/>
+				<command idQ="VerbSideBySide"/>
+			</KQuickMenuCommand>
+			<KLayoutWidgetCommand fixedWidth="3"/>
+		</KListCommand>
+		<KListCommand id="RB_Switch" text="@Compare" rbFileMenuEmbed="1">
+			<KComposeListCommand icon="SwitchWindow" id="rSwitchWindow" customTip="SwitchWindow" text="@Switch
+Window" rbHotKey="W">
+				<compose idQ="CurrentFileListInView"/>
+				<KxShowMoreWindowCommand hotKey="M" id="ShowMoreWindowsInViewTab" dialogHint="1" text="@Show More Windows" qtspyName="ShowMoreWindows"/>
+			</KComposeListCommand>
+		</KListCommand>
+		<KListCommand rbGroupContentMargins="10, 2, 0, 1" layout_lineCount="1" horizontalSpacing="4" id="RB_ZoomView%" text="@Zoom%" rbFileMenuEmbed="1">
+			<command idQ="ZoomIn"/>
+			<command idQ="Zoom%"/>
+			<command idQ="ZoomOut"/>
+		</KListCommand>
+	</commands>
+	<subcommands>
+		<subcommand id="CT_View">
+			<command idQ="RB_Rotation"/>
+			<command idQ="Separator"/>
+			<command idQ="RB_ZoomView%"/>
+			<command idQ="RB_ZoomView"/>
+			<command idQ="Separator"/>
+			<command idQ="RB_ViewMode"/>
+		</subcommand>
+	</subcommands>
+</shell>

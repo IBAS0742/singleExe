@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='utf-8'?>
+<shell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" tc="ongmani.ct_page" component="pdf">
+	<commands>
+		<KListCommand rbGroupContentMargins="10, 2, 10, 1" layout_lineCount="1" horizontalSpacing="10" id="PageTool" text="@PageTool" rbFileMenuEmbed="1">
+			<command idQ="Spac_PDFZZ_MergePDF"/>
+			<command idQ="Spac_PDFZZ_SplitPDF"/>
+			<command idQ="PageManagerPDFExtractPage"/>
+			<command idQ="ClockwiseDoc"/>
+		</KListCommand>
+		<KListCommand rbGroupContentMargins="10, 2, 10, 1" layout_lineCount="1" horizontalSpacing="10" id="EditPage" text="@Edit Page" rbFileMenuEmbed="1">
+			<command idQ="DeletePages"/>
+			<command idQ="PdfInsertPages"/>
+			<command idQ="Page_AddPageNumber" proxyCmdId="ProxyPage_AddPageNumber"/>
+		</KListCommand>
+		<KListCommand rbGroupContentMargins="10, 2, 10, 1" layout_lineCount="1" horizontalSpacing="10" id="WaterMark" text="@Water Mark" rbFileMenuEmbed="1">
+			<command idQ="WaterMarkMenuInPageTab"/>
+		</KListCommand>
+	</commands>
+	<subcommands>
+		<subcommand id="CT_Page">
+			<command idQ="PageTool"/>
+			<command idQ="Separator"/>
+			<command idQ="EditPage"/>
+			<command idQ="Separator"/>
+			<command idQ="WaterMark"/>
+		</subcommand>
+	</subcommands>
+</shell>

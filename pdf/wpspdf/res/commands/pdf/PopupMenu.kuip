@@ -1,0 +1,405 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" tc="popupmenu" component="pdf">
+	<libraries/>
+	<commands>
+		<KxPdfCloseAllCommand hotKey="l" aid="80002" idMso="FileCloseAll" icon="CloseAll" controlType="0" id="CloseAllFiles" text="@Close All"/>
+		<KxLegacyTriggerCommand hotKey="a" ksoCmd="SaveAllFiles" aid="80003" id="SaveAllFiles" text="@Save All"/>
+		<KxLegacyTriggerCommand hotKey="f" ksoCmd="PrintToPDF" aid="80004" filter="support:ExportToPDF=true" icon="ExportToPDF" id="PrintToPDF" dialogHint="1" customTip="ExportToPDF" text="@Export to PDF"/>
+		<KxLegacyTriggerCommand hotKey="d" ksoCmd="SendMail" aid="83002" filter="platform=win32" icon="SendMail" id="SendMail" dialogHint="1" text="@Send E-mail"/>
+		<KxLegacyTriggerCommand hotKey="b" ksoCmd="Convert" icon="Convert" id="Convert" text="@Convert"/>
+		<KxLegacyTriggerCommand hotKey="y" ksoCmd="Encrypt" aid="80005" icon="Encrypt" id="Encrypt" dialogHint="1" text="@Encryption"/>
+		<KxLegacyTriggerCommand hotKey="g" ksoCmd="ViewPermission" filter="support:RightsManagementServices=true" icon="ViewPermission" id="ViewPermission" dialogHint="1" text="@View Permissions"/>
+		<KxLegacyTriggerCommand hotKey="u" ksoCmd="UnrestrictedAccess" aid="7990" id="UnrestrictedAccess" dialogHint="1" text="@Unrestricted Access"/>
+		<KxLegacyTriggerCommand hotKey="r" ksoCmd="RestrictedAccess" aid="7991" id="RestrictedAccess" dialogHint="1" text="@Restricted Access"/>
+		<KxLegacyTriggerCommand hotKey="m" ksoCmd="ManageCredentials" aid="10014" id="ManageCredentials" dialogHint="1" text="@Manage Credentials"/>
+		<KxLegacyTriggerCommand hotKey="r" ksoCmd="ReloadTxtFileWithEncodingDlg" aid="80006" id="ReloadTxtFileWithEncodingDlg" dialogHint="1" text="@Reload"/>
+		<KxWpsShowMoreHistoriesCommand hotKey="0" aid="80008" id="ShowMoreHistories" dialogHint="1" text="@More Historical Records"/>
+		<KxLegacyTriggerCommand hotKey="f" ksoCmd="ClearFormats" aid="872" idMso="ClearFormats" controlType="0" id="ClearFormats" text="@Formats"/>
+		<KxMinisiteCommand hotKey="M" ksoCmd="MinisitePlugin" aid="100041" icon="minisite" id="MinisitePlugin" text="@Minisite"/>
+		<KxKsoHomepageCommand hotKey="J" ksoCmd="HomepagePlugin" aid="2000059" filter="support:IntranetVersion=false" icon="wpshome" id="rHomepagePlugin" text="@Online Templates"/>
+		<KxKsoHomepageCommand hotKey="J" ksoCmd="HomepagePlugin" aid="2000059" filter="support:IntranetVersion=true" icon="wpshome" id="rHomepagePlugin" text="@IntranetVersion Online Templates"/>
+		<KxLegacyTriggerCommand hotKey="s" ksoCmd="StatusBar" aid="80009" id="StatusBar" text="@Status Bar"/>
+		<KxLegacyTriggerCommand hotKey="S" ksoCmd="ShowParagraphMarks" aid="3252" id="ShowParagraphMarks" text="@Show Paragraph Marks"/>
+		<KxLegacyTriggerCommand hotKey="g" ksoCmd="Gridlines" aid="300" icon="Gridlines" id="Gridlines" spaceHint="suitable" text="@Gridlines"/>
+		<KxLegacyTriggerCommand hotKey="V" ksoCmd="VertReviewPane" icon="vertReviewPane" id="vertReviewPane" text="@Reviewing Pane Vertical"/>
+		<KxLegacyTriggerCommand hotKey="H" ksoCmd="HorzReviewPane" aid="6239" icon="horzReviewPane" id="horzReviewPane" text="@Reviewing Pane Horizontal"/>
+		<KxLegacyTriggerCommand hotKey="n" ksoCmd="LineNumOff" aid="92011" id="LineNumOff" text="@None"/>
+		<KxLegacyTriggerCommand hotKey="c" ksoCmd="LineNumContinuous" aid="92012" id="LineNumContinuous" text="@Continuous"/>
+		<KxLegacyTriggerCommand hotKey="r" ksoCmd="LineNumRestPage" aid="92013" id="LineNumRestPage" text="@Restart Each Page"/>
+		<KxLegacyTriggerCommand hotKey="e" ksoCmd="LineNumResetSection" aid="92014" id="LineNumResetSection" text="@Restart Each Section"/>
+		<KxLegacyTriggerCommand hotKey="s" ksoCmd="LineNumSuppress" aid="92015" id="LineNumSuppress" text="@Suppress for Current Paragraph"/>
+		<KxLegacyTriggerCommand hotKey="k" ksoCmd="LineNumBlanklineNoLnn" aid="92016" id="LineNumBlanklineNoLnn" text="@Do not Show Line Number for Blank Line"/>
+		<KxLegacyTriggerCommand hotKey="l" ksoCmd="SetLineNumbering" aid="92017" id="SetLineNumbering" dialogHint="1" text="@Line Number Options"/>
+		<KxLegacyTriggerCommand hotKey="e" ksoCmd="DocumentMapLeft" aid="80011" id="DocumentMapLeft" text="@Place on Left"/>
+		<KxLegacyTriggerCommand hotKey="r" ksoCmd="DocumentMapRight" aid="80012" id="DocumentMapRight" text="@Place on Right"/>
+		<KxLegacyTriggerCommand hotKey="v" ksoCmd="DocumentMapVisible" aid="80013" id="DocumentMapVisible" text="@Invisible"/>
+		<KxLegacyTriggerCommand hotKey="a" ksoCmd="Markup" aid="6547" icon="Markup" id="Markup" spaceHint="suitable" text="@Markup"/>
+		<KxWpsFullScreenCommand hotKey="u" aid="178" idMso="ViewFullScreenView" icon="FullScreenMode" controlType="0" id="FullScreenModeOnMenu" customTip="FullScreenMode" text="@Full Screen" rbHotKey="F"/>
+		<KxLegacyTriggerCommand hotKey="z" ksoCmd="Zoom" aid="925" icon="Zoom" id="Zoom" dialogHint="1" text="@Zoom"/>
+		<KxLegacyTriggerCommand hotKey="s" ksoCmd="StyleFormat" aid="5757" icon="StyleFormat" id="StyleFormat" dialogHint="1" text="@Styles and Formatting"/>
+		<KxLegacyTriggerCommand hotKey="g" ksoCmd="GenkoSetting" aid="80023" id="GenkoSetting" dialogHint="1" text="@Genko Setting"/>
+		<KxLegacyTriggerCommand hotKey="o" ksoCmd="FormatObject" aid="3249" barid="44531" icon="ChartObjects" id="FormatObject" dialogHint="1" text="@Format Object"/>
+		<KxLegacyTriggerCommand hotKey="l" ksoCmd="LayoutObject" aid="92301" icon="LayoutObject" id="LayoutObject" dialogHint="1" text="@More Layout Options"/>
+		<KListCommand hotKey="d" delayloadPath="commands/wps/WordTools.kuip" aid="92115" barid="44536" icon="WordTools" id="WordTools" customTip="WordTools" text="@Word Tools" rbHotKey="D"/>
+		<KxLegacyTriggerCommand hotKey="N" customShortcutEnabled="false" ksoCmd="ChineseTranslation" aid="3958" filter="l10n:TCSC_CONVERSION_SUPPORT=true" icon="ChineseTranslation" id="ChineseTranslation" dialogHint="1" text="@Chinese Transition"/>
+		<KxLegacyTriggerCommand hotKey="P" ksoCmd="RestrictEditing" aid="7116" icon="RestrictEditing" id="RestrictEditing" text="@Restrict Editing"/>
+		<KxLegacyTriggerCommand hotKey="T" ksoCmd="MailMerge" aid="5911" id="MailMerge" text="@Mail Merge Toolbar"/>
+		<KxWpsEnvelopesCommand hotKey="M" ksoCmd="InsertEnvelopes" filter="support:InsertEnvelopes=true" icon="Envelopes" id="InsertEnvelopes" customTip="InsertEnvelopes" text="@Envelopes" rbHotKey="M"/>
+		<KxMacroCommand hotKey="s" ksoCmd="Security" aid="3627" filter="support:VBASupport=true" idMso="MacroSecurity" controlType="5" id="Security" dialogHint="1" text="@Security"/>
+		<KxLegacyTriggerCommand hotKey="i" ksoCmd="TemplateAddIns" aid="751" filter="platform=win32" idMso="AddInManager" controlType="0" id="TemplateAddIns" dialogHint="1" text="@Add-Ins"/>
+		<KxLegacyTriggerCommand hotKey="a" ksoCmd="COMAddIns" aid="80024" filter="platform=win32" idMso="ComAddInsDialog" controlType="0" id="COMAddIns" dialogHint="1" text="@COM 
+Add-Ins"/>
+		<KxLegacyTriggerCommand hotKey="k" ksoCmd="BackupManagement" aid="80025" id="BackupManagement" dialogHint="1" text="@Backup Management"/>
+		<KxLegacyTriggerCommand hotKey="O" ksoCmd="Options" aid="2354" icon="Options" id="Options" dialogHint="1" text="@Options"/>
+		<KxSwitchLangCommand tc="KxSwitchLangCommand" hotKey="X" aid="88888" filter="lang=!zh_TW" icon="switchLang" id="switchLangDlg" dialogHint="1" text="@Switch Language"/>
+		<KSwitchFaceDlgCommand tc="KSwitchFaceDlgCommand" hotKey="y" aid="92109" filter="category=personal;oem_SwitchFace!=0" visible="@true" icon="switchUI" id="switchFaceDlg" text="@Switch UI@Personal Version"/>
+		<KSwitchFaceDlgCommand tc="KSwitchFaceDlgCommand" hotKey="y" aid="92109" filter="category!=personal;oem_SwitchFace!=0" visible="@true" icon="switchUI" id="switchFaceDlg" text="@Switch UI@Professional Version"/>
+		<KxLegacyTriggerCommand hotKey="n" ksoCmd="NewWindow" aid="303" idMso="WindowNew" controlType="0" id="NewWindow" text="@New Window" rbHotKey="N"/>
+		<KxLegacyTriggerCommand hotKey="c" ksoCmd="CloseWindow" aid="80033" shortcutHint="Ctrl+W" id="CloseWindow" text="@Close Window"/>
+		<KxPdfCloseOtherCommand hotKey="o" aid="80034" id="CloseOtherWindows" text="@Close Other Windows"/>
+		<KxWpsCmpSideBySideCommand hotKey="b" aid="7698" filter="support:CompareDoc=true" id="CmpSideBySide" dialogHint="1" text="@Compared Side by Side"/>
+		<KxCurrentFileMRUCommand aid="92123" autoShortCut="1" id="CurrentFileList" text="Current File List"/>
+		<KxOpenUrlCommand hotKey="o" aid="80037" ksourl="Product:HomePagePDF" idMso="BlogHomePage" icon="p-helphelp" controlType="0" id="KingsoftPDFHomePage" text="@Kingsoft PDF Homepage"/>
+		<KxOpenUrlCommand hotKey="c" customShortcutEnabled="false" aid="100009" ksourl="Product:PDFStudyOnlinePage" icon="p-helpcommunity" id="KingsoftPDFCommunity" text="@Kingsoft PDF Community"/>
+		<KxOpenUrlCommand hotKey="h" aid="80037" ksourl="Product:HelpPagePDF" idMso="BlogHomePage" icon="p-helphelp" controlType="0" id="KingsoftPDFHelp" text="@Kingsoft PDF Help"/>
+		<KxOpenUrlCommand hotKey="f" aid="2000035" ksourl="Product:WPSFacebook" icon="KingsoftOfficeFacebook" id="WPSFacebook" text="@WPS Office Facebook"/>
+		<KxOpenUrlCommand hotKey="m" customShortcutEnabled="false" aid="3775" ksourl="Product:MicroblogUrl" icon="MicroblogFeedback" id="MicroblogFeedback" text="@WPS Microblog"/>
+		<KxNewFeaturesCommand hotKey="n" aid="92049" filter="lang=zh_CN;category=personal" icon="NewFeatures" id="WPSOfficeNewFeatures" text="@WPS Office New features"/>
+		<KxOpenUrlCommand hotKey="f" customShortcutEnabled="false" aid="7903" ksourl="Product:ForumUrl" icon="WPSBBS" id="WPSOfficeForum" text="@WPS Forum"/>
+		<KxUpdateOnlineCommand hotKey="u" aid="9340" filter="platform=win32;oem_WithUpdate!=0" url="../wtoolex/wpspdfupdate" icon="p-helpupdate" id="UpdateOnline" args="-from=manual" text="@Check for Updates"/>
+		<KxChangeVersionCommand hotKey="c" aid="92050" filter="platform=win32" icon="ChangeVersion" id="ChangeVersion" text="@Change Version"/>
+		<KxOpenUrlCommand hotKey="m" aid="100012" filter="support:ProductManagementCenter=true" url="ksomisc" icon="ProductManagementCenter" id="ProductManagementCenter" args="-snmanager" text="@Product Management Center"/>
+		<KxLegacyTriggerCommand hotKey="a" ksoCmd="About" aid="927" idMso="About" icon="p-helpabout" controlType="0" id="About" text="@About Kingsoft PDF"/>
+		<kxKOSUserLoginCommand hotKey="L" ksoCmd="KOSUserLoginCmd" aid="2000017" icon="OS_Login" id="KOSUserLoginCmd" dialogHint="1" text="@Sign in" rbHotKey="L"/>
+		<kxKOSRechargeCommand hotKey="R" ksoCmd="KOSRechargeCmd" aid="2000018" icon="OS_Recharge" id="KOSRechargeCmd" text="@Recharge" rbHotKey="R"/>
+		<kxKOSLogoutCommand hotKey="X" ksoCmd="KOSLogoutCommand" aid="2000021" icon="OS_Login" id="KOSLogoutCommand" customTip="KOSLogoutTip" text="@Sign out" rbHotKey="X"/>
+		<kClipboardForClassicCommand hotKey="C" ksoCmd="ClipboardForClassic" aid="809" id="ClipboardForClassic" text="@Clipboard"/>
+		<kxKOSOpenCloudFileCommand hotKey="O" ksoCmd="KOSOpenCloudFileCmd" aid="2000022" icon="OS_OpenCloudFile" id="KOSOpenCloudFileCmd" dialogHint="1" customTip="KOSOpenCloudFileTip" text="@Open from Cloud Docs" rbHotKey="O"/>
+		<kxKOSSaveToCloudCommand hotKey="Y" ksoCmd="KOSSaveToCloudCmd" aid="2000023" icon="OS_SaveToCloudFile" id="KOSSaveToCloudCmd" dialogHint="1" customTip="KOSSaveFileTocloudTip" text="@Save to Cloud Docs" rbHotKey="Y"/>
+		<kxKOSCreateCloudLinkCommand hotKey="K" ksoCmd="KOSCreateCloudLinkCmd" aid="2000024" icon="OS_CreateCloudLinkFile" id="KOSCreateCloudLinkCmd" dialogHint="1" customTip="KOSCreatecloudLinkTip" text="@Create Cloud Link" rbHotKey="K"/>
+		<KxAutoVersionCommand text2="@Enable AutoBackup" hotKey="A" ksoCmd="AutoVersionCmd" aid="2000025" icon="WS_AutoVersiong" id="AutoVersionCmd" dialogHint="1" customTip="AutoVersion" text="@Enable AutoBackup" rbHotKey="A"/>
+		<KxStopAutoVersionCommand text2="@Disable AutoBackup" hotKey="S" ksoCmd="StopAutoVersionCmd" aid="2000026" icon="WS_AutoVersiong" id="StopAutoVersionCmd" dialogHint="1" customTip="StopAutoVersion" text="@Disable AutoBackup" rbHotKey="S"/>
+		<KxMarkVersionCommand text2="@Manual Backup" hotKey="M" ksoCmd="MarkVersionCmd" aid="2000027" icon="WS_MarkVersiong" id="MarkVersionCmd" dialogHint="1" customTip="MarkVersion" text="@Manual Backup" rbHotKey="M"/>
+		<KxExplorVersionCommand text2="@View Historical Backup" hotKey="E" ksoCmd="ExplorVersionCmd" aid="2000028" icon="WS_ExplorVersiong" id="ExplorVersionCmd" dialogHint="1" customTip="ExplorVersion" text="@View Historical Backup" rbHotKey="E"/>
+		<KxExplorBackupDirCommand text2="@View File Safe" hotKey="d" ksoCmd="ExplorBackupDirCmd" aid="2000029" icon="WS_ExplorBackupdir" id="ExplorBackupDirCmd" dialogHint="1" customTip="ExplorBackupDir" text="@View File Safe" rbHotKey="D"/>
+		<KxExportWeiboImageCommand text2="@Export as Image" hotKey="X" ksoCmd="ExportWeiboImageCmd" aid="2000031" icon="exporttopicture32" id="ExportWeiboImageCmd" dialogHint="1" customTip="ExportWeiboImageCmd" text="@Export as Image" rbHotKey="X"/>
+		<KxWpsWeiboLayoutCommand text2="@WPS Microblog Layout" hotKey="P" ksoCmd="WpsWeiboLayoutCmd" aid="2000032" icon="PivotTableShowFieldList" id="WpsWeiboLayoutCmd" text="@WPS Microblog Layout" rbHotKey="P"/>
+		<KxOpenWebWeiboCommand text2="@Share to Microblog Webpage" hotKey="O" ksoCmd="OpenWebWeiboCmd" aid="2000033" icon="weibowebshare" id="OpenWebWeiboCmd" text="@Share to Microblog Webpage" rbHotKey="O"/>
+		<KxWeiboCommand text2="@Share to Microblog" hotKey="W" ksoCmd="WeiboCmd" aid="2000034" icon="cweibo32" id="WeiboCmd" text="@Share to Microblog" rbHotKey="W"/>
+		<KxComposeListCommand hotKey="o" ksoCmd="EditObject" aid="2000002" barid="44528" id="EditObject" text="@Object Menu">
+			<compose idQ="EditObjectVerbList"/>
+			<command idQ="ObjectLinks"/>
+		</KxComposeListCommand>
+		<KxBrowseBackupDirCommand hotKey="b" ksoCmd="BrowseBackupDir" aid="2000003" filter="platform=unix" id="BrowseBackupDir" text="@Open Backup Directory"/>
+		<KTriggerInfoCommand hotKey="P" aid="2000004" cmdName="PageNumberInfoCommand" id="PageNumberStatusBar" text="@Page Number"/>
+		<KTriggerInfoCommand hotKey="A" aid="2000005" cmdName="PageAreaInfoCommand" id="PageAreaStatusBar" text="@Page Area"/>
+		<KTriggerInfoCommand hotKey="E" aid="2000006" cmdName="SectionInfoCommand" id="PageSectionStatusBar" text="@Section"/>
+		<KTriggerInfoCommand hotKey="B" aid="2000007" cmdName="RowInfoCommand" id="RowStatusBar" text="@Line Number"/>
+		<KTriggerInfoCommand hotKey="C" aid="2000008" cmdName="ColumnInfoCommand" id="ColumnStatusBar" text="@Column"/>
+		<KTriggerInfoCommand hotKey="W" aid="2000009" cmdName="WordCountInfoCommand" id="WordCountStatusBar" text="@Word Count"/>
+		<KTriggerInfoCommand hotKey="O" aid="2000010" cmdName="InsertKeyCommand" id="OverTypeStatusBar" text="@Over Type"/>
+		<KTriggerInfoCommand hotKey="T" aid="2000011" cmdName="TrackCommand" id="TrackStatusBar" text="@Track"/>
+		<KTriggerInfoCommand hotKey="S" aid="2000012" filter="support:SpellCheck=true" cmdName="SpellCheckCommand" id="SpellCheckStatusBar" text="@Spell Check"/>
+		<KTriggerInfoCommand hotKey="U" aid="2000013" cmdName="UnitCommand" id="UnitStatusBar" text="@Unit"/>
+		<KTriggerInfoCommand hotKey="V" aid="2000014" cmdName="ViewInfoCommand" id="ViewStatusBar" text="@View Shortcut"/>
+		<KTriggerInfoCommand hotKey="Z" aid="2000015" cmdParam="ZoomRatio" cmdName="ZoomCommand" id="ZoomTextStatusBar" text="@Zoom"/>
+		<KTriggerInfoCommand hotKey="Z" aid="2000016" cmdParam="ZoomSlider" cmdName="ZoomCommand" id="ZoomSliderStatusBar" text="@Zoom Slider"/>
+		<KxRecordMacroCommand hotKey="R" ksoCmd="RecordMacro" forceVisible="1" aid="2780" filter="support:VBASupport=true" idMso="MacroRecord" controlType="0" id="RecordMacro" dialogHint="1" text="@Record Macro"/>
+		<KTriggerInfoCommand hotKey="P" aid="2000004" cmdName="PageNumberInfoCommand" id="PageNumberStatusBar" text="@Page Number"/>
+		<KTriggerInfoCommand hotKey="A" aid="2000005" cmdName="PageAreaInfoCommand" id="PageAreaStatusBar" text="@Page Area"/>
+		<KTriggerInfoCommand hotKey="E" aid="2000006" cmdName="SectionInfoCommand" id="PageSectionStatusBar" text="@Section"/>
+		<KTriggerInfoCommand hotKey="B" aid="2000007" cmdName="RowInfoCommand" id="RowStatusBar" text="@Line Number"/>
+		<KTriggerInfoCommand hotKey="C" aid="2000008" cmdName="ColumnInfoCommand" id="ColumnStatusBar" text="@Column"/>
+		<KTriggerInfoCommand hotKey="W" aid="2000009" cmdName="WordCountInfoCommand" id="WordCountStatusBar" text="@Word Count"/>
+		<KTriggerInfoCommand hotKey="O" aid="2000010" cmdName="InsertKeyCommand" id="OverTypeStatusBar" text="@Over Type"/>
+		<KTriggerInfoCommand hotKey="T" aid="2000011" cmdName="TrackCommand" id="TrackStatusBar" text="@Track"/>
+		<KTriggerInfoCommand hotKey="S" aid="2000012" filter="support:SpellCheck=true" cmdName="SpellCheckCommand" id="SpellCheckStatusBar" text="@Spell Check"/>
+		<KTriggerInfoCommand hotKey="U" aid="2000013" cmdName="UnitCommand" id="UnitStatusBar" text="@Unit"/>
+		<KTriggerInfoCommand hotKey="V" aid="2000014" cmdName="ViewInfoCommand" id="ViewStatusBar" text="@View Shortcut"/>
+		<KTriggerInfoCommand hotKey="Z" aid="2000015" cmdParam="ZoomRatio" cmdName="ZoomCommand" id="ZoomTextStatusBar" text="@Zoom"/>
+		<KTriggerInfoCommand hotKey="Z" aid="2000016" cmdParam="ZoomSlider" cmdName="ZoomCommand" id="ZoomSliderStatusBar" text="@Zoom Slider"/>
+		<KListCommand extensible="false" icon="Paste" customTip2="Paste2" controlType="0" shortcutHint="Ctrl+V" id="PasteMenu" customTip="Paste" text="@Paste">
+			<command idQ="Paste"/>
+			<command idQ="ExpandPasteText"/>
+			<command idQ="PasteSpecial"/>
+		</KListCommand>
+		<KxDeleteObjectCommand hotKey="D" icon="DeleteRecordBig-act" id="DeleteObject" text="@Delete Object"/>
+		<KxOleLegacyTriggerCommand hotKey="i" ksoCmd="Properties" aid="750" idMso="Properties" icon="Properties" controlType="0" id="FileMenu_Properties" text="@Properties"/>
+		<KxLegacyTriggerCommand hotKey="c" ksoCmd="CloseWindow" aid="80033" icon="Exit" shortcutHint="Ctrl+W" id="TabMenuCloseWindow" text="@Close Window"/>
+		<KxLegacyTriggerCommand hotKey="f" ksoCmd="OpenFileFolder" aid="80105" id="OpenFileFolder" text="@Open Folder"/>
+	</commands>
+	<subcommands>
+		<subcommand id="FileMenu">
+			<command idQ="OpenFile"/>
+			<command idQ="CloseFile"/>
+			<command idQ="FileMenu_Properties"/>
+			<command idQ="Print"/>
+			<command idQ="Exit"/>
+		</subcommand>
+		<subcommand id="EditMenu">
+			<command idQ="Copy"/>
+			<command idQ="SelectAll"/>
+			<command idQ="Select"/>
+			<separator/>
+			<command idQ="Find"/>
+		</subcommand>
+		<subcommand id="ViewMenu">
+			<command idQ="FullScreenModeOnMenu"/>
+			<command idQ="Zoom"/>
+		</subcommand>
+		<subcommand id="ToolsMenu">
+			<command idQ="Options"/>
+			<separator/>
+			<command idQ="switchLangDlg"/>
+			<command idQ="switchFaceDlg" filter="oem_SwitchFace!=0"/>
+		</subcommand>
+		<subcommand id="WindowMenu">
+			<command idQ="NewWindow"/>
+			<command idQ="CloseWindow"/>
+			<command idQ="CloseOtherWindows"/>
+			<separator/>
+			<KxHorzTileCommand hotKey="h" aid="82005" icon="HorizontalTile" id="HorizontalTile" text="@Horizontal"/>
+			<KxVertTileCommand hotKey="v" aid="80035" icon="VerticalTile" id="VerticalTile" text="@Vertical"/>
+			<KxCascadeCommand hotKey="a" aid="80036" icon="Cascade" id="Cascade" text="@Cascade"/>
+			<command idQ="Split Window"/>
+			<command idQ="CmpSideBySide"/>
+			<separator/>
+			<compose idQ="CurrentFileList"/>
+			<KxShowMoreWindowCommand hotKey="m" aid="830" id="ShowMoreWindows" dialogHint="1" text="@Show More Windows" qtspyName="ShowMoreWindows"/>
+		</subcommand>
+		<subcommand id="HelpMenu">
+			<command idQ="KingsoftPDFHelp"/>
+			<command idQ="UpdateOnline"/>
+			<command idQ="About"/>
+		</subcommand>
+		<subcommand id="WorkspaceMenu">
+			<command idQ="KOSUserLoginCmd"/>
+			<KLoginMenuCommand hotKey="L" aid="92107" barid="44533" id="Menu_Cloud_login" customTip="@Sign in" text="@Sign in">
+				<KUserCenterCommand id="userCenterCmd"/>
+				<KxOpenPersonalCenterCommand icon="OS_ViewUserInfo" id="OpenPersonalCenterCmd" text="@Personal Center"/>
+				<command idQ="KOSLogoutCommand"/>
+				<command idQ="KOSRechargeCmd" filter="lang=zh_CN;category=personal"/>
+				<command idQ="KOSHireCmd" filter="lang=zh_CN;category=personal"/>
+			</KLoginMenuCommand>
+			<separator/>
+			<command idQ="KOSOpenCloudFileCmd" filter="support:CloudStorage=true"/>
+			<command idQ="KOSSaveToCloudCmd" filter="support:CloudStorage=true"/>
+			<command idQ="KOSCreateCloudLinkCmd" filter="support:CloudStorage=true"/>
+			<separator filter="support:CloudStorage=true"/>
+			<command idQ="AutoVersionCmd" filter="support:CloudAutoBackup=true"/>
+			<command idQ="StopAutoVersionCmd" filter="support:CloudAutoBackup=true"/>
+			<command idQ="MarkVersionCmd" filter="support:CloudAutoBackup=true"/>
+			<command idQ="ExplorVersionCmd" filter="support:CloudAutoBackup=true"/>
+			<command idQ="ExplorBackupDirCmd" filter="support:CloudAutoBackup=true"/>
+			<separator filter="support:CloudAutoBackup=true"/>
+			<separator/>
+			<command idQ="ExportWeiboImageCmd" filter="support:WeiboPlugin=true"/>
+			<command idQ="WpsWeiboLayoutCmd" filter="support:WeiboPlugin=true"/>
+			<command idQ="OpenWebWeiboCmd" filter="support:WeiboPlugin=true"/>
+			<command idQ="WeiboCmd" filter="support:WeiboPlugin=true"/>
+		</subcommand>
+		<subcommand id="Status bar Popup Menu">
+			<command idQ="PageNumberStatusBar"/>
+			<command idQ="PageAreaStatusBar"/>
+			<command idQ="PageSectionStatusBar"/>
+			<separator/>
+			<command idQ="RowStatusBar"/>
+			<command idQ="ColumnStatusBar"/>
+			<separator/>
+			<command idQ="WordCountStatusBar"/>
+			<separator/>
+			<command idQ="OverTypeStatusBar"/>
+			<command idQ="TrackStatusBar"/>
+			<command idQ="SpellCheckStatusBar"/>
+			<separator/>
+			<command idQ="UnitStatusBar"/>
+			<separator/>
+			<command idQ="ViewStatusBar"/>
+			<command idQ="ZoomTextStatusBar"/>
+			<command idQ="ZoomSliderStatusBar"/>
+		</subcommand>
+		<subcommand id="TabMenu Popup Menu">
+			<command idQ="TabMenuCloseWindow"/>
+			<separator/>
+			<command idQ="SaveFile"/>
+			<command idQ="SaveAllFiles"/>
+			<command idQ="SaveAsFile"/>
+			<separator/>
+			<command idQ="CloseOtherWindows"/>
+			<command idQ="CloseAllFiles"/>
+			<separator/>
+			<command idQ="OpenFileFolder"/>
+			<separator/>
+			<command idQ="FileMenu_Properties"/>
+			<separator/>
+		</subcommand>
+		<subcommand id="ViewportNone">
+			<command idQ="RightMenuClockwise"/>
+			<command idQ="RightMenuCounterclockwise"/>
+			<separator/>
+			<command idQ="RightMenuSelectTool"/>
+			<command idQ="RightMenuHandTool"/>
+			<separator/>
+			<command idQ="RightMenuNavigateBack"/>
+			<command idQ="RightMenuNavigateForward"/>
+			<separator/>
+			<command idQ="Menu_PDFZZ_PdfConvert"/>
+			<command idQ="Menu_PDFZZ_PDFToTXT"/>
+			<separator/>
+			<command idQ="RightMenuOcrExtractPage"/>
+			<separator/>
+			<command idQ="AddNewOutlineCommand"/>
+			<command idQ="RightMenu_AddPageNumberBridge"/>
+			<separator/>
+			<command idQ="RightMenuFloatToolBar"/>
+			<command idQ="RightMenuNavigationBar"/>
+			<separator/>
+			<command idQ="RightMenuPrint"/>
+		</subcommand>
+		<subcommand id="CopyMenu">
+			<command idQ="CopyText"/>
+			<command idQ="SelectAll"/>
+			<separator/>
+			<command idQ="Highlight"/>
+			<command idQ="Underline"/>
+			<command idQ="Strikeout"/>
+			<separator/>
+			<command idQ="Menu_PDFZZ_PdfConvert"/>
+			<command idQ="Menu_PDFZZ_PDFToTXT"/>
+			<separator/>
+			<command idQ="DocExcerpt"/>
+			<command idQ="AddNewOutlineCommand"/>
+		</subcommand>
+		<subcommand id="CommentMenuOpen">
+			<command idQ="ReplyToComment"/>
+			<separator/>
+			<command idQ="DeleteComment"/>
+			<separator/>
+			<command idQ="CopyText"/>
+			<separator/>
+			<KPdfSettingsListCommand hotKey="s" id="SetState" text="@Set State">
+				<KxLegacyTriggerCommand ksoCmd="SetStateNone" icon="p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-disable" text="@None"/>
+				<KxLegacyTriggerCommand ksoCmd="SetStateAccept" icon="p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-disable" text="@Accept"/>
+				<KxLegacyTriggerCommand ksoCmd="SetStateFinish" icon="p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-disable" text="@Finish"/>
+				<KxLegacyTriggerCommand ksoCmd="SetStateReject" icon="p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-disable" text="@Reject"/>
+				<KxLegacyTriggerCommand ksoCmd="SetStateCancel" icon="p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-disable" text="@Cancel"/>
+			</KPdfSettingsListCommand>
+			<separator/>
+			<command idQ="OpenComment"/>
+			<command idQ="OpenAllComment"/>
+			<command idQ="CloseAllComment"/>
+			<separator/>
+			<command idQ="SetProperty"/>
+		</subcommand>
+		<subcommand id="CommentMenuClose">
+			<command idQ="ReplyToComment"/>
+			<separator/>
+			<command idQ="DeleteComment"/>
+			<separator/>
+			<command idQ="CopyText"/>
+			<separator/>
+			<KPdfSettingsListCommand hotKey="s" id="SetState" text="@Set State">
+				<KxLegacyTriggerCommand ksoCmd="SetStateNone" icon="p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-disable" text="@None"/>
+				<KxLegacyTriggerCommand ksoCmd="SetStateAccept" icon="p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-disable" text="@Accept"/>
+				<KxLegacyTriggerCommand ksoCmd="SetStateFinish" icon="p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-disable" text="@Finish"/>
+				<KxLegacyTriggerCommand ksoCmd="SetStateReject" icon="p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-disable" text="@Reject"/>
+				<KxLegacyTriggerCommand ksoCmd="SetStateCancel" icon="p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-normal;p-helpassociate-disable" text="@Cancel"/>
+			</KPdfSettingsListCommand>
+			<separator/>
+			<command idQ="OpenComment"/>
+			<command idQ="OpenAllComment"/>
+			<command idQ="CloseAllComment"/>
+			<separator/>
+			<command idQ="SetProperty"/>
+		</subcommand>
+		<subcommand id="CommentSignMenuOpen">
+			<command idQ="Cut"/>
+			<command idQ="CopyText"/>
+			<separator/>
+			<command idQ="EmbedDocument"/>
+			<separator/>
+			<command idQ="DeleteSignComment"/>
+		</subcommand>
+		<subcommand id="CommentSignMenuClose">
+			<command idQ="Cut"/>
+			<command idQ="CopyText"/>
+			<separator/>
+			<command idQ="EmbedDocument"/>
+			<separator/>
+			<command idQ="DeleteSignComment"/>
+		</subcommand>
+		<subcommand id="FreeTextMenu">
+			<command idQ="Cut"/>
+			<command idQ="CopyText"/>
+			<command idQ="Paste"/>
+			<separator/>
+			<command idQ="DeleteComment"/>
+		</subcommand>
+		<subcommand id="FreeTextSelectionMenu">
+			<command idQ="RedoBoard"/>
+			<command idQ="UndoBoard"/>
+			<separator/>
+			<command idQ="Cut"/>
+			<command idQ="CopyText"/>
+			<command idQ="Paste"/>
+			<command idQ="DeleteText"/>
+			<separator/>
+			<command idQ="SelectAll"/>
+		</subcommand>
+		<subcommand id="ThumbailMenu">
+			<command idQ="ThumbnailsZoomIn"/>
+			<command idQ="ThumbnailsZoomOut"/>
+			<separator/>
+			<command idQ="PdfInsertPagesNoIcon"/>
+			<command idQ="DeletePagesMenu"/>
+			<command idQ="MenuPDFExtractPage"/>
+			<separator/>
+			<command idQ="ClockwiseNoIcon"/>
+			<command idQ="CounterclockwiseNoIcon"/>
+			<separator/>
+			<command idQ="RightMenuPrint"/>
+		</subcommand>
+		<subcommand id="Font Floatbar">
+			<command idQ="SelectionToolBarCopyText"/>
+			<separator/>
+			<command idQ="SelectionToolBarDocExcerpt"/>
+			<separator/>
+			<command idQ="SelectionToolBarOcrExtractText"/>
+			<separator/>
+			<command idQ="SelectionToolBarHighlight"/>
+			<separator/>
+			<command idQ="SelectionToolBarUnderline"/>
+			<separator/>
+			<command idQ="SelectionToolBarPDFToWord"/>
+		</subcommand>
+		<subcommand id="PdfImageMenu">
+			<KxPdfImageEnterEditCommand hotKey="e" id="ImageEnterEditMenu" text="@EditImage" rbHotKey="E"/>
+			<KListCommand hotKey="n" id="EditImageLayer" text="@EditImageLayer" rbHotKey="N">
+				<KxPdfImageFloatLayerCommand hotKey="t" id="Image2top" text="@Image2top" rbHotKey="T"/>
+				<KxPdfImageSinkLayerCommand hotKey="b" id="Image2Bottom" text="@Image2Bottom" rbHotKey="B"/>
+			</KListCommand>
+			<command idQ="DeleteImageMenu"/>
+		</subcommand>
+		<subcommand id="PdfImageEditMenu">
+			<command idQ="DeleteImageMenu"/>
+		</subcommand>
+		<subcommand id="DigitalSignature">
+			<command idQ="VerificationDigiSignature"/>
+			<command idQ="SignatureProperty"/>
+		</subcommand>
+		<subcommand id="PdfEraserMenu">
+			<command idQ="DeleteEraserMenu"/>
+		</subcommand>
+		<subcommand id="Picture QuickBar">
+			<KVisibleToggleCommand id="PictureQuickBarToggler"/>
+			<command idQ="PdfImageRotate90"/>
+			<command idQ="PdfImageReverse"/>
+			<command idQ="PdfImageReplace"/>
+			<command idQ="PdfImageOpacity"/>
+			<command idQ="PdfImageExitEdit"/>
+		</subcommand>
+		<subcommand id="Picture QuickBar Read">
+			<command idQ="PdfImageEnterEdit"/>
+		</subcommand>
+	</subcommands>
+</shell>

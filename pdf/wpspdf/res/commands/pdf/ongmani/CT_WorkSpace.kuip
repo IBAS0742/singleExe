@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<shell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" tc="ongmani.ct_workspace" component="pdf">
+	<libraries/>
+	<commands>
+		<KListCommand rbGroupContentMargins="10, 2, 10, 1" layout_lineCount="1" horizontalSpacing="10" id="RB_PdfConvert" text="@PDF2Word" rbFileMenuEmbed="1">
+			<command idQ="Spac_PDFZZ_PhotoToPDF" proxyCmdId="ProxyPhoto2Pdf"/>
+			<command idQ="Spac_PDFZZ_PDFToPhoto" proxyCmdId="ProxyPdf2Photo"/>
+			<command idQ="Spac_PDFZZ_PDFToWord" proxyCmdId="ProxyPDF2WordV2"/>
+			<command idQ="Spac_PDFZZ_PDFToTXT"/>
+			<command idQ="Spac_PDFZZ_PDFToExcel" proxyCmdId="ProxyPDF2WordV2"/>
+			<command idQ="Spac_PDFZZ_PDFToPPT" proxyCmdId="ProxyPDF2WordV2"/>
+		</KListCommand>
+		<KListCommand rbGroupContentMargins="10, 2, 10, 1" layout_lineCount="1" horizontalSpacing="10" id="RB_Photo2PDF" text="@PDFPagesOper" rbFileMenuEmbed="1">
+			<command idQ="Spac_PDFZZ_PhotoToPDF" proxyCmdId="ProxyPhoto2Pdf"/>
+		</KListCommand>
+		<KListCommand rbGroupContentMargins="10, 2, 10, 1" layout_lineCount="1" horizontalSpacing="10" id="RB_Pdf2Photo" text="@PDFPagesOper" rbFileMenuEmbed="1">
+			<command idQ="Spac_PDFZZ_PDFToPhoto" proxyCmdId="ProxyPdf2Photo"/>
+		</KListCommand>
+		<KListCommand rbGroupContentMargins="10, 2, 10, 1" layout_lineCount="1" horizontalSpacing="10" id="RB_AIOCR_ExtractPageText" rbFileMenuEmbed="1">
+			<command idQ="MenuBar_AIOCR_ExtractPageText"/>
+		</KListCommand>
+	</commands>
+	<subcommands>
+		<subcommand id="CT_Spac">
+			<command idQ="RB_PdfConvert"/>
+			<command idQ="Separator"/>
+			<command idQ="RB_AIOCR_ExtractPageText"/>
+		</subcommand>
+	</subcommands>
+</shell>

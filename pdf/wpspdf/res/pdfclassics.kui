@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<shell xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" tc="wpsclassics" component="wps" name="classics">
+	<style name="classics"/>
+	<theme path="themes/classicspdf.kuip"/>
+	<attributes path="attributes.kuip"/>
+	<import path="common.kuip"/>
+	<import path="pdfcommon.kuip"/>
+	<mainwindow tc="mainwindow" caption="@Writer"/>
+</shell>
