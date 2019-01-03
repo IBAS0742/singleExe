@@ -1,0 +1,33 @@
+
+    Axure RP Pro 8.0.0.3303 (正式版) 汉化绿色版
+————————————————
+
+    -> 绿色版制作说明
+    
+        绿色版没有集成任何注册码或其他注册信息，为 Axure 8 企业版的试用版，默认有 31 天的全功能试用期。
+        
+        试用期结束后，请考虑购买官方正版授权。如果还想继续试用的话，请给我发邮件至 admin@portablesoft.org 询问解决方案。
+    
+    -> 使用前的准备
+    
+        使用 Axure RP Pro 之前必须先安装 Microsoft .NET Framework 4.0 组件。下载地址为: http://www.microsoft.com/downloads/details.aspx?FamilyID=0a391abd-25c1-4fc0-919f-b21f31ab88b7&displayLang=zh-cn
+
+   -> 使用说明
+        
+        右键单击以管理员权限运行 !-AxureRP8Poratble.exe 完成初始化安装，以后直接执行主程序 AxureRP8.exe，无需再次运行初始化安装。
+        
+     -> 特别提醒
+     
+        *.rp 工程文件如果用 Axure 8 打开编辑过的话，则无法再用旧版本的 Axure 6/7 打开，请特别注意此兼容性问题。
+    
+   ->  汉化作者
+   
+        汉化作者为 Axure 中文社区的 best919，汉化信息及补丁详见此贴: http://www.webppd.com/thread-8150-1-1.html
+	
+    -> 其他信息
+        
+        详细使用说明：http://www.portablesoft.org/axure-rp-pro/
+    
+————————————————
+    黯然过客为您绿化、请访问我的博客：http://www.portablesoft.org/
+    绿化有问题？有想要绿化的软件？请联系我：admin@portablesoft.org
