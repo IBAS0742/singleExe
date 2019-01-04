@@ -7,6 +7,8 @@
 /PanDownload/PanData/task.db
 /PanDownload/PanData/user.db
 /TreeSizePortable/Data/TreeSizePortable.ini
+/FileZilla/Data
+/FileZilla/FileZillaPortable.ini
 chrome/Chrome32/Cache/Default/Cache
 chrome/Chrome32/User Data
 chrome/Chrome64/Cache/Default/Cache
